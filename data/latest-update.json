@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-07-26",
+  "metricsCheckedAt": "2026-07-26",
+  "previousChannelCount": 348,
+  "channelCount": 360,
+  "candidateCount": 3736,
+  "discoveredCount": 0,
+  "checkedCandidateCount": 448,
+  "prefilteredCount": 86,
+  "pendingCount": 0,
+  "totalOutstandingFetchErrors": 0,
+  "manualExclusionCount": 27,
+  "terminalNotFoundCount": 6,
+  "added": [
+    "aclabs",
+    "cluster",
+    "codechick",
+    "codewithmax",
+    "crazyelephant",
+    "decembrist",
+    "maxgraph",
+    "maximalist",
+    "mindsolo",
+    "productradar",
+    "sharifyanov",
+    "sketchman"
+  ],
+  "removed": [],
+  "errors": []
+}

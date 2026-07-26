@@ -1,10 +1,12 @@
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
 import path from "node:path";
+import { findPublicContactKinds } from "./lib/catalog.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
 const publicCatalog = JSON.parse(await fs.readFile(path.join(root, "data", "channels.json"), "utf8"));
 const rawCatalog = JSON.parse(await fs.readFile(path.join(root, "data", "raw", "boosty-candidates.json"), "utf8"));
+const manualExclusions = JSON.parse(await fs.readFile(path.join(root, "data", "manual-exclusions.json"), "utf8"));
 const { meta, channels } = publicCatalog;
 
 assert.equal(meta.schemaVersion, 1, "Unsupported public data schema.");
@@ -27,10 +29,27 @@ for (const channel of channels) {
   assert.ok(channel.focus, `Missing focus for ${channel.slug}`);
   assert.ok(channel.summary && channel.summary.length <= 420, `Invalid summary for ${channel.slug}`);
   assert.ok(!/https?:\/\//i.test(channel.summary), `External URL leaked into summary for ${channel.slug}`);
+  assert.deepEqual(
+    findPublicContactKinds(channel.summary),
+    [],
+    `Personal contact data leaked into summary for ${channel.slug}`,
+  );
+  assert.deepEqual(
+    findPublicContactKinds(`${channel.title || ""} ${channel.lastPostTitle || ""}`),
+    [],
+    `Personal contact data leaked into public text for ${channel.slug}`,
+  );
   assert.ok(Number.isInteger(channel.subscribers) && channel.subscribers >= 0, `Invalid subscribers for ${channel.slug}`);
   assert.ok(Number.isInteger(channel.postsCount) && channel.postsCount > 0, `Invalid posts count for ${channel.slug}`);
   assert.ok(Number.isFinite(channel.minPriceRub) && channel.minPriceRub > 0, `Missing paid tier for ${channel.slug}`);
   assert.ok(Array.isArray(channel.tiers) && channel.tiers.length > 0, `Missing tiers for ${channel.slug}`);
+  for (const tier of channel.tiers) {
+    assert.deepEqual(
+      findPublicContactKinds(tier.name),
+      [],
+      `Personal contact data leaked into a tier name for ${channel.slug}`,
+    );
+  }
   assert.ok(!Object.hasOwn(channel, "externalLinks"), `External links must not be published for ${channel.slug}`);
   assert.ok(!Object.hasOwn(channel, "description"), `Raw descriptions must not be published for ${channel.slug}`);
   assert.ok(!Object.hasOwn(channel, "discoveryQueries"), `Discovery methodology must not be published for ${channel.slug}`);
@@ -45,6 +64,19 @@ assert.equal(rawCatalog.meta.candidateCount, rawCatalog.candidates.length, "Raw 
 const rawSlugs = new Set(rawCatalog.candidates.map((candidate) => candidate.slug));
 for (const slug of slugs) {
   assert.ok(rawSlugs.has(slug), `Published channel missing from raw list: ${slug}`);
+}
+assert.equal(manualExclusions.schemaVersion, 1, "Unsupported manual exclusions schema.");
+const excludedSlugs = new Set();
+for (const entry of manualExclusions.exclusions) {
+  assert.match(entry.slug, /^[a-z0-9_.-]{1,120}$/, `Unsafe excluded slug: ${entry.slug}`);
+  assert.ok(!excludedSlugs.has(entry.slug), `Duplicate manual exclusion: ${entry.slug}`);
+  assert.ok(entry.reason, `Missing exclusion reason for ${entry.slug}`);
+  excludedSlugs.add(entry.slug);
+  assert.ok(!slugs.has(entry.slug), `Manually excluded channel is published: ${entry.slug}`);
+  if (rawSlugs.has(entry.slug)) {
+    const candidate = rawCatalog.candidates.find((item) => item.slug === entry.slug);
+    assert.equal(candidate.reviewStatus, "excluded", `Manual exclusion state mismatch for ${entry.slug}`);
+  }
 }
 
 console.log(`Validated ${channels.length} public channels and ${rawCatalog.candidates.length} raw candidates.`);

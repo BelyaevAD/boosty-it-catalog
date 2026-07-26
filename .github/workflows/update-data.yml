@@ -33,6 +33,11 @@ jobs:
       - name: Refresh public Boosty data
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          DISCOVERY_MAX_CHECKS: "250"
+          BOOSTY_SEARCH_MAX_PAGES: "2"
+          BOOSTY_SEARCH_MAX_QUERIES: "36"
+          BOOSTY_SEARCH_PAGE_SIZE: "20"
+          COMMON_CRAWL_MAX_PAGES: "5"
         run: npm run update:data
 
       - name: Validate updated catalog

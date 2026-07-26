@@ -470,7 +470,7 @@ h2 {
 
 .filters {
   display: grid;
-  grid-template-columns: 1.6fr repeat(4, minmax(140px, 1fr));
+  grid-template-columns: minmax(220px, 1.6fr) repeat(3, minmax(140px, 1fr)) minmax(190px, 1.2fr);
   gap: 12px;
   margin-bottom: 24px;
   padding: 18px;
@@ -500,6 +500,10 @@ h2 {
   border-radius: 10px;
   background: #fbfcfa;
   color: var(--ink);
+}
+
+.filter select {
+  padding-right: 34px;
 }
 
 .filter input:hover,

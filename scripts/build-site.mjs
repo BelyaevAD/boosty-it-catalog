@@ -46,12 +46,12 @@ function formatNumber(value) {
 
 function formatDate(value, options = {}) {
   if (!value) return "нет данных";
-  const date = new Date(value.length === 10 ? `${value}T12:00:00+07:00` : value);
+  const date = new Date(value.length === 10 ? `${value}T12:00:00+03:00` : value);
   return new Intl.DateTimeFormat(locale, {
     day: "numeric",
     month: options.short ? "short" : "long",
     year: "numeric",
-    timeZone: "Asia/Barnaul",
+    timeZone: "Europe/Moscow",
   }).format(date);
 }
 
@@ -138,6 +138,48 @@ function channelCard(channel, checkedAt) {
               <a class="card-link" href="${escapeHtml(channel.boostyUrl)}" target="_blank" rel="noopener noreferrer">Открыть на Boosty ↗</a>
             </div>
           </article>`;
+}
+
+function tierLabel(count) {
+  const lastTwo = count % 100;
+  const last = count % 10;
+  if (lastTwo >= 11 && lastTwo <= 14) return `${count} тарифов`;
+  if (last === 1) return `${count} тариф`;
+  if (last >= 2 && last <= 4) return `${count} тарифа`;
+  return `${count} тарифов`;
+}
+
+function channelRow(channel, checkedAt) {
+  const activity = activityStatus(channel.lastPostAt, checkedAt);
+  const slug = safeSlug(channel.slug);
+  const growth = Number(channel.growthSinceSnapshot);
+  const growthText = Number.isFinite(growth)
+    ? `${growth > 0 ? "+" : ""}${formatNumber(growth)}`
+    : "—";
+  const growthClass = growth > 0 ? "is-positive" : growth < 0 ? "is-negative" : "";
+  const price = formatPrice(channel);
+  const tierRange = channel.maxPriceRub > channel.minPriceRub
+    ? `${tierLabel(channel.tierCount)} · до ${formatNumber(channel.maxPriceRub)} ₽`
+    : tierLabel(channel.tierCount);
+  return `
+              <tr class="channel-row" data-slug="${escapeHtml(slug)}">
+                <td class="table-name">
+                  <a href="./channels/${encodeURIComponent(slug)}/">${escapeHtml(channel.name)}</a>
+                </td>
+                <td><span class="table-category">${escapeHtml(channel.category)}</span></td>
+                <td class="table-focus">${escapeHtml(channel.focus || channel.title || channel.category)}</td>
+                <td class="table-number">${formatNumber(channel.subscribers)}</td>
+                <td>
+                  ${channel.lastPostAt
+                    ? `<time datetime="${escapeHtml(channel.lastPostAt)}">${escapeHtml(formatDate(channel.lastPostAt, { short: true }))}</time>`
+                    : "—"}
+                </td>
+                <td><span class="status status-${activity.id}">${escapeHtml(activity.label)}</span></td>
+                <td class="table-number">${escapeHtml(price)}</td>
+                <td class="table-tiers">${escapeHtml(tierRange)}</td>
+                <td class="table-number table-growth ${growthClass}">${escapeHtml(growthText)}</td>
+                <td><a class="table-boosty" href="${escapeHtml(channel.boostyUrl)}" target="_blank" rel="noopener noreferrer">Открыть ↗</a></td>
+              </tr>`;
 }
 
 function categoryEntries(channels) {
@@ -331,6 +373,7 @@ const indexHtml = template
   .replaceAll("__CATEGORY_OPTIONS__", categoryOptions)
   .replaceAll("__CATEGORY_CHIPS__", categoryChips)
   .replaceAll("__CHANNEL_CARDS__", sortedChannels.map((channel) => channelCard(channel, checkedAt)).join("\n"))
+  .replaceAll("__CHANNEL_ROWS__", sortedChannels.map((channel) => channelRow(channel, checkedAt)).join("\n"))
   .replaceAll("__JSON_LD__", jsonLd)
   .replaceAll("__CSP_HASH__", `sha256-${cspHash}`)
   .replaceAll("__CSP_UPGRADE__", siteUrl.startsWith("https:") ? "upgrade-insecure-requests" : "");

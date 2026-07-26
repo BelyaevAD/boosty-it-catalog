@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import {
   clampPrice,
   compareChannels,
+  defaultSortDirection,
   matchesFilters,
   normalizeText,
   resultLabel,
@@ -62,6 +63,20 @@ test("filters by search, topic, price and growth", () => {
 test("sorts by subscriber count", () => {
   const sorted = [...channels].sort((a, b) => compareChannels(a, b, "subscribers"));
   assert.equal(sorted[0].name, "Python Lab");
+});
+
+test("reverses a table column when direction changes", () => {
+  const descending = [...channels].sort((a, b) => compareChannels(a, b, "price", "desc"));
+  assert.equal(descending[0].name, "Python Lab");
+  assert.equal(defaultSortDirection("price"), "asc");
+  assert.equal(defaultSortDirection("growth"), "desc");
+});
+
+test("sorts table rows by category and growth", () => {
+  const byCategory = [...channels].sort((a, b) => compareChannels(a, b, "category", "asc"));
+  const byGrowth = [...channels].sort((a, b) => compareChannels(a, b, "growth", "desc"));
+  assert.equal(byCategory[0].name, "DevOps Дом");
+  assert.equal(byGrowth[0].name, "Python Lab");
 });
 
 test("uses Russian plural forms", () => {

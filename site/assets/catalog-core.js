@@ -1,4 +1,14 @@
 export const DEFAULT_LIMIT = 24;
+export const DEFAULT_SORT_DIRECTIONS = Object.freeze({
+  recommended: "desc",
+  subscribers: "desc",
+  recent: "desc",
+  activity: "desc",
+  price: "asc",
+  name: "asc",
+  category: "asc",
+  growth: "desc",
+});
 
 export function normalizeText(value) {
   return String(value || "")
@@ -27,26 +37,38 @@ export function matchesFilters(channel, filters) {
   return true;
 }
 
-export function compareChannels(a, b, sort = "recommended") {
+export function defaultSortDirection(sort) {
+  return DEFAULT_SORT_DIRECTIONS[sort] || "asc";
+}
+
+export function compareChannels(a, b, sort = "recommended", direction = defaultSortDirection(sort)) {
+  let comparison;
   if (sort === "subscribers") {
-    return b.subscribers - a.subscribers || a.name.localeCompare(b.name, "ru");
+    comparison = b.subscribers - a.subscribers || a.name.localeCompare(b.name, "ru");
+  } else if (sort === "recent") {
+    comparison = b.lastPost - a.lastPost || b.subscribers - a.subscribers;
+  } else if (sort === "activity") {
+    const activityWeight = { fresh: 4, active: 3, rare: 2, archive: 1, unknown: 0 };
+    comparison = (activityWeight[b.activity] || 0) - (activityWeight[a.activity] || 0) ||
+      b.lastPost - a.lastPost;
+  } else if (sort === "price") {
+    comparison = a.price - b.price || b.subscribers - a.subscribers;
+  } else if (sort === "name") {
+    comparison = a.name.localeCompare(b.name, "ru");
+  } else if (sort === "category") {
+    comparison = a.category.localeCompare(b.category, "ru") || a.name.localeCompare(b.name, "ru");
+  } else if (sort === "growth") {
+    comparison = b.growth - a.growth || b.subscribers - a.subscribers;
+  } else {
+    const activityWeight = { fresh: 4, active: 3, rare: 2, archive: 1, unknown: 0 };
+    comparison = (
+      (activityWeight[b.activity] || 0) - (activityWeight[a.activity] || 0) ||
+      Math.log10(b.subscribers + 1) - Math.log10(a.subscribers + 1) ||
+      a.price - b.price ||
+      a.name.localeCompare(b.name, "ru")
+    );
   }
-  if (sort === "recent") {
-    return b.lastPost - a.lastPost || b.subscribers - a.subscribers;
-  }
-  if (sort === "price") {
-    return a.price - b.price || b.subscribers - a.subscribers;
-  }
-  if (sort === "name") {
-    return a.name.localeCompare(b.name, "ru");
-  }
-  const activityWeight = { fresh: 4, active: 3, rare: 2, archive: 1, unknown: 0 };
-  return (
-    (activityWeight[b.activity] || 0) - (activityWeight[a.activity] || 0) ||
-    Math.log10(b.subscribers + 1) - Math.log10(a.subscribers + 1) ||
-    a.price - b.price ||
-    a.name.localeCompare(b.name, "ru")
-  );
+  return direction === defaultSortDirection(sort) ? comparison : -comparison;
 }
 
 export function resultLabel(count) {

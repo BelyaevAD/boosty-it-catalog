@@ -2,8 +2,8 @@ name: Weekly data refresh
 
 on:
   schedule:
-    # 18:00 Friday in Asia/Barnaul (UTC+7). GitHub cron uses UTC.
-    - cron: "0 11 * * 5"
+    # Friday evening. GitHub cron uses UTC.
+    - cron: "0 14 * * 5"
   workflow_dispatch:
 
 permissions:

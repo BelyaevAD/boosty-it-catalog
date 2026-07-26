@@ -166,7 +166,7 @@ export function currentPromoPrice(level, nowSeconds) {
   return prices.length ? Math.min(...prices) : null;
 }
 
-export function localIsoDate(timeZone = "Asia/Barnaul", date = new Date()) {
+export function localIsoDate(timeZone = "Europe/Moscow", date = new Date()) {
   const parts = new Intl.DateTimeFormat("en-GB", {
     timeZone,
     year: "numeric",
@@ -179,7 +179,7 @@ export function localIsoDate(timeZone = "Asia/Barnaul", date = new Date()) {
 
 export function activityStatus(lastPostAt, checkedAt) {
   if (!lastPostAt) return { id: "unknown", label: "Нет данных", days: null };
-  const checked = new Date(`${checkedAt}T23:59:59+07:00`);
+  const checked = new Date(`${checkedAt}T23:59:59+03:00`);
   const lastPost = new Date(lastPostAt);
   const days = Math.max(0, Math.floor((checked - lastPost) / 86400000));
   if (days <= 30) return { id: "fresh", label: "Свежий", days };
@@ -233,7 +233,7 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
     fetchJson(`${API_BASE}/v1/blog/${encodeURIComponent(slug)}/post/?limit=20`),
   ]);
 
-  const nowSeconds = Math.floor(new Date(`${checkedAt}T23:59:59+07:00`).getTime() / 1000);
+  const nowSeconds = Math.floor(new Date(`${checkedAt}T23:59:59+03:00`).getTime() / 1000);
   const levels = (levelsResult.data || []).filter((level) =>
     Number(level.currencyPrices?.RUB ?? level.price) > 0 &&
     !level.deleted &&

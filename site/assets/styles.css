@@ -55,6 +55,22 @@ a {
   outline-offset: 3px;
 }
 
+[hidden] {
+  display: none !important;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
 .skip-link {
   position: fixed;
   z-index: 100;
@@ -382,8 +398,48 @@ h2 {
 }
 
 .result-summary {
-  margin: 0 0 7px;
+  margin: 0;
   color: var(--ink-soft);
+}
+
+.section-tools {
+  display: grid;
+  justify-items: end;
+  gap: 12px;
+}
+
+.view-toggle {
+  display: inline-flex;
+  gap: 3px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgb(255 255 255 / 72%);
+}
+
+.view-button {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 11px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 760;
+}
+
+.view-button:hover {
+  color: var(--navy);
+}
+
+.view-button.is-active {
+  background: var(--navy);
+  color: #fff;
+  box-shadow: 0 5px 14px rgb(9 37 56 / 18%);
 }
 
 .filters {
@@ -471,6 +527,163 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
+}
+
+.table-shell {
+  position: relative;
+  overflow: auto;
+  max-height: min(72vh, 850px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 12px 34px rgb(9 37 56 / 7%);
+  scrollbar-color: #aebbb4 #eef1ee;
+  scrollbar-width: thin;
+}
+
+.catalog-table {
+  width: 100%;
+  min-width: 1240px;
+  border-spacing: 0;
+  border-collapse: separate;
+  font-size: 13px;
+}
+
+.catalog-table th,
+.catalog-table td {
+  padding: 14px 13px;
+  border-bottom: 1px solid #e5e9e6;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.catalog-table thead th {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  background: var(--navy);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.catalog-table thead th:first-child {
+  z-index: 5;
+  left: 0;
+}
+
+.catalog-table th button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
+.catalog-table th button:hover {
+  color: var(--accent);
+}
+
+.sort-indicator {
+  display: inline-grid;
+  width: 18px;
+  height: 18px;
+  place-items: center;
+  border-radius: 5px;
+  background: rgb(255 255 255 / 9%);
+  color: var(--accent);
+  font-size: 12px;
+}
+
+.catalog-table tbody tr {
+  background: var(--surface);
+}
+
+.catalog-table tbody tr:nth-child(even) {
+  background: #f8faf8;
+}
+
+.catalog-table tbody tr:hover {
+  background: #effaf2;
+}
+
+.catalog-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.catalog-table tbody td:first-child {
+  position: sticky;
+  z-index: 2;
+  left: 0;
+  min-width: 205px;
+  max-width: 250px;
+  background: inherit;
+  box-shadow: 1px 0 0 #e5e9e6;
+}
+
+.table-name a {
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 820;
+  text-decoration: none;
+}
+
+.table-name a:hover,
+.table-boosty:hover {
+  color: #187044;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.table-category {
+  display: inline-block;
+  max-width: 180px;
+  color: #26774b;
+  font-size: 11px;
+  font-weight: 780;
+}
+
+.table-focus {
+  min-width: 245px;
+  max-width: 330px;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+
+.table-number {
+  font-variant-numeric: tabular-nums;
+  font-weight: 760;
+  white-space: nowrap;
+}
+
+.table-tiers {
+  min-width: 145px;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.table-growth.is-positive {
+  color: #14723d;
+}
+
+.table-growth.is-negative {
+  color: #9a4141;
+}
+
+.table-boosty {
+  color: #187044;
+  font-weight: 790;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .channel-card {
@@ -961,6 +1174,13 @@ h2 {
     gap: 15px;
   }
 
+  .section-tools {
+    width: 100%;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-items: start;
+  }
+
   .filters {
     grid-template-columns: 1fr;
   }
@@ -977,6 +1197,18 @@ h2 {
 
   .card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .table-shell {
+    width: 100%;
+    max-width: 100%;
+    max-height: 72vh;
+    margin-left: 0;
+    border-radius: 14px;
+  }
+
+  .catalog-table {
+    min-width: 1120px;
   }
 
   .about-section {

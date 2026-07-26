@@ -107,9 +107,19 @@
             <p class="eyebrow eyebrow-dark">Каталог</p>
             <h2 id="catalog-title">Найдите полезную подписку</h2>
           </div>
-          <p class="result-summary" id="result-summary" aria-live="polite">
-            Показано <strong>__CHANNEL_COUNT__</strong> каналов
-          </p>
+          <div class="section-tools">
+            <p class="result-summary" id="result-summary" aria-live="polite">
+              Показано <strong>__CHANNEL_COUNT__</strong> каналов
+            </p>
+            <div class="view-toggle" role="group" aria-label="Представление каталога">
+              <button class="view-button is-active" type="button" data-view="cards" aria-pressed="true">
+                <span aria-hidden="true">▦</span> Карточки
+              </button>
+              <button class="view-button" type="button" data-view="table" aria-pressed="false">
+                <span aria-hidden="true">☷</span> Таблица
+              </button>
+            </div>
+          </div>
         </div>
 
         <form class="filters" id="filters" role="search">
@@ -150,6 +160,8 @@
               <option value="subscribers">По подписчикам</option>
               <option value="price">Сначала доступные</option>
               <option value="name">По названию</option>
+              <option value="category">По теме</option>
+              <option value="growth">По росту</option>
             </select>
           </div>
 
@@ -165,6 +177,43 @@
 
         <div class="card-grid" id="channel-grid">
           __CHANNEL_CARDS__
+        </div>
+
+        <div class="table-shell" id="channel-table-view" hidden>
+          <table class="catalog-table">
+            <caption class="sr-only">Сравнение русскоязычных IT-каналов на Boosty</caption>
+            <thead>
+              <tr>
+                <th scope="col" data-sort-column="name">
+                  <button type="button" data-sort-key="name">Название <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                </th>
+                <th scope="col" data-sort-column="category">
+                  <button type="button" data-sort-key="category">Тема <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                </th>
+                <th scope="col">Фокус</th>
+                <th scope="col" data-sort-column="subscribers">
+                  <button type="button" data-sort-key="subscribers">Подписчики <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                </th>
+                <th scope="col" data-sort-column="recent">
+                  <button type="button" data-sort-key="recent">Последний пост <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                </th>
+                <th scope="col" data-sort-column="activity">
+                  <button type="button" data-sort-key="activity">Активность <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                </th>
+                <th scope="col" data-sort-column="price">
+                  <button type="button" data-sort-key="price">От, ₽ <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                </th>
+                <th scope="col">Тарифы</th>
+                <th scope="col" data-sort-column="growth">
+                  <button type="button" data-sort-key="growth">Рост <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                </th>
+                <th scope="col">Boosty</th>
+              </tr>
+            </thead>
+            <tbody id="channel-table-body">
+              __CHANNEL_ROWS__
+            </tbody>
+          </table>
         </div>
 
         <div class="empty-state" id="empty-state" hidden>

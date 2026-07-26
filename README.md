@@ -1,5 +1,11 @@
 # Boosty IT Каталог
 
+[![Проверка](https://github.com/BelyaevAD/boosty-it-catalog/actions/workflows/ci.yml/badge.svg)](https://github.com/BelyaevAD/boosty-it-catalog/actions/workflows/ci.yml)
+[![Публикация](https://github.com/BelyaevAD/boosty-it-catalog/actions/workflows/pages.yml/badge.svg)](https://github.com/BelyaevAD/boosty-it-catalog/actions/workflows/pages.yml)
+[![Лицензия: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+**Сайт:** [belyaevad.github.io/boosty-it-catalog](https://belyaevad.github.io/boosty-it-catalog/)
+
 Открытый каталог русскоязычных IT-каналов с платной подпиской на Boosty. В нём собраны авторы об ИИ, программировании, архитектуре, системном администрировании, DevOps, self-hosting, информационной безопасности, данных, QA, мобильной разработке, gamedev, 1С и IT-карьере.
 
 Сейчас в проверенной выборке **227 каналов**, а в полном списке кандидатов — **312 страниц**.

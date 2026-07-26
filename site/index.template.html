@@ -179,6 +179,8 @@
           __CHANNEL_CARDS__
         </div>
 
+        __CHANNEL_DETAILS__
+
         <div class="table-shell" id="channel-table-view" hidden>
           <table class="catalog-table">
             <caption class="sr-only">Сравнение русскоязычных IT-каналов на Boosty</caption>
@@ -207,7 +209,6 @@
                 <th scope="col" data-sort-column="growth">
                   <button type="button" data-sort-key="growth">Рост <span class="sort-indicator" aria-hidden="true">↕</span></button>
                 </th>
-                <th scope="col">Boosty</th>
               </tr>
             </thead>
             <tbody id="channel-table-body">
@@ -227,6 +228,13 @@
           <button class="button button-secondary" id="load-more" type="button">Показать ещё</button>
         </div>
       </section>
+
+      <dialog class="channel-dialog" id="channel-dialog" aria-modal="true">
+        <div class="dialog-frame">
+          <button class="dialog-close" type="button" data-close-dialog aria-label="Закрыть подробности">×</button>
+          <div id="channel-dialog-content"></div>
+        </div>
+      </dialog>
 
       <section class="about-section" id="about" aria-labelledby="about-title">
         <div>

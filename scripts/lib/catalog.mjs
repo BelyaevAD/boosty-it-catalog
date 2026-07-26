@@ -153,6 +153,57 @@ export function parseRichText(blocks = []) {
   return parts.join(" ").replace(/\s+/g, " ").trim();
 }
 
+export function buildChannelSummary({
+  description = "",
+  title = "",
+  focus = "",
+  category = "Программирование",
+} = {}) {
+  const clean = (value) => String(value || "")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/https?:\/\/[^\s)\]}>,]+/gi, " ")
+    .replace(
+      /(?:мой\s+сайт|мои\s+ссылки|видео|чат|анонсы|telegram|телеграм|youtube|ютуб|вконтакте|vk|discord|сайт|соцсети)\s*(?:-?канал)?\s*:\s*/gi,
+      " ",
+    )
+    .replace(/\s+/g, " ")
+    .replace(/\s+([,.;!?])/g, "$1")
+    .trim();
+  const shorten = (value, limit = 420) => {
+    if (value.length <= limit) return value;
+    const excerpt = value.slice(0, limit + 1);
+    const sentenceEnd = Math.max(
+      excerpt.lastIndexOf(". "),
+      excerpt.lastIndexOf("! "),
+      excerpt.lastIndexOf("? "),
+    );
+    if (sentenceEnd >= Math.min(180, Math.floor(limit * 0.55)) && sentenceEnd < limit) {
+      return excerpt.slice(0, sentenceEnd + 1).trim();
+    }
+    const wordEnd = excerpt.lastIndexOf(" ");
+    const end = wordEnd > 0 ? Math.min(wordEnd, limit - 1) : limit - 1;
+    return `${excerpt.slice(0, end).trim()}…`;
+  };
+
+  const cleanedDescription = clean(description);
+  if (cleanedDescription.length >= 24) return shorten(cleanedDescription);
+
+  const cleanedTitle = clean(title).replace(/[.!?]+$/, "");
+  const cleanedFocus = clean(focus || category).replace(/[.!?]+$/, "");
+  if (cleanedTitle && normalizeComparable(cleanedTitle) !== normalizeComparable(cleanedFocus)) {
+    return shorten(`${cleanedTitle}. Основные темы: ${cleanedFocus}.`);
+  }
+  return shorten(`Канал посвящён следующим темам: ${cleanedFocus || category}.`);
+}
+
+function normalizeComparable(value) {
+  return String(value || "")
+    .toLocaleLowerCase("ru")
+    .replaceAll("ё", "е")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim();
+}
+
 export function currentPromoPrice(level, nowSeconds) {
   const active = (Array.isArray(level.promos) ? level.promos : []).filter((promo) =>
     !promo.isFinished &&
@@ -282,6 +333,12 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
     category: classification.category,
     focus: classification.focus,
     reason: `Профильный русскоязычный канал: ${classification.focus}.`,
+    summary: buildChannelSummary({
+      description: descriptionText,
+      title: blog.title,
+      focus: classification.focus,
+      category: classification.category,
+    }),
     subscribers,
     postsCount: Number(blog.count?.posts ?? 0),
     lastPostAt: lastPost?.publishTime ? new Date(lastPost.publishTime * 1000).toISOString() : null,
@@ -339,6 +396,12 @@ export function toPublicChannel(row) {
     category: String(row.category || "Программирование"),
     focus: String(row.focus || row.category || "Программирование").slice(0, 320),
     reason: String(row.reason || "").slice(0, 360),
+    summary: buildChannelSummary({
+      description: row.summary || row.description,
+      title: row.title,
+      focus: row.focus,
+      category: row.category,
+    }),
     subscribers: Math.max(0, Number(row.subscribers) || 0),
     postsCount: Math.max(0, Number(row.postsCount) || 0),
     lastPostAt: row.lastPostAt || null,

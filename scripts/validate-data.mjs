@@ -25,6 +25,8 @@ for (const channel of channels) {
   assert.ok(channel.name && channel.name.length <= 180, `Invalid name for ${channel.slug}`);
   assert.ok(channel.category, `Missing category for ${channel.slug}`);
   assert.ok(channel.focus, `Missing focus for ${channel.slug}`);
+  assert.ok(channel.summary && channel.summary.length <= 420, `Invalid summary for ${channel.slug}`);
+  assert.ok(!/https?:\/\//i.test(channel.summary), `External URL leaked into summary for ${channel.slug}`);
   assert.ok(Number.isInteger(channel.subscribers) && channel.subscribers >= 0, `Invalid subscribers for ${channel.slug}`);
   assert.ok(Number.isInteger(channel.postsCount) && channel.postsCount > 0, `Invalid posts count for ${channel.slug}`);
   assert.ok(Number.isFinite(channel.minPriceRub) && channel.minPriceRub > 0, `Missing paid tier for ${channel.slug}`);

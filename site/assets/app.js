@@ -42,9 +42,16 @@ const sortInput = document.querySelector("#sort");
 const growthInput = document.querySelector("#growth");
 const viewButtons = [...document.querySelectorAll("[data-view]")];
 const sortButtons = [...document.querySelectorAll("[data-sort-key]")];
+const channelDialog = document.querySelector("#channel-dialog");
+const channelDialogContent = document.querySelector("#channel-dialog-content");
+const channelTemplates = new Map(
+  [...document.querySelectorAll("template[data-channel-slug]")]
+    .map((template) => [template.dataset.channelSlug, template]),
+);
 let visibleLimit = DEFAULT_LIMIT;
 let currentView = "cards";
 let sortDirection = defaultSortDirection(sortInput.value);
+let lastDialogTrigger = null;
 
 function readFilters() {
   return {
@@ -75,15 +82,31 @@ function updateUrl(filters) {
 }
 
 function renderActiveFilters(filters) {
-  const labels = [];
-  if (filters.query) labels.push(`Поиск: ${filters.query}`);
-  if (filters.category) labels.push(filters.category);
+  activeFilters.replaceChildren();
+  const addChip = (label, clearFilter) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "filter-chip";
+    button.textContent = `${label} ×`;
+    button.setAttribute("aria-label", `Убрать фильтр: ${label}`);
+    button.addEventListener("click", () => {
+      clearFilter();
+      applyFilters();
+    });
+    activeFilters.append(button);
+  };
+
+  if (filters.query) addChip(`Поиск: ${filters.query}`, () => { queryInput.value = ""; });
+  if (filters.category) addChip(filters.category, () => { categoryInput.value = ""; });
   if (filters.activity) {
-    labels.push(activityInput.options[activityInput.selectedIndex].text);
+    const label = activityInput.options[activityInput.selectedIndex].text;
+    addChip(label, () => { activityInput.value = ""; });
   }
-  if (filters.maxPrice !== null) labels.push(`До ${filters.maxPrice.toLocaleString("ru-RU")} ₽`);
-  if (filters.growth) labels.push("С ростом");
-  activeFilters.textContent = labels.length ? `Активные фильтры: ${labels.join(" · ")}` : "";
+  if (filters.maxPrice !== null) {
+    addChip(`До ${filters.maxPrice.toLocaleString("ru-RU")} ₽`, () => { maxPriceInput.value = ""; });
+  }
+  if (filters.growth) addChip("С ростом", () => { growthInput.checked = false; });
+  activeFilters.hidden = activeFilters.childElementCount === 0;
 }
 
 function updateSortHeaders(filters) {
@@ -133,8 +156,12 @@ function applyFilters({ resetLimit = true } = {}) {
 
   resultSummary.textContent = `Найдено: ${resultLabel(matched.length)}`;
   emptyState.hidden = matched.length !== 0;
-  loadMore.hidden = currentView !== "cards" || matched.length <= visibleLimit;
-  loadMoreWrap.hidden = currentView !== "cards" || matched.length <= visibleLimit;
+  const remaining = Math.max(0, matched.length - visibleLimit);
+  loadMore.textContent = remaining
+    ? `Показать ещё ${Math.min(DEFAULT_LIMIT, remaining).toLocaleString("ru-RU")}`
+    : "Показать ещё";
+  loadMore.hidden = currentView !== "cards" || remaining === 0;
+  loadMoreWrap.hidden = currentView !== "cards" || remaining === 0;
   renderActiveFilters(filters);
   updateSortHeaders(filters);
   updateViewControls();
@@ -151,6 +178,19 @@ function resetFilters() {
   sortDirection = defaultSortDirection(sortInput.value);
   visibleLimit = DEFAULT_LIMIT;
   applyFilters();
+}
+
+function openChannelDialog(slug, trigger) {
+  const template = channelTemplates.get(slug);
+  if (!template || !channelDialog?.showModal) return false;
+  const fragment = template.content.cloneNode(true);
+  const heading = fragment.querySelector("h2");
+  channelDialogContent.replaceChildren(fragment);
+  if (heading?.id) channelDialog.setAttribute("aria-labelledby", heading.id);
+  lastDialogTrigger = trigger;
+  channelDialog.showModal();
+  channelDialog.querySelector("[data-close-dialog]")?.focus();
+  return true;
 }
 
 function restoreFromUrl() {
@@ -220,6 +260,26 @@ for (const button of sortButtons) {
 loadMore.addEventListener("click", () => {
   visibleLimit += DEFAULT_LIMIT;
   applyFilters({ resetLimit: false });
+});
+
+document.addEventListener("click", (event) => {
+  const trigger = event.target.closest("[data-open-channel]");
+  if (!trigger) return;
+  if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  if (openChannelDialog(trigger.dataset.openChannel, trigger)) {
+    event.preventDefault();
+  }
+});
+document.querySelector("[data-close-dialog]")?.addEventListener("click", () => {
+  channelDialog.close();
+});
+channelDialog?.addEventListener("click", (event) => {
+  if (event.target === channelDialog) channelDialog.close();
+});
+channelDialog?.addEventListener("close", () => {
+  channelDialogContent.replaceChildren();
+  lastDialogTrigger?.focus();
+  lastDialogTrigger = null;
 });
 
 restoreFromUrl();

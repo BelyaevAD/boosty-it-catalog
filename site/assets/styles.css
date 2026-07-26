@@ -332,7 +332,7 @@ h1 {
 
 .topic-strip {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 22px;
   margin-top: -24px;
   padding: 18px 22px;
@@ -345,7 +345,7 @@ h1 {
 
 .topic-strip p {
   flex: 0 0 auto;
-  margin: 0;
+  margin: 11px 0 0;
   color: var(--ink-soft);
   font-size: 12px;
   font-weight: 800;
@@ -354,15 +354,15 @@ h1 {
 
 .topic-chips {
   display: flex;
+  flex: 1 1 auto;
   min-width: 0;
+  flex-wrap: wrap;
   gap: 8px;
-  overflow-x: auto;
   padding: 2px;
-  scrollbar-width: thin;
 }
 
 .topic-chip {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
   padding: 9px 12px;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -517,10 +517,32 @@ h2 {
 }
 
 .active-filters {
-  min-height: 38px;
-  padding: 13px 4px 8px;
-  color: var(--ink-soft);
-  font-size: 13px;
+  display: flex;
+  min-height: 46px;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding: 12px 4px 8px;
+}
+
+.active-filters[hidden] {
+  display: none;
+}
+
+.filter-chip {
+  padding: 7px 10px;
+  border: 1px solid #b9d7c5;
+  border-radius: 999px;
+  background: #eef9f1;
+  color: #176b39;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 760;
+}
+
+.filter-chip:hover {
+  border-color: #71b88b;
+  background: #e1f6e7;
 }
 
 .card-grid {
@@ -543,7 +565,7 @@ h2 {
 
 .catalog-table {
   width: 100%;
-  min-width: 1240px;
+  min-width: 1140px;
   border-spacing: 0;
   border-collapse: separate;
   font-size: 13px;
@@ -630,6 +652,13 @@ h2 {
   box-shadow: 1px 0 0 #e5e9e6;
 }
 
+.table-name-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+}
+
 .table-name a {
   color: var(--navy);
   font-size: 14px;
@@ -637,11 +666,29 @@ h2 {
   text-decoration: none;
 }
 
-.table-name a:hover,
-.table-boosty:hover {
+.table-name a:hover {
   color: #187044;
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.table-name .table-boosty-mini {
+  padding: 3px 6px;
+  border: 1px solid #bee0ca;
+  border-radius: 999px;
+  background: #effaf2;
+  color: #176b39;
+  font-size: 10px;
+  font-weight: 820;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.table-name .table-boosty-mini:hover {
+  border-color: #6fbd8d;
+  background: #ddf6e5;
+  color: #0f5c31;
+  text-decoration: none;
 }
 
 .table-category {
@@ -677,13 +724,6 @@ h2 {
 
 .table-growth.is-negative {
   color: #9a4141;
-}
-
-.table-boosty {
-  color: #187044;
-  font-weight: 790;
-  text-decoration: none;
-  white-space: nowrap;
 }
 
 .channel-card {
@@ -831,6 +871,14 @@ h2 {
   color: var(--ink-soft);
 }
 
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  justify-content: flex-end;
+}
+
+.card-detail-link,
 .card-link {
   color: #126c3d;
   font-size: 13px;
@@ -838,6 +886,11 @@ h2 {
   text-decoration: none;
 }
 
+.card-detail-link {
+  color: var(--ink-soft);
+}
+
+.card-detail-link:hover,
 .card-link:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -847,6 +900,146 @@ h2 {
   display: flex;
   justify-content: center;
   margin-top: 28px;
+}
+
+.channel-dialog {
+  width: min(820px, calc(100% - 28px));
+  max-width: none;
+  max-height: min(90vh, 920px);
+  padding: 0;
+  border: 0;
+  border-radius: 24px;
+  background: transparent;
+  box-shadow: 0 32px 90px rgb(2 18 28 / 32%);
+}
+
+.channel-dialog::backdrop {
+  background: rgb(2 18 28 / 72%);
+  backdrop-filter: blur(5px);
+}
+
+.dialog-frame {
+  position: relative;
+  max-height: min(90vh, 920px);
+  overflow: auto;
+  padding: clamp(26px, 5vw, 48px);
+  border-radius: 24px;
+  background: var(--surface);
+  scrollbar-color: #aebbb4 #eef1ee;
+  scrollbar-width: thin;
+}
+
+.dialog-close {
+  position: absolute;
+  z-index: 2;
+  top: 18px;
+  right: 18px;
+  display: grid;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #f4f6f3;
+  color: var(--navy);
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 1;
+  place-items: center;
+}
+
+.dialog-close:hover {
+  border-color: #96aaa0;
+  background: #eaf5ed;
+}
+
+.dialog-channel-topline {
+  display: flex;
+  max-width: calc(100% - 54px);
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dialog-channel h2 {
+  max-width: calc(100% - 35px);
+  margin: 18px 0 16px;
+  color: var(--navy);
+  font-size: clamp(34px, 6vw, 56px);
+  letter-spacing: -0.045em;
+  line-height: 1.02;
+}
+
+.dialog-summary,
+.channel-summary {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.focus-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 18px;
+}
+
+.focus-tags span {
+  padding: 6px 9px;
+  border: 1px solid #cce4d4;
+  border-radius: 999px;
+  background: #f2faf4;
+  color: #176b39;
+  font-size: 11px;
+  font-weight: 760;
+}
+
+.detail-stats-dialog {
+  margin: 28px 0 22px;
+}
+
+.dialog-context {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0 0 28px;
+}
+
+.dialog-context div {
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+}
+
+.dialog-context dt {
+  margin-bottom: 7px;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.dialog-context dd {
+  margin: 0;
+  font-weight: 720;
+  line-height: 1.45;
+}
+
+.dialog-channel h3 {
+  margin: 28px 0 0;
+  color: var(--navy);
+  font-size: 22px;
+}
+
+.tier-list-dialog {
+  max-height: 270px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.dialog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .button-secondary {
@@ -1026,12 +1219,15 @@ h2 {
   font-size: clamp(40px, 7vw, 68px);
 }
 
-.channel-detail .card-focus {
-  display: block;
-  min-height: 0;
-  max-width: 720px;
-  margin-top: 20px;
-  font-size: 17px;
+.channel-summary-block {
+  max-width: 740px;
+  margin-top: 28px;
+}
+
+.channel-summary-block h2 {
+  margin: 0 0 12px;
+  color: var(--navy);
+  font-size: 22px;
 }
 
 .detail-stats {
@@ -1160,6 +1356,10 @@ h2 {
     padding: 16px;
   }
 
+  .topic-strip p {
+    margin-top: 0;
+  }
+
   .topic-chips {
     width: 100%;
   }
@@ -1208,7 +1408,37 @@ h2 {
   }
 
   .catalog-table {
-    min-width: 1120px;
+    min-width: 1030px;
+  }
+
+  .channel-dialog {
+    width: calc(100% - 16px);
+    max-height: 94vh;
+    border-radius: 18px;
+  }
+
+  .dialog-frame {
+    max-height: 94vh;
+    padding: 58px 18px 24px;
+    border-radius: 18px;
+  }
+
+  .dialog-close {
+    top: 12px;
+    right: 12px;
+  }
+
+  .dialog-channel h2 {
+    max-width: none;
+  }
+
+  .dialog-context {
+    grid-template-columns: 1fr;
+  }
+
+  .dialog-actions {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .about-section {

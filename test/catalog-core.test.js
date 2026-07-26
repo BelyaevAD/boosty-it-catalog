@@ -8,6 +8,7 @@ import {
   normalizeText,
   resultLabel,
 } from "../site/assets/catalog-core.js";
+import { buildChannelSummary } from "../scripts/lib/catalog.mjs";
 
 const channels = [
   {
@@ -84,4 +85,22 @@ test("uses Russian plural forms", () => {
   assert.equal(resultLabel(3), "3 канала");
   assert.equal(resultLabel(12), "12 каналов");
   assert.equal(resultLabel(227), "227 каналов");
+});
+
+test("creates a public summary without external links", () => {
+  const summary = buildChannelSummary({
+    description: "Рассказываю о React и Node.js. Telegram-канал: https://t.me/example",
+    title: "Frontend-разработка",
+    focus: "JavaScript / TypeScript",
+  });
+  assert.equal(summary, "Рассказываю о React и Node.js.");
+  assert.ok(summary.length <= 420);
+  assert.ok(!summary.includes("http"));
+});
+
+test("falls back to title and focus when a Boosty description is missing", () => {
+  assert.equal(
+    buildChannelSummary({ title: "Практический DevOps", focus: "DevOps / Kubernetes / Docker" }),
+    "Практический DevOps. Основные темы: DevOps / Kubernetes / Docker.",
+  );
 });

@@ -8,7 +8,7 @@ const dataPath = path.join(root, "data", "channels.json");
 const siteSource = path.join(root, "site");
 const output = path.join(root, "dist");
 const siteUrl = normalizeBaseUrl(process.env.SITE_URL || "http://127.0.0.1:4173/");
-const repositoryUrl = process.env.REPOSITORY_URL || "https://github.com/example/boosty-it-catalog";
+const repositoryUrl = process.env.REPOSITORY_URL || "https://github.com/BelyaevAD/boosty-it-catalog";
 const issueUrl = `${repositoryUrl}/issues/new?template=new-channel.yml`;
 const locale = "ru-RU";
 
@@ -94,7 +94,14 @@ function channelCard(channel, checkedAt) {
   const activity = activityStatus(channel.lastPostAt, checkedAt);
   const price = effectivePrice(channel);
   const lastPostTimestamp = channel.lastPostAt ? Date.parse(channel.lastPostAt) : 0;
-  const searchText = [channel.name, channel.title, channel.category, channel.focus].filter(Boolean).join(" ");
+  const searchText = [
+    channel.name,
+    channel.title,
+    channel.summary,
+    channel.category,
+    channel.focus,
+    channel.lastPostTitle,
+  ].filter(Boolean).join(" ");
   const statusHint = activity.days === null
     ? "Дата последней публикации неизвестна"
     : `${activity.days.toLocaleString(locale)} дн. с последней публикации`;
@@ -118,7 +125,9 @@ function channelCard(channel, checkedAt) {
               <span class="card-category">${escapeHtml(channel.category)}</span>
               <span class="status status-${activity.id}" title="${escapeHtml(statusHint)}">${escapeHtml(activity.label)}</span>
             </div>
-            <h3><a href="./channels/${encodeURIComponent(slug)}/">${escapeHtml(channel.name)}</a></h3>
+            <h3>
+              <a href="./channels/${encodeURIComponent(slug)}/" data-open-channel="${escapeHtml(slug)}">${escapeHtml(channel.name)}</a>
+            </h3>
             <p class="card-focus">${escapeHtml(channel.focus || channel.title || channel.category)}</p>
             <dl class="card-metrics">
               <div>
@@ -135,7 +144,10 @@ function channelCard(channel, checkedAt) {
                 <strong>от ${escapeHtml(formatPrice(channel))}</strong>
                 <small>${hasPromo ? "промо-цена" : "в месяц"}</small>
               </span>
-              <a class="card-link" href="${escapeHtml(channel.boostyUrl)}" target="_blank" rel="noopener noreferrer">Открыть на Boosty ↗</a>
+              <span class="card-actions">
+                <a class="card-detail-link" href="./channels/${encodeURIComponent(slug)}/" data-open-channel="${escapeHtml(slug)}">Подробнее</a>
+                <a class="card-link" href="${escapeHtml(channel.boostyUrl)}" target="_blank" rel="noopener noreferrer">Boosty ↗</a>
+              </span>
             </div>
           </article>`;
 }
@@ -147,6 +159,79 @@ function tierLabel(count) {
   if (last === 1) return `${count} тариф`;
   if (last >= 2 && last <= 4) return `${count} тарифа`;
   return `${count} тарифов`;
+}
+
+function focusTags(focus) {
+  return String(focus || "")
+    .split(";")
+    .map((item) => item.trim())
+    .filter(Boolean)
+    .map((item) => `<span>${escapeHtml(item)}</span>`)
+    .join("");
+}
+
+function channelDetailTemplate(channel, checkedAt) {
+  const activity = activityStatus(channel.lastPostAt, checkedAt);
+  const slug = safeSlug(channel.slug);
+  const growth = Number(channel.growthSinceSnapshot);
+  const growthText = !Number.isFinite(growth)
+    ? "нет снимка"
+    : growth === 0
+      ? "без изменений"
+      : `${growth > 0 ? "+" : ""}${formatNumber(growth)}`;
+  const tiers = (channel.tiers || []).length
+    ? channel.tiers.map((tier) => `
+                <li>
+                  <span>${escapeHtml(tier.name || "Подписка")}</span>
+                  <strong>${escapeHtml(tierPrice(tier))}</strong>
+                </li>`).join("")
+    : "<li><span>Тарифы не найдены</span><strong>—</strong></li>";
+  const recentPost = channel.lastPostTitle
+    ? `<div>
+        <dt>Последний материал</dt>
+        <dd>${escapeHtml(channel.lastPostTitle)}</dd>
+      </div>`
+    : "";
+
+  return `
+          <template data-channel-slug="${escapeHtml(slug)}">
+            <article class="dialog-channel">
+              <div class="dialog-channel-topline">
+                <span class="card-category">${escapeHtml(channel.category)}</span>
+                <span class="status status-${activity.id}">${escapeHtml(activity.label)}</span>
+              </div>
+              <h2 id="dialog-title-${escapeHtml(slug)}">${escapeHtml(channel.name)}</h2>
+              <p class="dialog-summary">${escapeHtml(channel.summary || channel.title || channel.focus)}</p>
+              <div class="focus-tags" aria-label="Темы канала">${focusTags(channel.focus)}</div>
+
+              <dl class="detail-stats detail-stats-dialog">
+                <div><dt>Подписчиков</dt><dd>${formatNumber(channel.subscribers)}</dd></div>
+                <div><dt>Постов</dt><dd>${formatNumber(channel.postsCount)}</dd></div>
+                <div><dt>Подписка от</dt><dd>${escapeHtml(formatPrice(channel))}</dd></div>
+                <div><dt>Рост к снимку</dt><dd>${escapeHtml(growthText)}</dd></div>
+              </dl>
+
+              <dl class="dialog-context">
+                <div>
+                  <dt>Последняя публикация</dt>
+                  <dd>${escapeHtml(formatDate(channel.lastPostAt))}</dd>
+                </div>
+                ${recentPost}
+              </dl>
+
+              <h3>Уровни подписки</h3>
+              <ul class="tier-list tier-list-dialog">${tiers}</ul>
+
+              <div class="dialog-actions">
+                <a class="button button-primary" href="${escapeHtml(channel.boostyUrl)}" target="_blank" rel="noopener noreferrer">Перейти на Boosty ↗</a>
+                <a class="button button-secondary" href="./channels/${encodeURIComponent(slug)}/">Открыть отдельную страницу</a>
+              </div>
+              <p class="channel-detail-note">
+                Описание подготовлено на основе профиля Boosty и тематики публикаций.
+                Данные проверены ${escapeHtml(formatDate(checkedAt))}
+              </p>
+            </article>
+          </template>`;
 }
 
 function channelRow(channel, checkedAt) {
@@ -164,7 +249,17 @@ function channelRow(channel, checkedAt) {
   return `
               <tr class="channel-row" data-slug="${escapeHtml(slug)}">
                 <td class="table-name">
-                  <a href="./channels/${encodeURIComponent(slug)}/">${escapeHtml(channel.name)}</a>
+                  <span class="table-name-line">
+                    <a href="./channels/${encodeURIComponent(slug)}/" data-open-channel="${escapeHtml(slug)}">${escapeHtml(channel.name)}</a>
+                    <a
+                      class="table-boosty-mini"
+                      href="${escapeHtml(channel.boostyUrl)}"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Открыть ${escapeHtml(channel.name)} на Boosty"
+                      title="Открыть на Boosty"
+                    >Boosty ↗</a>
+                  </span>
                 </td>
                 <td><span class="table-category">${escapeHtml(channel.category)}</span></td>
                 <td class="table-focus">${escapeHtml(channel.focus || channel.title || channel.category)}</td>
@@ -178,7 +273,6 @@ function channelRow(channel, checkedAt) {
                 <td class="table-number">${escapeHtml(price)}</td>
                 <td class="table-tiers">${escapeHtml(tierRange)}</td>
                 <td class="table-number table-growth ${growthClass}">${escapeHtml(growthText)}</td>
-                <td><a class="table-boosty" href="${escapeHtml(channel.boostyUrl)}" target="_blank" rel="noopener noreferrer">Открыть ↗</a></td>
               </tr>`;
 }
 
@@ -243,7 +337,8 @@ function channelPage(channel, checkedAt) {
   const slug = safeSlug(channel.slug);
   const canonical = `${siteUrl}channels/${encodeURIComponent(slug)}/`;
   const activity = activityStatus(channel.lastPostAt, checkedAt);
-  const description = `${channel.name}: ${channel.focus}. Подписка от ${formatPrice(channel)}, ${formatNumber(channel.subscribers)} подписчиков.`;
+  const summary = channel.summary || channel.title || channel.focus;
+  const description = `${channel.name}: ${summary} Подписка от ${formatPrice(channel)}, ${formatNumber(channel.subscribers)} подписчиков.`;
   const tiers = (channel.tiers || []).length
     ? channel.tiers.map((tier) => `
               <li>
@@ -309,7 +404,11 @@ function channelPage(channel, checkedAt) {
       <article class="channel-detail">
         <span class="card-category">${escapeHtml(channel.category)}</span>
         <h1>${escapeHtml(channel.name)}</h1>
-        <p class="card-focus">${escapeHtml(channel.focus || channel.title || channel.category)}</p>
+        <section class="channel-summary-block" aria-labelledby="channel-about">
+          <h2 id="channel-about">О канале</h2>
+          <p class="channel-summary">${escapeHtml(summary)}</p>
+          <div class="focus-tags" aria-label="Темы канала">${focusTags(channel.focus)}</div>
+        </section>
         <dl class="detail-stats">
           <div><dt>Подписчиков</dt><dd>${formatNumber(channel.subscribers)}</dd></div>
           <div><dt>Постов</dt><dd>${formatNumber(channel.postsCount)}</dd></div>
@@ -320,7 +419,8 @@ function channelPage(channel, checkedAt) {
         <ul class="tier-list">${tiers}</ul>
         <a class="button button-primary" href="${escapeHtml(channel.boostyUrl)}" target="_blank" rel="noopener noreferrer">Перейти на Boosty ↗</a>
         <p class="channel-detail-note">
-          Последняя публикация: ${escapeHtml(formatDate(channel.lastPostAt))}. Данные проверены ${escapeHtml(formatDate(checkedAt))}.
+          Последняя публикация — ${escapeHtml(formatDate(channel.lastPostAt))}<br>
+          Данные проверены ${escapeHtml(formatDate(checkedAt))}
           Каталог не связан с Boosty; условия подписки уточняйте у автора.
         </p>
       </article>
@@ -373,6 +473,7 @@ const indexHtml = template
   .replaceAll("__CATEGORY_OPTIONS__", categoryOptions)
   .replaceAll("__CATEGORY_CHIPS__", categoryChips)
   .replaceAll("__CHANNEL_CARDS__", sortedChannels.map((channel) => channelCard(channel, checkedAt)).join("\n"))
+  .replaceAll("__CHANNEL_DETAILS__", sortedChannels.map((channel) => channelDetailTemplate(channel, checkedAt)).join("\n"))
   .replaceAll("__CHANNEL_ROWS__", sortedChannels.map((channel) => channelRow(channel, checkedAt)).join("\n"))
   .replaceAll("__JSON_LD__", jsonLd)
   .replaceAll("__CSP_HASH__", `sha256-${cspHash}`)

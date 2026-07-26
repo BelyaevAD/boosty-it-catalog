@@ -1,0 +1,32 @@
+name: Исправить данные
+description: Сообщить об ошибке, устаревшем канале или неверной классификации
+title: "[Исправление]: "
+labels: ["data-quality"]
+body:
+  - type: input
+    id: channel
+    attributes:
+      label: Канал или ссылка
+      placeholder: Название или https://boosty.to/example
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Что нужно исправить
+      options:
+        - Канал больше не относится к IT
+        - Канал не русскоязычный
+        - Неверная категория
+        - Неверные данные
+        - Канал закрыт или удалён
+        - Другое
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Подробности
+      description: Приложите проверяемый контекст, но не публикуйте личные данные.
+    validations:
+      required: true

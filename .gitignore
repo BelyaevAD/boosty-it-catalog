@@ -1,0 +1,20 @@
+# Generated output
+dist/
+coverage/
+
+# Local research artifacts
+work/
+outputs/
+
+# Dependencies and local settings
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log

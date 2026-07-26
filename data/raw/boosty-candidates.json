@@ -1,0 +1,4110 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-07-26",
+    "candidateCount": 312,
+    "note": "Полный список найденных кандидатов до окончательной тематической фильтрации."
+  },
+  "candidates": [
+    {
+      "slug": "1s_basa",
+      "name": "1С <База>",
+      "boostyUrl": "https://boosty.to/1s_basa",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "abarmin",
+      "name": "Александр Бармин",
+      "boostyUrl": "https://boosty.to/abarmin",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "aceberg",
+      "name": "Andrew Erlikh",
+      "boostyUrl": "https://boosty.to/aceberg",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "adept-ecommerce",
+      "name": "Константин",
+      "boostyUrl": "https://boosty.to/adept-ecommerce",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "adminguide",
+      "name": "Admin Guide",
+      "boostyUrl": "https://boosty.to/adminguide",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "adoptai",
+      "name": "AI Adopts - [Glitch trick]",
+      "boostyUrl": "https://boosty.to/adoptai",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "excluded",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "adv-it",
+      "name": "ADV-IT",
+      "boostyUrl": "https://boosty.to/adv-it",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "ai_danila",
+      "name": "Danila",
+      "boostyUrl": "https://boosty.to/ai_danila",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект",
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "ai-future",
+      "name": "Khanna Imani",
+      "boostyUrl": "https://boosty.to/ai-future",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "aifilmmaker",
+      "name": "Андрей Одинцов",
+      "boostyUrl": "https://boosty.to/aifilmmaker",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "ainikita",
+      "name": "Nikita AI Magevoz",
+      "boostyUrl": "https://boosty.to/ainikita",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "aisandbox",
+      "name": "Yerlan Kabylov | AI Sandbox",
+      "boostyUrl": "https://boosty.to/aisandbox",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "aizarubin",
+      "name": "Борис",
+      "boostyUrl": "https://boosty.to/aizarubin",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "aklimenko",
+      "name": "QA Alexey Klimenko",
+      "boostyUrl": "https://boosty.to/aklimenko",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "akosarev",
+      "name": "Уголок сельского джависта",
+      "boostyUrl": "https://boosty.to/akosarev",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "тестирование программного обеспечения"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "aldekotan",
+      "name": "Aldekotan",
+      "boostyUrl": "https://boosty.to/aldekotan",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "alekos",
+      "name": "Alek OS",
+      "boostyUrl": "https://boosty.to/alekos",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "aleks-trofimov",
+      "name": "Алексей Трофимов",
+      "boostyUrl": "https://boosty.to/aleks-trofimov",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "alexdudchenko",
+      "name": "ТАЙНОЕ СООБЩЕСТВО",
+      "boostyUrl": "https://boosty.to/alexdudchenko",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "alsshade",
+      "name": "Александр Шалфей",
+      "boostyUrl": "https://boosty.to/alsshade",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "andrew_feed",
+      "name": "andrewfeed",
+      "boostyUrl": "https://boosty.to/andrew_feed",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "android_live",
+      "name": "Android Live",
+      "boostyUrl": "https://boosty.to/android_live",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "androidbroadcast",
+      "name": "Android Broadcast Плюс",
+      "boostyUrl": "https://boosty.to/androidbroadcast",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "anestesia-tech",
+      "name": "Карманный DevOps",
+      "boostyUrl": "https://boosty.to/anestesia-tech",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "annblok",
+      "name": "Анна Блок",
+      "boostyUrl": "https://boosty.to/annblok",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "archakov_blog",
+      "name": "Archakov Blog",
+      "boostyUrl": "https://boosty.to/archakov_blog",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "arduino",
+      "name": "ARDUINO-TEX",
+      "boostyUrl": "https://boosty.to/arduino",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "arhaika",
+      "name": "Архаика",
+      "boostyUrl": "https://boosty.to/arhaika",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "artalar",
+      "name": "artalar",
+      "boostyUrl": "https://boosty.to/artalar",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "artemshumeiko",
+      "name": "Артём Шумейко",
+      "boostyUrl": "https://boosty.to/artemshumeiko",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "artfromvalentina",
+      "name": "Valentina Zaitseva",
+      "boostyUrl": "https://boosty.to/artfromvalentina",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "artsiomrusau",
+      "name": "Artsiom QA",
+      "boostyUrl": "https://boosty.to/artsiomrusau",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "artsiomrusau_qalife",
+      "name": "Artsiom Rusau QA Life",
+      "boostyUrl": "https://boosty.to/artsiomrusau_qalife",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "тестирование программного обеспечения"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "as-bimmer",
+      "name": "As Bimmer",
+      "boostyUrl": "https://boosty.to/as-bimmer",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "asozykin",
+      "name": "Андрей Созыкин",
+      "boostyUrl": "https://boosty.to/asozykin",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "atom-bi",
+      "name": "ATOM-BI",
+      "boostyUrl": "https://boosty.to/atom-bi",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "backend-online",
+      "name": "Backend Online",
+      "boostyUrl": "https://boosty.to/backend-online",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "bbofur",
+      "name": "Самодельный Gamedev",
+      "boostyUrl": "https://boosty.to/bbofur",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "bedev",
+      "name": "Александр Сокирка",
+      "boostyUrl": "https://boosty.to/bedev",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "begeek",
+      "name": "Be Geek",
+      "boostyUrl": "https://boosty.to/begeek",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "программирование",
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "begichev",
+      "name": "Павел Бегичев",
+      "boostyUrl": "https://boosty.to/begichev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "bellamir",
+      "name": "Bella Mironova",
+      "boostyUrl": "https://boosty.to/bellamir",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "besconnect_boost",
+      "name": "BES.CONNECT",
+      "boostyUrl": "https://boosty.to/besconnect_boost",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "betry_developer",
+      "name": "BeTry | Программирование",
+      "boostyUrl": "https://boosty.to/betry_developer",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT",
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "bigkaa",
+      "name": "Артур Крюков",
+      "boostyUrl": "https://boosty.to/bigkaa",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "biz_maker",
+      "name": "IT'шное братство",
+      "boostyUrl": "https://boosty.to/biz_maker",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "black_triangle",
+      "name": "Черный треугольник",
+      "boostyUrl": "https://boosty.to/black_triangle",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "кибербезопасность информационная безопасность",
+        "программирование",
+        "тестирование программного обеспечения"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "bladedancer",
+      "name": "BladeDancer",
+      "boostyUrl": "https://boosty.to/bladedancer",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "кибербезопасность информационная безопасность"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "booksclub",
+      "name": "Книжный клуб",
+      "boostyUrl": "https://boosty.to/booksclub",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "boxingmma",
+      "name": "Cheesem",
+      "boostyUrl": "https://boosty.to/boxingmma",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "bryzgi_soznaniya",
+      "name": "Олег Епишин",
+      "boostyUrl": "https://boosty.to/bryzgi_soznaniya",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "bugctf",
+      "name": "БАГодельня",
+      "boostyUrl": "https://boosty.to/bugctf",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "burning_tester",
+      "name": "Горящий Тестер 🐞 Антон Дуенин",
+      "boostyUrl": "https://boosty.to/burning_tester",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "buryi",
+      "name": "Бурый",
+      "boostyUrl": "https://boosty.to/buryi",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект",
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "calabonga",
+      "name": "Сергей Калабонга",
+      "boostyUrl": "https://boosty.to/calabonga",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "chatgptbot",
+      "name": "Chat AI на русском",
+      "boostyUrl": "https://boosty.to/chatgptbot",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "chilldevops",
+      "name": "девопсим потихоньку",
+      "boostyUrl": "https://boosty.to/chilldevops",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "code_it",
+      "name": "Code_It",
+      "boostyUrl": "https://boosty.to/code_it",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "codextown",
+      "name": "codex.town",
+      "boostyUrl": "https://boosty.to/codextown",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование",
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "codik",
+      "name": "Кодик",
+      "boostyUrl": "https://boosty.to/codik",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "comics_publisher",
+      "name": "Анна Коростелева",
+      "boostyUrl": "https://boosty.to/comics_publisher",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "тестирование программного обеспечения"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "comrade-xl",
+      "name": "Comrade Excel",
+      "boostyUrl": "https://boosty.to/comrade-xl",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "coreforgelabs",
+      "name": "СoreForgeLabs",
+      "boostyUrl": "https://boosty.to/coreforgelabs",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "cyberpentestlab",
+      "name": "Security",
+      "boostyUrl": "https://boosty.to/cyberpentestlab",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "cyberscoper",
+      "name": "Aleksandr Murzin",
+      "boostyUrl": "https://boosty.to/cyberscoper",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "cybersecurity",
+      "name": "Faroe Man",
+      "boostyUrl": "https://boosty.to/cybersecurity",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "кибербезопасность информационная безопасность"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "daddycoder",
+      "name": "Daddy {Coder} школа программирования",
+      "boostyUrl": "https://boosty.to/daddycoder",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT",
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "darkdes",
+      "name": "DarkDes",
+      "boostyUrl": "https://boosty.to/darkdes",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "dasha_ai_creator",
+      "name": "Dasha Ai Creator",
+      "boostyUrl": "https://boosty.to/dasha_ai_creator",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "datagovernance",
+      "name": "DG4All",
+      "boostyUrl": "https://boosty.to/datagovernance",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "deeplearningschool",
+      "name": "Deep Learning School",
+      "boostyUrl": "https://boosty.to/deeplearningschool",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "deferpanic",
+      "name": "defer panic",
+      "boostyUrl": "https://boosty.to/deferpanic",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "den418dev",
+      "name": "ЯктонStudio|YaktonStudio",
+      "boostyUrl": "https://boosty.to/den418dev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "denis_holmov",
+      "name": "Денис Холмов",
+      "boostyUrl": "https://boosty.to/denis_holmov",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "denis-zlobin",
+      "name": "Neverending C++ | Денис Злобин",
+      "boostyUrl": "https://boosty.to/denis-zlobin",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "denismasterherobrine",
+      "name": "DenisMasterHerobrine",
+      "boostyUrl": "https://boosty.to/denismasterherobrine",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "design_is_simple",
+      "name": "Дизайн это просто",
+      "boostyUrl": "https://boosty.to/design_is_simple",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "deusops",
+      "name": "DeusOps",
+      "boostyUrl": "https://boosty.to/deusops",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "devboxops",
+      "name": "DevBoxOps",
+      "boostyUrl": "https://boosty.to/devboxops",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "devops_prosto",
+      "name": "Просто DevOps",
+      "boostyUrl": "https://boosty.to/devops_prosto",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "devopskitchentalks",
+      "name": "DevOps Kitchen Talks",
+      "boostyUrl": "https://boosty.to/devopskitchentalks",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "deyneko",
+      "name": "Kristina Deyneko",
+      "boostyUrl": "https://boosty.to/deyneko",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект",
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "digital_train",
+      "name": "Digital train | Alex Babin",
+      "boostyUrl": "https://boosty.to/digital_train",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "digitalize.team",
+      "name": "Диджитализируй!",
+      "boostyUrl": "https://boosty.to/digitalize.team",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "dimov_ios",
+      "name": "iOS Такой",
+      "boostyUrl": "https://boosty.to/dimov_ios",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "тестирование программного обеспечения"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "distant-na-100",
+      "name": "Наташа Кузнецова",
+      "boostyUrl": "https://boosty.to/distant-na-100",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "djangoschool",
+      "name": "Омельченко Михаил | Django School",
+      "boostyUrl": "https://boosty.to/djangoschool",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование",
+        "тестирование программного обеспечения"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "dmitriy_yiu",
+      "name": "Нейросеть Димитрис",
+      "boostyUrl": "https://boosty.to/dmitriy_yiu",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "dmosk",
+      "name": "Дмитрий Моск",
+      "boostyUrl": "https://boosty.to/dmosk",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "dreamervr",
+      "name": "Dreamer | VR&AR-студия",
+      "boostyUrl": "https://boosty.to/dreamervr",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "edziqa",
+      "name": "ЭД ЭД ЭД",
+      "boostyUrl": "https://boosty.to/edziqa",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "egoroff_channel",
+      "name": "Артем Егоров",
+      "boostyUrl": "https://boosty.to/egoroff_channel",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "ekaterinasy",
+      "name": "Аnastasyam",
+      "boostyUrl": "https://boosty.to/ekaterinasy",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "excluded",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "elektrika",
+      "name": "Электрика и Автоматика",
+      "boostyUrl": "https://boosty.to/elektrika",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "elli_forelli",
+      "name": "Elli Forelli",
+      "boostyUrl": "https://boosty.to/elli_forelli",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "embroideryai",
+      "name": "Neurocraft.Art",
+      "boostyUrl": "https://boosty.to/embroideryai",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "entityfx",
+      "name": "Cpu Geek",
+      "boostyUrl": "https://boosty.to/entityfx",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "escaped_ai",
+      "name": "сбежавшая нейросеть",
+      "boostyUrl": "https://boosty.to/escaped_ai",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "flipgeek",
+      "name": "flipgeek",
+      "boostyUrl": "https://boosty.to/flipgeek",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "кибербезопасность информационная безопасность"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "fonatik_kabal",
+      "name": "4HaT!k->kabaL",
+      "boostyUrl": "https://boosty.to/fonatik_kabal",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "franchcamp",
+      "name": "Экосистема FranchCamp",
+      "boostyUrl": "https://boosty.to/franchcamp",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "frezycode",
+      "name": "Стас Ильин",
+      "boostyUrl": "https://boosty.to/frezycode",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "friendly-frontend",
+      "name": "Александр Ламков",
+      "boostyUrl": "https://boosty.to/friendly-frontend",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "frontcoder",
+      "name": "FrontCoder",
+      "boostyUrl": "https://boosty.to/frontcoder",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "frontend_pashtet",
+      "name": "Frontend Pashtet",
+      "boostyUrl": "https://boosty.to/frontend_pashtet",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "frontenddevelop",
+      "name": "FrontendDevelop",
+      "boostyUrl": "https://boosty.to/frontenddevelop",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "frontendtales",
+      "name": "Алексей Трапезников",
+      "boostyUrl": "https://boosty.to/frontendtales",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "fsoky",
+      "name": "Фсоки",
+      "boostyUrl": "https://boosty.to/fsoky",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "fvgames",
+      "name": "Vadim",
+      "boostyUrl": "https://boosty.to/fvgames",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "gamedevplatform",
+      "name": "GameDev Platform",
+      "boostyUrl": "https://boosty.to/gamedevplatform",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "gdcuffs",
+      "name": "Манжеты ГД",
+      "boostyUrl": "https://boosty.to/gdcuffs",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "gitcommit",
+      "name": "git commit -m",
+      "boostyUrl": "https://boosty.to/gitcommit",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "go_start",
+      "name": "Hack_Platforma",
+      "boostyUrl": "https://boosty.to/go_start",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "godotru",
+      "name": "Уроки GODOT для всех",
+      "boostyUrl": "https://boosty.to/godotru",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "golodnyj",
+      "name": "golodnyj",
+      "boostyUrl": "https://boosty.to/golodnyj",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "gralue",
+      "name": "GrAl Unreal Engine",
+      "boostyUrl": "https://boosty.to/gralue",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "guvictory",
+      "name": "«Бегущая с огнетушителем» | PRO",
+      "boostyUrl": "https://boosty.to/guvictory",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "helio",
+      "name": "Helio",
+      "boostyUrl": "https://boosty.to/helio",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "higinafri",
+      "name": "Дима Маслов",
+      "boostyUrl": "https://boosty.to/higinafri",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "hihikvadrat",
+      "name": "PA/DA | База собеседований",
+      "boostyUrl": "https://boosty.to/hihikvadrat",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "hiodollhouse",
+      "name": "Hio DollHouse",
+      "boostyUrl": "https://boosty.to/hiodollhouse",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "тестирование программного обеспечения"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "hotextruder",
+      "name": "Горячий Экструдер | 3D печать | 3D модели",
+      "boostyUrl": "https://boosty.to/hotextruder",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "how_todo",
+      "name": "How To Do",
+      "boostyUrl": "https://boosty.to/how_todo",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "how-to-learn-it",
+      "name": "Как пройти в IT?",
+      "boostyUrl": "https://boosty.to/how-to-learn-it",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT",
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "hugheyvr",
+      "name": "VR вселенная дядюшки Хьюи",
+      "boostyUrl": "https://boosty.to/hugheyvr",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "тестирование программного обеспечения"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "husky_trip",
+      "name": "Husky Trip | Глобтрекер",
+      "boostyUrl": "https://boosty.to/husky_trip",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "icher",
+      "name": "Иван Черняков",
+      "boostyUrl": "https://boosty.to/icher",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "igorszucs",
+      "name": "Игорь Сюч",
+      "boostyUrl": "https://boosty.to/igorszucs",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "кибербезопасность информационная безопасность"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "indiegamedevnikgames",
+      "name": "Banned",
+      "boostyUrl": "https://boosty.to/indiegamedevnikgames",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "ingamedev",
+      "name": "InGame Dev",
+      "boostyUrl": "https://boosty.to/ingamedev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "instrumentality",
+      "name": "Александр Мышанский",
+      "boostyUrl": "https://boosty.to/instrumentality",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "ios_dev",
+      "name": "iOS Dev IQ",
+      "boostyUrl": "https://boosty.to/ios_dev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "iosskills",
+      "name": "Константин",
+      "boostyUrl": "https://boosty.to/iosskills",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "isms8020",
+      "name": "Andrey Prozorov",
+      "boostyUrl": "https://boosty.to/isms8020",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT",
+        "кибербезопасность информационная безопасность"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "it_run",
+      "name": "IT RUN",
+      "boostyUrl": "https://boosty.to/it_run",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "it_start",
+      "name": "IT Start",
+      "boostyUrl": "https://boosty.to/it_start",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "itdoctor",
+      "name": "Исмаил Усеинов",
+      "boostyUrl": "https://boosty.to/itdoctor",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "ithueti",
+      "name": "Антон C++",
+      "boostyUrl": "https://boosty.to/ithueti",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "excluded",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "itkamasutra",
+      "name": "IT-KAMASUTRA",
+      "boostyUrl": "https://boosty.to/itkamasutra",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "itlobby",
+      "name": "IT Lobby Boosty ✅",
+      "boostyUrl": "https://boosty.to/itlobby",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "аналитика данных Python SQL data science"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "itrostik",
+      "name": "itrostik",
+      "boostyUrl": "https://boosty.to/itrostik",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "itzashitaru",
+      "name": "Елена Артамонова",
+      "boostyUrl": "https://boosty.to/itzashitaru",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT",
+        "кибербезопасность информационная безопасность"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "ivol",
+      "name": "ivol",
+      "boostyUrl": "https://boosty.to/ivol",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "fetch-error",
+      "fetchError": "HTTP 404 for https://api.boosty.to/v1/blog/ivol",
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "java-box",
+      "name": "Максим Подкорытов",
+      "boostyUrl": "https://boosty.to/java-box",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "javadaddy",
+      "name": "JavaDaddy",
+      "boostyUrl": "https://boosty.to/javadaddy",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "jlsd",
+      "name": "John LapTev (JL)",
+      "boostyUrl": "https://boosty.to/jlsd",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "kass2010",
+      "name": "Kass2010",
+      "boostyUrl": "https://boosty.to/kass2010",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "kate_systemanalyst",
+      "name": "Системный анализ IT | Катя желатинка",
+      "boostyUrl": "https://boosty.to/kate_systemanalyst",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "kiberdruzhinnik",
+      "name": "Константин Романов",
+      "boostyUrl": "https://boosty.to/kiberdruzhinnik",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "kind_foxie",
+      "name": "Хороший Лисичко",
+      "boostyUrl": "https://boosty.to/kind_foxie",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "kirillinguss",
+      "name": "Kirillinguss | Кирилл Аникин",
+      "boostyUrl": "https://boosty.to/kirillinguss",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "kirya522",
+      "name": "Kirill Grishchuk",
+      "boostyUrl": "https://boosty.to/kirya522",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "konstantin_mamaev",
+      "name": "Константин Мамаев",
+      "boostyUrl": "https://boosty.to/konstantin_mamaev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "korsakov",
+      "name": "Korsakov_Anton",
+      "boostyUrl": "https://boosty.to/korsakov",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "krylovalex",
+      "name": "Aleksandr Krylov",
+      "boostyUrl": "https://boosty.to/krylovalex",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "kuriles",
+      "name": "No_Name",
+      "boostyUrl": "https://boosty.to/kuriles",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "laravelcreative",
+      "name": "Laravel Creative",
+      "boostyUrl": "https://boosty.to/laravelcreative",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "laschool",
+      "name": "seniorcat",
+      "boostyUrl": "https://boosty.to/laschool",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "le.nart",
+      "name": "Le.nart",
+      "boostyUrl": "https://boosty.to/le.nart",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "liga_koiotov",
+      "name": "Liga Koiotov",
+      "boostyUrl": "https://boosty.to/liga_koiotov",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование",
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "lightcode",
+      "name": "Light Code",
+      "boostyUrl": "https://boosty.to/lightcode",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "linkmeup",
+      "name": "linkmeup",
+      "boostyUrl": "https://boosty.to/linkmeup",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "lliammah",
+      "name": "LLIaMMaH",
+      "boostyUrl": "https://boosty.to/lliammah",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "lowcodingdev",
+      "name": "Клуб Грязного Ноукодера",
+      "boostyUrl": "https://boosty.to/lowcodingdev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "luchanos",
+      "name": "luchanos",
+      "boostyUrl": "https://boosty.to/luchanos",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "m_mihailov",
+      "name": "Михаил Михайлов",
+      "boostyUrl": "https://boosty.to/m_mihailov",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "m0rtymerr",
+      "name": "Осознанная Меркантильность | Антон Назаров",
+      "boostyUrl": "https://boosty.to/m0rtymerr",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "аналитика данных Python SQL data science",
+        "нейросети искусственный интеллект",
+        "предыдущий каталог",
+        "программирование",
+        "DevOps",
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "machine_learrrning",
+      "name": "Machine Learrrning",
+      "boostyUrl": "https://boosty.to/machine_learrrning",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "madteacher",
+      "name": "MADTeacher. Станислав Чернышев",
+      "boostyUrl": "https://boosty.to/madteacher",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mahenzon",
+      "name": "Сурен Хоренян",
+      "boostyUrl": "https://boosty.to/mahenzon",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "management_hub",
+      "name": "Management hub",
+      "boostyUrl": "https://boosty.to/management_hub",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mandarin27",
+      "name": "Powodz",
+      "boostyUrl": "https://boosty.to/mandarin27",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mansmarthome",
+      "name": "man smart-home",
+      "boostyUrl": "https://boosty.to/mansmarthome",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mastercond",
+      "name": "S.P.",
+      "boostyUrl": "https://boosty.to/mastercond",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "maxwellcoding",
+      "name": "Max Well",
+      "boostyUrl": "https://boosty.to/maxwellcoding",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mboard",
+      "name": "osysHome",
+      "boostyUrl": "https://boosty.to/mboard",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "megdu_skobok",
+      "name": "{ между скобок }",
+      "boostyUrl": "https://boosty.to/megdu_skobok",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "тестирование программного обеспечения"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "memasevich",
+      "name": "Jhon Memasevich",
+      "boostyUrl": "https://boosty.to/memasevich",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mflenov",
+      "name": "Програмысли",
+      "boostyUrl": "https://boosty.to/mflenov",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "michaelbel",
+      "name": "Android | Михаил Белый",
+      "boostyUrl": "https://boosty.to/michaelbel",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mike-flow.off",
+      "name": "Михаил (Mike-Flow)",
+      "boostyUrl": "https://boosty.to/mike-flow.off",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mindgroup",
+      "name": "MindGroup",
+      "boostyUrl": "https://boosty.to/mindgroup",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mnemonix",
+      "name": "MnemoniX",
+      "boostyUrl": "https://boosty.to/mnemonix",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mobiledev",
+      "name": "Mobile Developer",
+      "boostyUrl": "https://boosty.to/mobiledev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "morethancode",
+      "name": "MoreThanCode",
+      "boostyUrl": "https://boosty.to/morethancode",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "аналитика данных Python SQL data science"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "morinad",
+      "name": "morinad",
+      "boostyUrl": "https://boosty.to/morinad",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps",
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mrcybersec",
+      "name": "MrCyberSec",
+      "boostyUrl": "https://boosty.to/mrcybersec",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mrteamlead",
+      "name": "MrTeamlead",
+      "boostyUrl": "https://boosty.to/mrteamlead",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "mycreativityalexrus",
+      "name": "AlexRus",
+      "boostyUrl": "https://boosty.to/mycreativityalexrus",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "myspacet_",
+      "name": "Таня Румянцева PRO Нейросети",
+      "boostyUrl": "https://boosty.to/myspacet_",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "neurogen",
+      "name": "Neurogen",
+      "boostyUrl": "https://boosty.to/neurogen",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "neurorazvedka",
+      "name": "НЕЙРОРАЗВЕДКА | Dmitriy $. Oganessov",
+      "boostyUrl": "https://boosty.to/neurorazvedka",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект",
+        "предыдущий каталог",
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "neurostocker",
+      "name": "Алиса Цыганкова",
+      "boostyUrl": "https://boosty.to/neurostocker",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "nevskiyart",
+      "name": "Дмитрий Невский",
+      "boostyUrl": "https://boosty.to/nevskiyart",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "nexls",
+      "name": "Big Data Котики",
+      "boostyUrl": "https://boosty.to/nexls",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "neyrograph",
+      "name": "⭐️⭐️⭐️⭐️⭐️",
+      "boostyUrl": "https://boosty.to/neyrograph",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "nikolay-pavlin",
+      "name": "Николай Павлин",
+      "boostyUrl": "https://boosty.to/nikolay-pavlin",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "nikolay.tuzov",
+      "name": "Николай Тузов",
+      "boostyUrl": "https://boosty.to/nikolay.tuzov",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "notopsofficial",
+      "name": "NotOps",
+      "boostyUrl": "https://boosty.to/notopsofficial",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "notsystemanalysis",
+      "name": "(Не)Системная аналитика",
+      "boostyUrl": "https://boosty.to/notsystemanalysis",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "nyamops",
+      "name": "Nyamops",
+      "boostyUrl": "https://boosty.to/nyamops",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "oblivion_studio_games",
+      "name": "OBLIVION STUDIO GAMES ",
+      "boostyUrl": "https://boosty.to/oblivion_studio_games",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "obwebdev",
+      "name": "OB Web Dev",
+      "boostyUrl": "https://boosty.to/obwebdev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "olezhek28",
+      "name": "Oleg Kozyrev",
+      "boostyUrl": "https://boosty.to/olezhek28",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "omolchanov",
+      "name": "Oleg Molchanov",
+      "boostyUrl": "https://boosty.to/omolchanov",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование",
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "onegamerstory",
+      "name": "История Одного Геймера",
+      "boostyUrl": "https://boosty.to/onegamerstory",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "osoznaniepro",
+      "name": "Младковский Д.",
+      "boostyUrl": "https://boosty.to/osoznaniepro",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "кибербезопасность информационная безопасность"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "overridetech",
+      "name": "OverrideTech",
+      "boostyUrl": "https://boosty.to/overridetech",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "pavel-i-tel",
+      "name": "Pavel-i-tel",
+      "boostyUrl": "https://boosty.to/pavel-i-tel",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "pavelsorokin",
+      "name": "Павел Сорокин",
+      "boostyUrl": "https://boosty.to/pavelsorokin",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "pavlenkoat",
+      "name": "Антон Павленко",
+      "boostyUrl": "https://boosty.to/pavlenkoat",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "pc-01",
+      "name": "Этот Компьютер",
+      "boostyUrl": "https://boosty.to/pc-01",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "pitfalls.ru",
+      "name": "Pitfalls.ru",
+      "boostyUrl": "https://boosty.to/pitfalls.ru",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "poordev",
+      "name": "Геймдев для бедных",
+      "boostyUrl": "https://boosty.to/poordev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "posedelv1c",
+      "name": "Поседевший в 1С",
+      "boostyUrl": "https://boosty.to/posedelv1c",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "postnauka",
+      "name": "ПостНаука",
+      "boostyUrl": "https://boosty.to/postnauka",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "pragmatic_programmer",
+      "name": "Pragmatic Programmer",
+      "boostyUrl": "https://boosty.to/pragmatic_programmer",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "progmangame",
+      "name": "Progman Game",
+      "boostyUrl": "https://boosty.to/progmangame",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "proib",
+      "name": "Сергей Борисов",
+      "boostyUrl": "https://boosty.to/proib",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT",
+        "кибербезопасность информационная безопасность"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "proobzory",
+      "name": "Роман Домнин",
+      "boostyUrl": "https://boosty.to/proobzory",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "prostorazrabotka",
+      "name": "Просто: разработка",
+      "boostyUrl": "https://boosty.to/prostorazrabotka",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "proudhorsegames",
+      "name": "ProudHorse Games",
+      "boostyUrl": "https://boosty.to/proudhorsegames",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "python_russian",
+      "name": "Python Russian",
+      "boostyUrl": "https://boosty.to/python_russian",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT",
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "pythonguru",
+      "name": "Если учить Python, то только у нас🐍",
+      "boostyUrl": "https://boosty.to/pythonguru",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "pythontoday",
+      "name": "[PYTHON:TODAY]",
+      "boostyUrl": "https://boosty.to/pythontoday",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "qa_notes",
+      "name": "Люба Вострикова",
+      "boostyUrl": "https://boosty.to/qa_notes",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "qa_pop",
+      "name": "Алена QA-Pop",
+      "boostyUrl": "https://boosty.to/qa_pop",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "qsymond",
+      "name": "Евгений Л.",
+      "boostyUrl": "https://boosty.to/qsymond",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "rak_vojak",
+      "name": "Рак-Вожак",
+      "boostyUrl": "https://boosty.to/rak_vojak",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "кибербезопасность информационная безопасность"
+      ],
+      "reviewStatus": "excluded",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "red-neural",
+      "name": "Red Neural",
+      "boostyUrl": "https://boosty.to/red-neural",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "redroverschool",
+      "name": "RedRover.School",
+      "boostyUrl": "https://boosty.to/redroverschool",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "roadtosenior",
+      "name": "Путь к Senior-у",
+      "boostyUrl": "https://boosty.to/roadtosenior",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "robotics_programming",
+      "name": "Андрей Корягин",
+      "boostyUrl": "https://boosty.to/robotics_programming",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование",
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "ruaqa",
+      "name": "ruaqa",
+      "boostyUrl": "https://boosty.to/ruaqa",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "fetch-error",
+      "fetchError": "HTTP 404 for https://api.boosty.to/v1/blog/ruaqa",
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "rubezh",
+      "name": "Студия Рубеж",
+      "boostyUrl": "https://boosty.to/rubezh",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "rublev13",
+      "name": "Ilya Rublev",
+      "boostyUrl": "https://boosty.to/rublev13",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "кибербезопасность информационная безопасность",
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "rudimbo",
+      "name": "ruDimbo",
+      "boostyUrl": "https://boosty.to/rudimbo",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "rushankh",
+      "name": "Рушан Хабибуллин",
+      "boostyUrl": "https://boosty.to/rushankh",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "ruslan_shishmarev",
+      "name": "Руслан Шишмарев",
+      "boostyUrl": "https://boosty.to/ruslan_shishmarev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "russian_osint",
+      "name": "Russian OSINT",
+      "boostyUrl": "https://boosty.to/russian_osint",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "кибербезопасность информационная безопасность"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "rzv_de",
+      "name": "rzv Data Engineering",
+      "boostyUrl": "https://boosty.to/rzv_de",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "sa_sobes",
+      "name": "Собеседования | Pro",
+      "boostyUrl": "https://boosty.to/sa_sobes",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT",
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "sacreddev",
+      "name": "SACRED DEVELOPER",
+      "boostyUrl": "https://boosty.to/sacreddev",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "sashokgorshok",
+      "name": "Александр Яковлев PHP/GO",
+      "boostyUrl": "https://boosty.to/sashokgorshok",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "scinquisitor",
+      "name": "Александр Панчин",
+      "boostyUrl": "https://boosty.to/scinquisitor",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "secretsofyoutuber",
+      "name": "Секреты ЮТУБЕРА",
+      "boostyUrl": "https://boosty.to/secretsofyoutuber",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "semi_png",
+      "name": "Полупрозрачное",
+      "boostyUrl": "https://boosty.to/semi_png",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "senior1c",
+      "name": "С нуля до Senior 1С",
+      "boostyUrl": "https://boosty.to/senior1c",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "shcoder",
+      "name": "Shcoder",
+      "boostyUrl": "https://boosty.to/shcoder",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "shiiisha_i",
+      "name": "Shiiisha_i",
+      "boostyUrl": "https://boosty.to/shiiisha_i",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "skillsmart",
+      "name": "Serge Bobrovsky",
+      "boostyUrl": "https://boosty.to/skillsmart",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "slexboy",
+      "name": "SleXboy",
+      "boostyUrl": "https://boosty.to/slexboy",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "slsys",
+      "name": "SLS - Smart Logic System",
+      "boostyUrl": "https://boosty.to/slsys",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "soaqa",
+      "name": "Богдан Соловьёв",
+      "boostyUrl": "https://boosty.to/soaqa",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "sobesdevops",
+      "name": "DevOps Cобеседования",
+      "boostyUrl": "https://boosty.to/sobesdevops",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "sobolevn",
+      "name": "sobolevn",
+      "boostyUrl": "https://boosty.to/sobolevn",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "solizarevich",
+      "name": "Сергей Олизаревич",
+      "boostyUrl": "https://boosty.to/solizarevich",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "somestay",
+      "name": "Тимур Чеберда",
+      "boostyUrl": "https://boosty.to/somestay",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект",
+        "предыдущий каталог",
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "somethingaboutdeinterviews",
+      "name": "Banned",
+      "boostyUrl": "https://boosty.to/somethingaboutdeinterviews",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "soxoj",
+      "name": "OSINT mindset",
+      "boostyUrl": "https://boosty.to/soxoj",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "sprut666666",
+      "name": "Sprut",
+      "boostyUrl": "https://boosty.to/sprut666666",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "sqatraining",
+      "name": "SQA Training",
+      "boostyUrl": "https://boosty.to/sqatraining",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "тестирование программного обеспечения"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "stabledif",
+      "name": "OreX",
+      "boostyUrl": "https://boosty.to/stabledif",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "stevelasmin",
+      "name": "Steve Lasmin",
+      "boostyUrl": "https://boosty.to/stevelasmin",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "stilicho2011",
+      "name": "stilicho2011",
+      "boostyUrl": "https://boosty.to/stilicho2011",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "stravnik",
+      "name": "Из сисадмина в DevOps",
+      "boostyUrl": "https://boosty.to/stravnik",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "studio2k",
+      "name": "Сергей",
+      "boostyUrl": "https://boosty.to/studio2k",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "программирование",
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "study_swift",
+      "name": "Изучаем Swift",
+      "boostyUrl": "https://boosty.to/study_swift",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "svidetelwindows",
+      "name": "Свидетель Windows",
+      "boostyUrl": "https://boosty.to/svidetelwindows",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "excluded",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "svyat404",
+      "name": "Свят404",
+      "boostyUrl": "https://boosty.to/svyat404",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "swiftsimple",
+      "name": "SwiftSimple",
+      "boostyUrl": "https://boosty.to/swiftsimple",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "sxela",
+      "name": "Derp Learning",
+      "boostyUrl": "https://boosty.to/sxela",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "sysadmin-m",
+      "name": "Сисадмин Михалыч",
+      "boostyUrl": "https://boosty.to/sysadmin-m",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "systeminterviews",
+      "name": "System | Собеседования",
+      "boostyUrl": "https://boosty.to/systeminterviews",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "teamleadtalks",
+      "name": "Team Lead Talks",
+      "boostyUrl": "https://boosty.to/teamleadtalks",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "tensorbanana",
+      "name": "Tensor Banana",
+      "boostyUrl": "https://boosty.to/tensorbanana",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "tesmio",
+      "name": "Tesmio",
+      "boostyUrl": "https://boosty.to/tesmio",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "theswiftdevelopers",
+      "name": "Evgeny Zverik",
+      "boostyUrl": "https://boosty.to/theswiftdevelopers",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "theworldisnoteasy",
+      "name": "Малоизвестное интересное",
+      "boostyUrl": "https://boosty.to/theworldisnoteasy",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "tired_glebmikheev",
+      "name": "Уставший техдир",
+      "boostyUrl": "https://boosty.to/tired_glebmikheev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "кибербезопасность информационная безопасность"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "titanovsky",
+      "name": "Titanovsky",
+      "boostyUrl": "https://boosty.to/titanovsky",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "torpedv",
+      "name": "TORPEDV",
+      "boostyUrl": "https://boosty.to/torpedv",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "tryoutonadancefloor",
+      "name": "На собесе как на танцполе",
+      "boostyUrl": "https://boosty.to/tryoutonadancefloor",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "twain",
+      "name": "Max Twain",
+      "boostyUrl": "https://boosty.to/twain",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "ulbitv",
+      "name": "Ulbi TV",
+      "boostyUrl": "https://boosty.to/ulbitv",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "urusoff",
+      "name": "Notes about Java",
+      "boostyUrl": "https://boosty.to/urusoff",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "usecase",
+      "name": "Изнанка UI/UX дизайна",
+      "boostyUrl": "https://boosty.to/usecase",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "usefulwebit",
+      "name": "Useful Web",
+      "boostyUrl": "https://boosty.to/usefulwebit",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "vaevictis",
+      "name": "Vae Victis, Данил!",
+      "boostyUrl": "https://boosty.to/vaevictis",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "vasily.ai",
+      "name": "vasily.ai",
+      "boostyUrl": "https://boosty.to/vasily.ai",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "vdudvdud",
+      "name": "вДудь",
+      "boostyUrl": "https://boosty.to/vdudvdud",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "virfliveproductions",
+      "name": "VirF Live Productions",
+      "boostyUrl": "https://boosty.to/virfliveproductions",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "vitalib",
+      "name": "Vitali B",
+      "boostyUrl": "https://boosty.to/vitalib",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "тестирование программного обеспечения"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "vitvit",
+      "name": "Виталий Попов / Стартапы из первых рук",
+      "boostyUrl": "https://boosty.to/vitvit",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "vivid-bw",
+      "name": "Aleksey Malov",
+      "boostyUrl": "https://boosty.to/vivid-bw",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "vladimir_v_it",
+      "name": "Vladimir_Nevzorov",
+      "boostyUrl": "https://boosty.to/vladimir_v_it",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "vshka",
+      "name": "Вышка",
+      "boostyUrl": "https://boosty.to/vshka",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "wa-http-api",
+      "name": "WAHA - WhatsApp HTTP API",
+      "boostyUrl": "https://boosty.to/wa-http-api",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "wealthygamedev",
+      "name": "Состоятельный геймдев",
+      "boostyUrl": "https://boosty.to/wealthygamedev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "wihome",
+      "name": "wihome",
+      "boostyUrl": "https://boosty.to/wihome",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT",
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "wunjo",
+      "name": "Wunjo",
+      "boostyUrl": "https://boosty.to/wunjo",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "xpuct",
+      "name": "Хачатур",
+      "boostyUrl": "https://boosty.to/xpuct",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "yacobaca",
+      "name": "Одноглазый Змей",
+      "boostyUrl": "https://boosty.to/yacobaca",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "Python"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "yakorqa",
+      "name": "Яна о Карьере в IT | Тестирование ПО",
+      "boostyUrl": "https://boosty.to/yakorqa",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "yakovlevgamedev",
+      "name": "Яковлев Илья | Gamedev",
+      "boostyUrl": "https://boosty.to/yakovlevgamedev",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "веб-поиск Boosty IT"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "yamalkevich",
+      "name": "Egor Malkevich",
+      "boostyUrl": "https://boosty.to/yamalkevich",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "youdeveloper",
+      "name": "You Developer",
+      "boostyUrl": "https://boosty.to/youdeveloper",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "zakharday",
+      "name": "zakharday",
+      "boostyUrl": "https://boosty.to/zakharday",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "zako",
+      "name": "Матвей Слотвинский (Zako)",
+      "boostyUrl": "https://boosty.to/zako",
+      "discoverySource": "Предыдущий каталог + поисковые системы",
+      "discoveryQueries": [
+        "предыдущий каталог",
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "zapuskzavtra",
+      "name": "Запуск Завтра",
+      "boostyUrl": "https://boosty.to/zapuskzavtra",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "программирование"
+      ],
+      "reviewStatus": "published",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "zarabotay_dengi",
+      "name": "Lera Brileva",
+      "boostyUrl": "https://boosty.to/zarabotay_dengi",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "нейросети искусственный интеллект"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    },
+    {
+      "slug": "zerodaily",
+      "name": "zerodaily",
+      "boostyUrl": "https://boosty.to/zerodaily",
+      "discoverySource": "Boostys.ru / поисковые системы",
+      "discoveryQueries": [
+        "DevOps"
+      ],
+      "reviewStatus": "unqualified",
+      "fetchError": null,
+      "firstSeenAt": "2026-07-26",
+      "lastCheckedAt": "2026-07-26"
+    }
+  ]
+}

@@ -1,0 +1,1595 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-07-26",
+  "channels": [
+    {
+      "slug": "notsystemanalysis",
+      "subscribers": 76,
+      "minPriceRub": 400,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-17T06:52:20.000Z"
+    },
+    {
+      "slug": "pythontoday",
+      "subscribers": 681,
+      "minPriceRub": 350,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-09-29T13:25:55.000Z"
+    },
+    {
+      "slug": "megdu_skobok",
+      "subscribers": 139,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-06-21T12:18:36.000Z"
+    },
+    {
+      "slug": "neyrograph",
+      "subscribers": 4204,
+      "minPriceRub": 750,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-26T08:48:08.000Z"
+    },
+    {
+      "slug": "1s_basa",
+      "subscribers": 7,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-05-07T14:33:58.000Z"
+    },
+    {
+      "slug": "fonatik_kabal",
+      "subscribers": 66,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-03-25T06:50:20.000Z"
+    },
+    {
+      "slug": "abarmin",
+      "subscribers": 9,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-01-12T14:32:23.000Z"
+    },
+    {
+      "slug": "friendly-frontend",
+      "subscribers": 313,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-01-30T06:00:00.000Z"
+    },
+    {
+      "slug": "instrumentality",
+      "subscribers": 21,
+      "minPriceRub": 1080,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-20T07:31:57.000Z"
+    },
+    {
+      "slug": "bedev",
+      "subscribers": 119,
+      "minPriceRub": 1000,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-08-22T11:03:29.000Z"
+    },
+    {
+      "slug": "alsshade",
+      "subscribers": 143,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-05-28T15:25:57.000Z"
+    },
+    {
+      "slug": "sashokgorshok",
+      "subscribers": 92,
+      "minPriceRub": 1000,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-10T14:22:21.000Z"
+    },
+    {
+      "slug": "frontendtales",
+      "subscribers": 1,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-05-09T22:13:37.000Z"
+    },
+    {
+      "slug": "aleks-trofimov",
+      "subscribers": 3,
+      "minPriceRub": 199,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-12-10T05:00:00.000Z"
+    },
+    {
+      "slug": "qa_pop",
+      "subscribers": 24,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-11-13T08:20:00.000Z"
+    },
+    {
+      "slug": "robotics_programming",
+      "subscribers": 16,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-06-08T04:58:23.000Z"
+    },
+    {
+      "slug": "aifilmmaker",
+      "subscribers": 106,
+      "minPriceRub": 400,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-05T11:15:00.000Z"
+    },
+    {
+      "slug": "asozykin",
+      "subscribers": 191,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-07T04:32:53.000Z"
+    },
+    {
+      "slug": "annblok",
+      "subscribers": 586,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-02T08:16:39.000Z"
+    },
+    {
+      "slug": "pavlenkoat",
+      "subscribers": 72,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-08-06T06:27:53.000Z"
+    },
+    {
+      "slug": "egoroff_channel",
+      "subscribers": 1038,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2022-06-23T21:06:35.000Z"
+    },
+    {
+      "slug": "artemshumeiko",
+      "subscribers": 482,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-06-12T11:27:00.000Z"
+    },
+    {
+      "slug": "bigkaa",
+      "subscribers": 634,
+      "minPriceRub": 400,
+      "minPromoPriceRub": 680,
+      "lastPostAt": "2026-07-15T14:41:27.000Z"
+    },
+    {
+      "slug": "arhaika",
+      "subscribers": 42,
+      "minPriceRub": 99,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-22T14:13:04.000Z"
+    },
+    {
+      "slug": "bugctf",
+      "subscribers": 7,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-19T07:41:39.000Z"
+    },
+    {
+      "slug": "soaqa",
+      "subscribers": 6606,
+      "minPriceRub": 100,
+      "minPromoPriceRub": 140,
+      "lastPostAt": "2026-07-18T16:13:12.000Z"
+    },
+    {
+      "slug": "buryi",
+      "subscribers": 84,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-16T17:29:27.000Z"
+    },
+    {
+      "slug": "vitvit",
+      "subscribers": 4,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-12-27T18:18:45.000Z"
+    },
+    {
+      "slug": "vshka",
+      "subscribers": 495,
+      "minPriceRub": 990,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-21T13:27:57.000Z"
+    },
+    {
+      "slug": "poordev",
+      "subscribers": 10,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2022-03-13T22:11:27.000Z"
+    },
+    {
+      "slug": "burning_tester",
+      "subscribers": 31,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-04-20T13:22:43.000Z"
+    },
+    {
+      "slug": "chilldevops",
+      "subscribers": 1392,
+      "minPriceRub": 199,
+      "minPromoPriceRub": 150,
+      "lastPostAt": "2026-07-21T10:35:13.000Z"
+    },
+    {
+      "slug": "denis_holmov",
+      "subscribers": 19,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-11-19T06:35:47.000Z"
+    },
+    {
+      "slug": "digitalize.team",
+      "subscribers": 212,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-11-28T00:18:14.000Z"
+    },
+    {
+      "slug": "design_is_simple",
+      "subscribers": 23,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-03-26T08:10:48.000Z"
+    },
+    {
+      "slug": "higinafri",
+      "subscribers": 36,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-09-28T09:37:41.000Z"
+    },
+    {
+      "slug": "dmosk",
+      "subscribers": 22,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-11-20T18:09:44.000Z"
+    },
+    {
+      "slug": "nevskiyart",
+      "subscribers": 1082,
+      "minPriceRub": 50,
+      "minPromoPriceRub": 263,
+      "lastPostAt": "2026-07-20T06:00:00.000Z"
+    },
+    {
+      "slug": "itzashitaru",
+      "subscribers": 6,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-09-09T14:59:10.000Z"
+    },
+    {
+      "slug": "pythonguru",
+      "subscribers": 314,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2022-03-26T17:06:55.000Z"
+    },
+    {
+      "slug": "zapuskzavtra",
+      "subscribers": 58,
+      "minPriceRub": 249,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-14T17:51:15.000Z"
+    },
+    {
+      "slug": "icher",
+      "subscribers": 576,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-17T16:22:22.000Z"
+    },
+    {
+      "slug": "stravnik",
+      "subscribers": 193,
+      "minPriceRub": 499,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-04-14T10:16:53.000Z"
+    },
+    {
+      "slug": "study_swift",
+      "subscribers": 15,
+      "minPriceRub": 100,
+      "minPromoPriceRub": 70,
+      "lastPostAt": "2023-08-06T12:39:29.000Z"
+    },
+    {
+      "slug": "itdoctor",
+      "subscribers": 331,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-25T09:00:00.000Z"
+    },
+    {
+      "slug": "how-to-learn-it",
+      "subscribers": 536,
+      "minPriceRub": 99,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-04-14T22:15:49.000Z"
+    },
+    {
+      "slug": "anestesia-tech",
+      "subscribers": 37,
+      "minPriceRub": 250,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-05-13T17:44:56.000Z"
+    },
+    {
+      "slug": "booksclub",
+      "subscribers": 19,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-05-17T13:26:09.000Z"
+    },
+    {
+      "slug": "codik",
+      "subscribers": 11,
+      "minPriceRub": 499,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-12-02T19:46:59.000Z"
+    },
+    {
+      "slug": "adept-ecommerce",
+      "subscribers": 7,
+      "minPriceRub": 2890,
+      "minPromoPriceRub": 2312,
+      "lastPostAt": "2026-04-23T23:21:05.000Z"
+    },
+    {
+      "slug": "iosskills",
+      "subscribers": 137,
+      "minPriceRub": 350,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-08-18T05:46:27.000Z"
+    },
+    {
+      "slug": "konstantin_mamaev",
+      "subscribers": 14,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-01-14T19:00:40.000Z"
+    },
+    {
+      "slug": "kiberdruzhinnik",
+      "subscribers": 112,
+      "minPriceRub": 1500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-24T15:30:00.000Z"
+    },
+    {
+      "slug": "qa_notes",
+      "subscribers": 6,
+      "minPriceRub": 590,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-08T17:15:10.000Z"
+    },
+    {
+      "slug": "java-box",
+      "subscribers": 15,
+      "minPriceRub": 10,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-16T08:07:27.000Z"
+    },
+    {
+      "slug": "theworldisnoteasy",
+      "subscribers": 393,
+      "minPriceRub": 190,
+      "minPromoPriceRub": 143,
+      "lastPostAt": "2026-07-25T14:12:56.000Z"
+    },
+    {
+      "slug": "zako",
+      "subscribers": 438,
+      "minPriceRub": 199,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-11-12T21:30:34.000Z"
+    },
+    {
+      "slug": "osoznaniepro",
+      "subscribers": 34,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-11-11T06:56:05.000Z"
+    },
+    {
+      "slug": "tryoutonadancefloor",
+      "subscribers": 28,
+      "minPriceRub": 1000,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-10-15T12:35:24.000Z"
+    },
+    {
+      "slug": "neurorazvedka",
+      "subscribers": 77,
+      "minPriceRub": 100,
+      "minPromoPriceRub": 75,
+      "lastPostAt": "2026-07-25T15:26:27.000Z"
+    },
+    {
+      "slug": "dmitriy_yiu",
+      "subscribers": 11,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-09-06T05:33:51.000Z"
+    },
+    {
+      "slug": "nikolay-pavlin",
+      "subscribers": 118,
+      "minPriceRub": 175,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-21T17:14:40.000Z"
+    },
+    {
+      "slug": "nikolay.tuzov",
+      "subscribers": 215,
+      "minPriceRub": 1000,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-12-02T00:31:47.000Z"
+    },
+    {
+      "slug": "yacobaca",
+      "subscribers": 1576,
+      "minPriceRub": 170,
+      "minPromoPriceRub": 640,
+      "lastPostAt": "2026-07-17T15:00:00.000Z"
+    },
+    {
+      "slug": "m0rtymerr",
+      "subscribers": 32743,
+      "minPriceRub": 250,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-25T15:57:21.000Z"
+    },
+    {
+      "slug": "pavelsorokin",
+      "subscribers": 10,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-03-24T11:54:07.000Z"
+    },
+    {
+      "slug": "semi_png",
+      "subscribers": 50,
+      "minPriceRub": 567,
+      "minPromoPriceRub": 2243,
+      "lastPostAt": "2026-06-30T22:18:49.000Z"
+    },
+    {
+      "slug": "posedelv1c",
+      "subscribers": 271,
+      "minPriceRub": 149,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-16T06:56:23.000Z"
+    },
+    {
+      "slug": "mflenov",
+      "subscribers": 1085,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-24T15:25:00.000Z"
+    },
+    {
+      "slug": "prostorazrabotka",
+      "subscribers": 37,
+      "minPriceRub": 199,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2021-03-16T10:04:30.000Z"
+    },
+    {
+      "slug": "roadtosenior",
+      "subscribers": 52,
+      "minPriceRub": 333,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-09-16T11:51:21.000Z"
+    },
+    {
+      "slug": "proobzory",
+      "subscribers": 20,
+      "minPriceRub": 50,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-24T19:24:17.000Z"
+    },
+    {
+      "slug": "rushankh",
+      "subscribers": 3,
+      "minPriceRub": 499,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-08-08T14:35:52.000Z"
+    },
+    {
+      "slug": "bbofur",
+      "subscribers": 39,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-06-26T06:58:27.000Z"
+    },
+    {
+      "slug": "escaped_ai",
+      "subscribers": 627,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-24T16:53:20.000Z"
+    },
+    {
+      "slug": "svyat404",
+      "subscribers": 15,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-08-30T10:50:41.000Z"
+    },
+    {
+      "slug": "secretsofyoutuber",
+      "subscribers": 325,
+      "minPriceRub": 50,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-08-11T18:39:34.000Z"
+    },
+    {
+      "slug": "studio2k",
+      "subscribers": 4,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-02-28T05:44:06.000Z"
+    },
+    {
+      "slug": "proib",
+      "subscribers": 86,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-11-25T15:15:27.000Z"
+    },
+    {
+      "slug": "calabonga",
+      "subscribers": 106,
+      "minPriceRub": 188,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-25T08:41:00.000Z"
+    },
+    {
+      "slug": "sysadmin-m",
+      "subscribers": 164,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-02-09T10:31:06.000Z"
+    },
+    {
+      "slug": "kate_systemanalyst",
+      "subscribers": 227,
+      "minPriceRub": 350,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-24T12:41:25.000Z"
+    },
+    {
+      "slug": "sa_sobes",
+      "subscribers": 602,
+      "minPriceRub": 1200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-22T20:20:16.000Z"
+    },
+    {
+      "slug": "wealthygamedev",
+      "subscribers": 119,
+      "minPriceRub": 449,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-16T15:11:03.000Z"
+    },
+    {
+      "slug": "frezycode",
+      "subscribers": 224,
+      "minPriceRub": 199,
+      "minPromoPriceRub": 100,
+      "lastPostAt": "2026-03-09T07:22:54.000Z"
+    },
+    {
+      "slug": "mahenzon",
+      "subscribers": 247,
+      "minPriceRub": 210,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-04-12T20:25:49.000Z"
+    },
+    {
+      "slug": "coreforgelabs",
+      "subscribers": 30,
+      "minPriceRub": 50,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-15T15:45:51.000Z"
+    },
+    {
+      "slug": "myspacet_",
+      "subscribers": 28,
+      "minPriceRub": 400,
+      "minPromoPriceRub": 320,
+      "lastPostAt": "2026-01-25T21:14:50.000Z"
+    },
+    {
+      "slug": "somestay",
+      "subscribers": 1086,
+      "minPriceRub": 450,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-21T14:47:37.000Z"
+    },
+    {
+      "slug": "akosarev",
+      "subscribers": 107,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-23T11:46:55.000Z"
+    },
+    {
+      "slug": "godotru",
+      "subscribers": 34,
+      "minPriceRub": 45,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-08-21T13:30:46.000Z"
+    },
+    {
+      "slug": "tired_glebmikheev",
+      "subscribers": 1,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-05-31T16:15:11.000Z"
+    },
+    {
+      "slug": "fsoky",
+      "subscribers": 20,
+      "minPriceRub": 15,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-08-11T16:10:43.000Z"
+    },
+    {
+      "slug": "xpuct",
+      "subscribers": 10333,
+      "minPriceRub": 800,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-17T10:29:19.000Z"
+    },
+    {
+      "slug": "edziqa",
+      "subscribers": 24,
+      "minPriceRub": 250,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-03-13T04:45:07.000Z"
+    },
+    {
+      "slug": "pc-01",
+      "subscribers": 400,
+      "minPriceRub": 50,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-16T12:59:09.000Z"
+    },
+    {
+      "slug": "yakovlevgamedev",
+      "subscribers": 49,
+      "minPriceRub": 149,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-07-02T11:37:29.000Z"
+    },
+    {
+      "slug": "den418dev",
+      "subscribers": 8,
+      "minPriceRub": 250,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-02-04T13:58:46.000Z"
+    },
+    {
+      "slug": "yakorqa",
+      "subscribers": 152,
+      "minPriceRub": 2800,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-19T15:57:57.000Z"
+    },
+    {
+      "slug": "adminguide",
+      "subscribers": 53,
+      "minPriceRub": 10,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-04-20T15:17:56.000Z"
+    },
+    {
+      "slug": "krylovalex",
+      "subscribers": 15,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-02-12T08:05:39.000Z"
+    },
+    {
+      "slug": "cyberscoper",
+      "subscribers": 6,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-01-21T01:30:18.000Z"
+    },
+    {
+      "slug": "vivid-bw",
+      "subscribers": 8,
+      "minPriceRub": 128,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-18T20:48:09.000Z"
+    },
+    {
+      "slug": "mycreativityalexrus",
+      "subscribers": 675,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-06-29T09:37:49.000Z"
+    },
+    {
+      "slug": "andrew_feed",
+      "subscribers": 795,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-22T16:13:45.000Z"
+    },
+    {
+      "slug": "isms8020",
+      "subscribers": 41,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-01-06T14:04:50.000Z"
+    },
+    {
+      "slug": "michaelbel",
+      "subscribers": 50,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-25T11:37:08.000Z"
+    },
+    {
+      "slug": "androidbroadcast",
+      "subscribers": 1786,
+      "minPriceRub": 300,
+      "minPromoPriceRub": 480,
+      "lastPostAt": "2026-07-21T17:03:26.000Z"
+    },
+    {
+      "slug": "android_live",
+      "subscribers": 1,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2021-04-28T08:16:12.000Z"
+    },
+    {
+      "slug": "archakov_blog",
+      "subscribers": 835,
+      "minPriceRub": 250,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-07-08T11:02:52.000Z"
+    },
+    {
+      "slug": "arduino",
+      "subscribers": 127,
+      "minPriceRub": 59,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-17T05:05:34.000Z"
+    },
+    {
+      "slug": "artsiomrusau",
+      "subscribers": 2646,
+      "minPriceRub": 250,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-10-01T13:59:00.000Z"
+    },
+    {
+      "slug": "artsiomrusau_qalife",
+      "subscribers": 21,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2021-08-23T20:13:29.000Z"
+    },
+    {
+      "slug": "atom-bi",
+      "subscribers": 3,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-12-24T17:39:13.000Z"
+    },
+    {
+      "slug": "backend-online",
+      "subscribers": 0,
+      "minPriceRub": 128,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2022-10-26T09:01:08.000Z"
+    },
+    {
+      "slug": "begeek",
+      "subscribers": 389,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-02-16T18:59:30.000Z"
+    },
+    {
+      "slug": "besconnect_boost",
+      "subscribers": 6,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-07T12:27:52.000Z"
+    },
+    {
+      "slug": "boxingmma",
+      "subscribers": 36,
+      "minPriceRub": 350,
+      "minPromoPriceRub": 298,
+      "lastPostAt": "2026-01-30T10:05:32.000Z"
+    },
+    {
+      "slug": "code_it",
+      "subscribers": 103,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-01-23T00:01:00.000Z"
+    },
+    {
+      "slug": "codextown",
+      "subscribers": 598,
+      "minPriceRub": 2500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-12-03T06:44:41.000Z"
+    },
+    {
+      "slug": "comrade-xl",
+      "subscribers": 898,
+      "minPriceRub": 280,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-24T09:37:27.000Z"
+    },
+    {
+      "slug": "entityfx",
+      "subscribers": 3,
+      "minPriceRub": 10,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-02-06T17:36:58.000Z"
+    },
+    {
+      "slug": "daddycoder",
+      "subscribers": 6,
+      "minPriceRub": 110000,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-04-26T16:01:26.000Z"
+    },
+    {
+      "slug": "ai_danila",
+      "subscribers": 2,
+      "minPriceRub": 990,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-03-24T13:08:03.000Z"
+    },
+    {
+      "slug": "dasha_ai_creator",
+      "subscribers": 4,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-06-30T13:11:45.000Z"
+    },
+    {
+      "slug": "deeplearningschool",
+      "subscribers": 161,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-21T17:39:06.000Z"
+    },
+    {
+      "slug": "deferpanic",
+      "subscribers": 32,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-05-15T09:19:45.000Z"
+    },
+    {
+      "slug": "denismasterherobrine",
+      "subscribers": 2692,
+      "minPriceRub": 50,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-11T11:29:01.000Z"
+    },
+    {
+      "slug": "deusops",
+      "subscribers": 1327,
+      "minPriceRub": 999,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-02-25T21:38:12.000Z"
+    },
+    {
+      "slug": "devboxops",
+      "subscribers": 45,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-07-18T13:00:00.000Z"
+    },
+    {
+      "slug": "sobesdevops",
+      "subscribers": 36,
+      "minPriceRub": 1000,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-03-02T15:35:18.000Z"
+    },
+    {
+      "slug": "devopskitchentalks",
+      "subscribers": 31,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-19T17:33:25.000Z"
+    },
+    {
+      "slug": "datagovernance",
+      "subscribers": 86,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-04-28T17:57:46.000Z"
+    },
+    {
+      "slug": "digital_train",
+      "subscribers": 12,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-07-28T21:58:27.000Z"
+    },
+    {
+      "slug": "dreamervr",
+      "subscribers": 32,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-05-22T12:10:30.000Z"
+    },
+    {
+      "slug": "yamalkevich",
+      "subscribers": 90,
+      "minPriceRub": 450,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-10-31T18:46:44.000Z"
+    },
+    {
+      "slug": "theswiftdevelopers",
+      "subscribers": 374,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-04-03T08:12:04.000Z"
+    },
+    {
+      "slug": "cybersecurity",
+      "subscribers": 18,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-06-15T21:25:31.000Z"
+    },
+    {
+      "slug": "frontcoder",
+      "subscribers": 16,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-09-13T12:43:10.000Z"
+    },
+    {
+      "slug": "frontend_pashtet",
+      "subscribers": 69,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-09-13T09:52:38.000Z"
+    },
+    {
+      "slug": "frontenddevelop",
+      "subscribers": 4,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-11-27T17:52:54.000Z"
+    },
+    {
+      "slug": "gitcommit",
+      "subscribers": 3,
+      "minPriceRub": 10,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-17T16:43:20.000Z"
+    },
+    {
+      "slug": "golodnyj",
+      "subscribers": 47,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-10T13:20:10.000Z"
+    },
+    {
+      "slug": "gralue",
+      "subscribers": 29,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-15T20:03:48.000Z"
+    },
+    {
+      "slug": "go_start",
+      "subscribers": 279,
+      "minPriceRub": 499,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-08-14T10:27:20.000Z"
+    },
+    {
+      "slug": "rublev13",
+      "subscribers": 3336,
+      "minPriceRub": 199,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-25T00:23:03.000Z"
+    },
+    {
+      "slug": "dimov_ios",
+      "subscribers": 84,
+      "minPriceRub": 99,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-09-04T09:59:59.000Z"
+    },
+    {
+      "slug": "ios_dev",
+      "subscribers": 405,
+      "minPriceRub": 999,
+      "minPromoPriceRub": 450,
+      "lastPostAt": "2026-07-15T12:36:52.000Z"
+    },
+    {
+      "slug": "itlobby",
+      "subscribers": 2,
+      "minPriceRub": 77,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-06-02T21:38:08.000Z"
+    },
+    {
+      "slug": "it_run",
+      "subscribers": 211,
+      "minPriceRub": 49,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-11-26T19:23:02.000Z"
+    },
+    {
+      "slug": "it_start",
+      "subscribers": 64,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-04-04T06:00:22.000Z"
+    },
+    {
+      "slug": "itkamasutra",
+      "subscribers": 22,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-10-12T07:52:44.000Z"
+    },
+    {
+      "slug": "biz_maker",
+      "subscribers": 647,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-04-29T08:00:00.000Z"
+    },
+    {
+      "slug": "itrostik",
+      "subscribers": 408,
+      "minPriceRub": 99,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-06T08:52:51.000Z"
+    },
+    {
+      "slug": "javadaddy",
+      "subscribers": 244,
+      "minPriceRub": 1900,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-25T08:39:08.000Z"
+    },
+    {
+      "slug": "memasevich",
+      "subscribers": 2,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-13T11:28:21.000Z"
+    },
+    {
+      "slug": "jlsd",
+      "subscribers": 160,
+      "minPriceRub": 10,
+      "minPromoPriceRub": 600,
+      "lastPostAt": "2026-02-04T08:06:16.000Z"
+    },
+    {
+      "slug": "kirya522",
+      "subscribers": 80,
+      "minPriceRub": 399,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-04-08T18:14:45.000Z"
+    },
+    {
+      "slug": "korsakov",
+      "subscribers": 205,
+      "minPriceRub": 490,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-01-26T05:52:01.000Z"
+    },
+    {
+      "slug": "deyneko",
+      "subscribers": 4,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-01-05T12:10:36.000Z"
+    },
+    {
+      "slug": "laravelcreative",
+      "subscribers": 143,
+      "minPriceRub": 399,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-03-19T21:01:33.000Z"
+    },
+    {
+      "slug": "liga_koiotov",
+      "subscribers": 105,
+      "minPriceRub": 250,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-04-21T12:02:23.000Z"
+    },
+    {
+      "slug": "lightcode",
+      "subscribers": 70,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-09-28T14:21:19.000Z"
+    },
+    {
+      "slug": "linkmeup",
+      "subscribers": 151,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-22T11:05:21.000Z"
+    },
+    {
+      "slug": "lliammah",
+      "subscribers": 374,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-10-30T13:00:00.000Z"
+    },
+    {
+      "slug": "luchanos",
+      "subscribers": 178,
+      "minPriceRub": 50,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-05-24T00:35:42.000Z"
+    },
+    {
+      "slug": "madteacher",
+      "subscribers": 265,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-05-21T18:49:01.000Z"
+    },
+    {
+      "slug": "mansmarthome",
+      "subscribers": 41,
+      "minPriceRub": 130,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-23T08:50:00.000Z"
+    },
+    {
+      "slug": "management_hub",
+      "subscribers": 134,
+      "minPriceRub": 5000,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-24T12:30:15.000Z"
+    },
+    {
+      "slug": "maxwellcoding",
+      "subscribers": 18,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-05-05T15:57:43.000Z"
+    },
+    {
+      "slug": "mnemonix",
+      "subscribers": 118,
+      "minPriceRub": 149,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-11-06T17:56:37.000Z"
+    },
+    {
+      "slug": "morethancode",
+      "subscribers": 2,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-11-23T19:20:00.000Z"
+    },
+    {
+      "slug": "morinad",
+      "subscribers": 214,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-03-11T07:19:05.000Z"
+    },
+    {
+      "slug": "mrcybersec",
+      "subscribers": 34,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-03-15T14:37:21.000Z"
+    },
+    {
+      "slug": "mrteamlead",
+      "subscribers": 133,
+      "minPriceRub": 199,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-08-21T07:03:29.000Z"
+    },
+    {
+      "slug": "embroideryai",
+      "subscribers": 376,
+      "minPriceRub": 360,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-23T09:53:00.000Z"
+    },
+    {
+      "slug": "neurogen",
+      "subscribers": 2452,
+      "minPriceRub": 150,
+      "minPromoPriceRub": 2125,
+      "lastPostAt": "2026-07-25T13:03:08.000Z"
+    },
+    {
+      "slug": "denis-zlobin",
+      "subscribers": 113,
+      "minPriceRub": 10,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-21T07:56:35.000Z"
+    },
+    {
+      "slug": "ainikita",
+      "subscribers": 224,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-01-24T18:28:00.000Z"
+    },
+    {
+      "slug": "kuriles",
+      "subscribers": 39,
+      "minPriceRub": 200,
+      "minPromoPriceRub": 150,
+      "lastPostAt": "2024-03-25T14:58:33.000Z"
+    },
+    {
+      "slug": "urusoff",
+      "subscribers": 3,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-02-05T13:22:42.000Z"
+    },
+    {
+      "slug": "notopsofficial",
+      "subscribers": 27,
+      "minPriceRub": 50,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-01T20:48:22.000Z"
+    },
+    {
+      "slug": "nyamops",
+      "subscribers": 24,
+      "minPriceRub": 128,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-02-05T13:26:32.000Z"
+    },
+    {
+      "slug": "obwebdev",
+      "subscribers": 11,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-08-24T08:26:19.000Z"
+    },
+    {
+      "slug": "oblivion_studio_games",
+      "subscribers": 16,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-10-05T01:50:09.000Z"
+    },
+    {
+      "slug": "omolchanov",
+      "subscribers": 786,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-04-01T16:36:57.000Z"
+    },
+    {
+      "slug": "stabledif",
+      "subscribers": 8711,
+      "minPriceRub": 200,
+      "minPromoPriceRub": 160,
+      "lastPostAt": "2026-07-25T15:20:35.000Z"
+    },
+    {
+      "slug": "soxoj",
+      "subscribers": 16,
+      "minPriceRub": 250,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2022-10-23T11:10:23.000Z"
+    },
+    {
+      "slug": "mboard",
+      "subscribers": 14,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-24T10:11:32.000Z"
+    },
+    {
+      "slug": "overridetech",
+      "subscribers": 314,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-05-21T19:30:40.000Z"
+    },
+    {
+      "slug": "hihikvadrat",
+      "subscribers": 328,
+      "minPriceRub": 1790,
+      "minPromoPriceRub": 1343,
+      "lastPostAt": "2026-07-22T12:26:27.000Z"
+    },
+    {
+      "slug": "pragmatic_programmer",
+      "subscribers": 9,
+      "minPriceRub": 99,
+      "minPromoPriceRub": 299,
+      "lastPostAt": "2025-05-31T15:33:21.000Z"
+    },
+    {
+      "slug": "progmangame",
+      "subscribers": 164,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-12-26T16:38:39.000Z"
+    },
+    {
+      "slug": "python_russian",
+      "subscribers": 54,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-05-24T07:23:53.000Z"
+    },
+    {
+      "slug": "aklimenko",
+      "subscribers": 83,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-23T09:51:10.000Z"
+    },
+    {
+      "slug": "redroverschool",
+      "subscribers": 844,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-21T19:13:33.000Z"
+    },
+    {
+      "slug": "rudimbo",
+      "subscribers": 134,
+      "minPriceRub": 199,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-10-20T15:06:17.000Z"
+    },
+    {
+      "slug": "russian_osint",
+      "subscribers": 403,
+      "minPriceRub": 199,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2021-08-27T19:22:38.000Z"
+    },
+    {
+      "slug": "rzv_de",
+      "subscribers": 235,
+      "minPriceRub": 240,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-12-19T09:22:34.000Z"
+    },
+    {
+      "slug": "sacreddev",
+      "subscribers": 15,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-05-17T10:45:04.000Z"
+    },
+    {
+      "slug": "cyberpentestlab",
+      "subscribers": 18,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-29T23:05:41.000Z"
+    },
+    {
+      "slug": "laschool",
+      "subscribers": 4,
+      "minPriceRub": 5000,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-08-20T08:37:47.000Z"
+    },
+    {
+      "slug": "shcoder",
+      "subscribers": 172,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-07T12:34:00.000Z"
+    },
+    {
+      "slug": "slexboy",
+      "subscribers": 20,
+      "minPriceRub": 120,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2022-12-18T17:57:56.000Z"
+    },
+    {
+      "slug": "slsys",
+      "subscribers": 729,
+      "minPriceRub": 90,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-05T11:36:08.000Z"
+    },
+    {
+      "slug": "sobolevn",
+      "subscribers": 214,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-01-27T13:15:32.000Z"
+    },
+    {
+      "slug": "sprut666666",
+      "subscribers": 341,
+      "minPriceRub": 666,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-28T21:06:39.000Z"
+    },
+    {
+      "slug": "sqatraining",
+      "subscribers": 4,
+      "minPriceRub": 250,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2023-10-30T12:51:00.000Z"
+    },
+    {
+      "slug": "stevelasmin",
+      "subscribers": 51,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-05T07:01:51.000Z"
+    },
+    {
+      "slug": "stilicho2011",
+      "subscribers": 235,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-03T16:23:39.000Z"
+    },
+    {
+      "slug": "swiftsimple",
+      "subscribers": 15,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-12-29T10:37:44.000Z"
+    },
+    {
+      "slug": "systeminterviews",
+      "subscribers": 7,
+      "minPriceRub": 300,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-25T10:16:31.000Z"
+    },
+    {
+      "slug": "teamleadtalks",
+      "subscribers": 50,
+      "minPriceRub": 222,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-09-28T20:42:34.000Z"
+    },
+    {
+      "slug": "tensorbanana",
+      "subscribers": 7,
+      "minPriceRub": 399,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-06-10T16:54:56.000Z"
+    },
+    {
+      "slug": "tesmio",
+      "subscribers": 81,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-17T20:35:44.000Z"
+    },
+    {
+      "slug": "titanovsky",
+      "subscribers": 18,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-06-18T13:17:31.000Z"
+    },
+    {
+      "slug": "torpedv",
+      "subscribers": 10,
+      "minPriceRub": 4999,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-01-18T12:11:25.000Z"
+    },
+    {
+      "slug": "ulbitv",
+      "subscribers": 2720,
+      "minPriceRub": 490,
+      "minPromoPriceRub": 1043,
+      "lastPostAt": "2026-07-26T00:39:39.000Z"
+    },
+    {
+      "slug": "usefulwebit",
+      "subscribers": 6,
+      "minPriceRub": 512,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-07-10T20:59:00.000Z"
+    },
+    {
+      "slug": "fvgames",
+      "subscribers": 2,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-08-03T15:22:41.000Z"
+    },
+    {
+      "slug": "vaevictis",
+      "subscribers": 8,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2024-07-17T19:41:02.000Z"
+    },
+    {
+      "slug": "vitalib",
+      "subscribers": 36,
+      "minPriceRub": 100,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-04-10T17:41:42.000Z"
+    },
+    {
+      "slug": "vladimir_v_it",
+      "subscribers": 26,
+      "minPriceRub": 200,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-29T09:20:01.000Z"
+    },
+    {
+      "slug": "wihome",
+      "subscribers": 7,
+      "minPriceRub": 250,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-03-26T05:00:00.000Z"
+    },
+    {
+      "slug": "aisandbox",
+      "subscribers": 12,
+      "minPriceRub": 500,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2026-04-15T10:34:49.000Z"
+    },
+    {
+      "slug": "youdeveloper",
+      "subscribers": 11,
+      "minPriceRub": 150,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-12-12T09:06:23.000Z"
+    },
+    {
+      "slug": "zakharday",
+      "subscribers": 27,
+      "minPriceRub": 50,
+      "minPromoPriceRub": null,
+      "lastPostAt": "2025-10-30T18:48:30.000Z"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+name: Предложить канал
+description: Добавить русскоязычный IT-канал с платной подпиской на Boosty
+title: "[Канал]: "
+labels: ["new-channel"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо! Перед отправкой проверьте, что канал русскоязычный, относится к IT и имеет хотя бы один платный уровень.
+  - type: input
+    id: boosty_url
+    attributes:
+      label: Ссылка на Boosty
+      placeholder: https://boosty.to/example
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Основная тема
+      options:
+        - ИИ / ML / Data Science
+        - Программирование
+        - Администрирование / DevOps / сети
+        - Архитектура / системный анализ
+        - Кибербезопасность
+        - Data / BI / базы данных
+        - QA / тестирование
+        - Frontend / Web / UI·UX
+        - Mobile
+        - Gamedev
+        - Self-hosting / IoT / embedded
+        - 1С / ERP / автоматизация
+        - IT-менеджмент / карьера
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Почему канал стоит добавить
+      description: Кратко опишите тематику и полезность для читателей каталога.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Проверка
+      options:
+        - label: На странице есть публично видимый платный уровень подписки
+          required: true

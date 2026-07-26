@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#092538">
+    <meta name="color-scheme" content="light">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; connect-src 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'none'; img-src 'self' data:; object-src 'none'; script-src 'self' '__CSP_HASH__'; style-src 'self'; __CSP_UPGRADE__">
+    <title>Boosty IT Каталог — русскоязычные подписки об ИИ, разработке и инфраструктуре</title>
+    <meta name="description" content="__DESCRIPTION__">
+    <meta name="keywords" content="Boosty, IT, программирование, ИИ, DevOps, self-hosting, системное администрирование, архитектура, русскоязычные каналы">
+    <link rel="canonical" href="__SITE_URL__">
+    <link rel="alternate" type="application/rss+xml" title="Обновления Boosty IT Каталога" href="__SITE_URL__feed.xml">
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="./site.webmanifest">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="Boosty IT Каталог">
+    <meta property="og:title" content="Boosty IT Каталог">
+    <meta property="og:description" content="__DESCRIPTION__">
+    <meta property="og:url" content="__SITE_URL__">
+    <meta property="og:image" content="__SITE_URL__assets/og-cover.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Boosty IT Каталог — проверенные русскоязычные IT-каналы">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Boosty IT Каталог">
+    <meta name="twitter:description" content="__DESCRIPTION__">
+    <meta name="twitter:image" content="__SITE_URL__assets/og-cover.png">
+
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script type="application/ld+json">__JSON_LD__</script>
+    <script type="module" src="./assets/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#catalog">Перейти к каталогу</a>
+
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Boosty IT Каталог — на главную">
+        <span class="brand-mark" aria-hidden="true">B/IT</span>
+        <span>Boosty IT Каталог</span>
+      </a>
+      <nav class="header-nav" aria-label="Основная навигация">
+        <a href="#catalog">Каталог</a>
+        <a href="#about">О проекте</a>
+        <a href="__REPOSITORY_URL__" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Независимая подборка · обновляется еженедельно</p>
+          <h1 id="hero-title">IT-знания, за которыми стоит следить</h1>
+          <p class="hero-lead">
+            Русскоязычные авторы на Boosty об ИИ, программировании, архитектуре,
+            инфраструктуре, безопасности и других IT-направлениях — в одном
+            проверяемом каталоге.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#catalog">Подобрать канал</a>
+            <a class="button button-ghost" href="__ISSUE_URL__" target="_blank" rel="noopener noreferrer">Предложить канал</a>
+          </div>
+          <p class="hero-note">
+            Данные проверены <time datetime="__CHECKED_AT__">__CHECKED_AT_HUMAN__</time>.
+            Каталог не связан с Boosty и не получает комиссию.
+          </p>
+        </div>
+        <div class="hero-panel" aria-label="Статистика каталога">
+          <div class="hero-orbit" aria-hidden="true">
+            <span>AI</span><span>DEV</span><span>OPS</span><span>DATA</span>
+          </div>
+          <dl class="hero-stats">
+            <div>
+              <dt>Каналов</dt>
+              <dd>__CHANNEL_COUNT__</dd>
+            </div>
+            <div>
+              <dt>Активны ≤ 90 дней</dt>
+              <dd>__ACTIVE_COUNT__</dd>
+            </div>
+            <div>
+              <dt>Медианная цена</dt>
+              <dd>__MEDIAN_PRICE__ ₽</dd>
+            </div>
+            <div>
+              <dt>Подписчиков суммарно</dt>
+              <dd>__TOTAL_SUBSCRIBERS__</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="topic-strip" aria-label="Популярные темы">
+        <p>Быстрый выбор</p>
+        <div class="topic-chips">
+          __CATEGORY_CHIPS__
+        </div>
+      </section>
+
+      <section class="catalog-section" id="catalog" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow eyebrow-dark">Каталог</p>
+            <h2 id="catalog-title">Найдите полезную подписку</h2>
+          </div>
+          <p class="result-summary" id="result-summary" aria-live="polite">
+            Показано <strong>__CHANNEL_COUNT__</strong> каналов
+          </p>
+        </div>
+
+        <form class="filters" id="filters" role="search">
+          <div class="filter filter-search">
+            <label for="query">Поиск</label>
+            <input id="query" name="q" type="search" maxlength="100" placeholder="Например: Python, Kubernetes, LLM">
+          </div>
+
+          <div class="filter">
+            <label for="category">Тема</label>
+            <select id="category" name="category">
+              <option value="">Все темы</option>
+              __CATEGORY_OPTIONS__
+            </select>
+          </div>
+
+          <div class="filter">
+            <label for="activity">Активность</label>
+            <select id="activity" name="activity">
+              <option value="">Любая</option>
+              <option value="fresh">Свежие — до 30 дней</option>
+              <option value="active">Активные — до 90 дней</option>
+              <option value="rare">Редкие — до года</option>
+              <option value="archive">Архивные — больше года</option>
+            </select>
+          </div>
+
+          <div class="filter">
+            <label for="max-price">Цена до, ₽</label>
+            <input id="max-price" name="maxPrice" type="number" min="0" max="100000" step="50" inputmode="numeric" placeholder="Без ограничения">
+          </div>
+
+          <div class="filter">
+            <label for="sort">Сортировка</label>
+            <select id="sort" name="sort">
+              <option value="recommended">Сначала рекомендуемые</option>
+              <option value="recent">По свежести</option>
+              <option value="subscribers">По подписчикам</option>
+              <option value="price">Сначала доступные</option>
+              <option value="name">По названию</option>
+            </select>
+          </div>
+
+          <label class="toggle">
+            <input id="growth" name="growth" type="checkbox">
+            <span>Только с зафиксированным ростом</span>
+          </label>
+
+          <button class="button button-reset" id="reset-filters" type="reset">Сбросить</button>
+        </form>
+
+        <div class="active-filters" id="active-filters" aria-live="polite"></div>
+
+        <div class="card-grid" id="channel-grid">
+          __CHANNEL_CARDS__
+        </div>
+
+        <div class="empty-state" id="empty-state" hidden>
+          <span aria-hidden="true">⌁</span>
+          <h3>Ничего не нашлось</h3>
+          <p>Попробуйте убрать часть фильтров или сформулировать запрос шире.</p>
+          <button class="button button-secondary" type="button" data-reset-filters>Сбросить фильтры</button>
+        </div>
+
+        <div class="load-more-wrap">
+          <button class="button button-secondary" id="load-more" type="button">Показать ещё</button>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow eyebrow-dark">О проекте</p>
+          <h2 id="about-title">Открытые данные, понятный выбор</h2>
+        </div>
+        <div class="about-grid">
+          <article>
+            <span class="about-number">01</span>
+            <h3>Проверяем факты</h3>
+            <p>Счётчики, цены и дата последней публикации берутся из публичных страниц Boosty.</p>
+          </article>
+          <article>
+            <span class="about-number">02</span>
+            <h3>Обновляем по пятницам</h3>
+            <p>Автоматическая проверка освежает данные и добавляет новые релевантные каналы.</p>
+          </article>
+          <article>
+            <span class="about-number">03</span>
+            <h3>Оставляем выбор вам</h3>
+            <p>Каталог не ранжирует авторов по качеству и не содержит рекламных размещений.</p>
+          </article>
+        </div>
+        <div class="disclaimer">
+          <strong>Важно.</strong>
+          Количество подписчиков не равно числу платящих подписчиков. Цены и доступность
+          публикаций могут меняться — перепроверьте условия на странице автора перед оплатой.
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand brand-footer" href="./">
+          <span class="brand-mark" aria-hidden="true">B/IT</span>
+          <span>Boosty IT Каталог</span>
+        </a>
+        <p>Открытый неофициальный справочник русскоязычных IT-подписок.</p>
+      </div>
+      <div class="footer-links">
+        <a href="__REPOSITORY_URL__" target="_blank" rel="noopener noreferrer">Исходный код и данные</a>
+        <a href="__ISSUE_URL__" target="_blank" rel="noopener noreferrer">Добавить или исправить канал</a>
+        <a href="./feed.xml">RSS обновлений</a>
+      </div>
+    </footer>
+  </body>
+</html>

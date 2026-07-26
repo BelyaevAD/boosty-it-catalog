@@ -1,0 +1,17 @@
+{
+  "name": "Boosty IT Каталог",
+  "short_name": "Boosty IT",
+  "lang": "ru",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f1ea",
+  "theme_color": "#092538",
+  "icons": [
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

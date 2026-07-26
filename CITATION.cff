@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Если вы используете этот каталог или набор данных, пожалуйста, укажите источник."
+title: "Boosty IT Каталог"
+type: dataset
+authors:
+  - family-names: "Belyaev"
+    given-names: "Alexander"
+version: 1.0.0
+date-released: 2026-07-26
+license: CC-BY-4.0
+abstract: "Публичный каталог русскоязычных IT-каналов с платной подпиской на Boosty."

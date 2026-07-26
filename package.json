@@ -1,0 +1,19 @@
+{
+  "name": "boosty-it-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Публичный каталог русскоязычных IT-каналов с платной подпиской на Boosty.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "prepare:data": "node scripts/prepare-initial-data.mjs",
+    "update:data": "node scripts/update-data.mjs",
+    "validate:data": "node scripts/validate-data.mjs",
+    "validate:build": "node scripts/validate-build.mjs",
+    "build": "node scripts/build-site.mjs",
+    "test": "node --test",
+    "check": "npm run validate:data && npm test && npm run build && npm run validate:build"
+  }
+}

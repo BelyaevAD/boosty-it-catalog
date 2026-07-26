@@ -1,4 +1,5 @@
 export const DEFAULT_LIMIT = 24;
+export const MAX_PRICE = 500_000;
 export const DEFAULT_SORT_DIRECTIONS = Object.freeze({
   recommended: "desc",
   subscribers: "desc",
@@ -23,7 +24,7 @@ export function clampPrice(value) {
   if (value === "" || value === null || value === undefined) return null;
   const price = Number(value);
   if (!Number.isFinite(price)) return null;
-  return Math.min(100_000, Math.max(0, Math.round(price)));
+  return Math.min(MAX_PRICE, Math.max(0, Math.round(price)));
 }
 
 export function matchesFilters(channel, filters) {

@@ -65,7 +65,7 @@
             <a class="button button-ghost" href="__ISSUE_URL__" target="_blank" rel="noopener noreferrer">Предложить канал</a>
           </div>
           <p class="hero-note">
-            Данные проверены <time datetime="__CHECKED_AT__">__CHECKED_AT_HUMAN__</time>.
+            Данные проверены <time datetime="__CHECKED_AT__">__CHECKED_AT_HUMAN__</time>
             Каталог не связан с Boosty и не получает комиссию.
           </p>
         </div>
@@ -96,8 +96,9 @@
 
       <section class="topic-strip" aria-label="Популярные темы">
         <p>Быстрый выбор</p>
-        <div class="topic-chips">
+        <div class="topic-chips" id="popular-topics">
           __CATEGORY_CHIPS__
+          <button class="topic-more" type="button" aria-controls="popular-topics" aria-expanded="false">Ещё темы</button>
         </div>
       </section>
 
@@ -112,10 +113,10 @@
               Показано <strong>__CHANNEL_COUNT__</strong> каналов
             </p>
             <div class="view-toggle" role="group" aria-label="Представление каталога">
-              <button class="view-button is-active" type="button" data-view="cards" aria-pressed="true">
+              <button class="view-button" type="button" data-view="cards" aria-pressed="false">
                 <span aria-hidden="true">▦</span> Карточки
               </button>
-              <button class="view-button" type="button" data-view="table" aria-pressed="false">
+              <button class="view-button is-active" type="button" data-view="table" aria-pressed="true">
                 <span aria-hidden="true">☷</span> Таблица
               </button>
             </div>
@@ -128,104 +129,110 @@
             <input id="query" name="q" type="search" maxlength="100" placeholder="Например: Python, Kubernetes, LLM">
           </div>
 
-          <div class="filter">
-            <label for="category">Тема</label>
-            <select id="category" name="category">
-              <option value="">Все темы</option>
-              __CATEGORY_OPTIONS__
-            </select>
+          <button class="mobile-filters-toggle" type="button" aria-controls="advanced-filters" aria-expanded="false">Фильтры</button>
+
+          <div class="advanced-filters" id="advanced-filters">
+            <div class="filter">
+              <label for="category">Тема</label>
+              <select id="category" name="category">
+                <option value="">Все темы</option>
+                __CATEGORY_OPTIONS__
+              </select>
+            </div>
+
+            <div class="filter">
+              <label for="activity">Активность</label>
+              <select id="activity" name="activity">
+                <option value="">Любая</option>
+                <option value="fresh">Свежие — до 30 дней</option>
+                <option value="active">Активные — до 90 дней</option>
+                <option value="rare">Редкие — до года</option>
+                <option value="archive">Архивные — больше года</option>
+              </select>
+            </div>
+
+            <div class="filter">
+              <label for="max-price">Цена до, ₽</label>
+              <input id="max-price" name="maxPrice" type="number" min="0" max="500000" step="50" inputmode="numeric" placeholder="Без ограничения">
+            </div>
+
+            <div class="filter">
+              <label for="sort">Сортировка</label>
+              <select id="sort" name="sort">
+                <option value="recommended">Рекомендованные</option>
+                <option value="recent">Сначала свежие</option>
+                <option value="subscribers">Больше подписчиков</option>
+                <option value="price">Дешевле</option>
+                <option value="name">По названию</option>
+                <option value="category">По теме</option>
+                <option value="growth">По росту аудитории</option>
+              </select>
+            </div>
+
+            <label class="toggle">
+              <input id="growth" name="growth" type="checkbox">
+              <span>Только с ростом аудитории</span>
+            </label>
+
+            <button class="button button-reset" id="reset-filters" type="reset">Сбросить</button>
           </div>
-
-          <div class="filter">
-            <label for="activity">Активность</label>
-            <select id="activity" name="activity">
-              <option value="">Любая</option>
-              <option value="fresh">Свежие — до 30 дней</option>
-              <option value="active">Активные — до 90 дней</option>
-              <option value="rare">Редкие — до года</option>
-              <option value="archive">Архивные — больше года</option>
-            </select>
-          </div>
-
-          <div class="filter">
-            <label for="max-price">Цена до, ₽</label>
-            <input id="max-price" name="maxPrice" type="number" min="0" max="100000" step="50" inputmode="numeric" placeholder="Без ограничения">
-          </div>
-
-          <div class="filter">
-            <label for="sort">Сортировка</label>
-            <select id="sort" name="sort">
-              <option value="recommended">Сначала рекомендуемые</option>
-              <option value="recent">По свежести</option>
-              <option value="subscribers">По подписчикам</option>
-              <option value="price">Сначала доступные</option>
-              <option value="name">По названию</option>
-              <option value="category">По теме</option>
-              <option value="growth">По росту</option>
-            </select>
-          </div>
-
-          <label class="toggle">
-            <input id="growth" name="growth" type="checkbox">
-            <span>Только с зафиксированным ростом</span>
-          </label>
-
-          <button class="button button-reset" id="reset-filters" type="reset">Сбросить</button>
         </form>
 
         <div class="active-filters" id="active-filters" aria-live="polite"></div>
 
-        <div class="card-grid" id="channel-grid">
-          __CHANNEL_CARDS__
-        </div>
+        <div class="catalog-results">
+          <div class="card-grid" id="channel-grid" hidden>
+            __CHANNEL_CARDS__
+          </div>
 
-        __CHANNEL_DETAILS__
+          __CHANNEL_DETAILS__
 
-        <div class="table-shell" id="channel-table-view" hidden>
-          <table class="catalog-table">
-            <caption class="sr-only">Сравнение русскоязычных IT-каналов на Boosty</caption>
-            <thead>
-              <tr>
-                <th scope="col" data-sort-column="name">
-                  <button type="button" data-sort-key="name">Название <span class="sort-indicator" aria-hidden="true">↕</span></button>
-                </th>
-                <th scope="col" data-sort-column="category">
-                  <button type="button" data-sort-key="category">Тема <span class="sort-indicator" aria-hidden="true">↕</span></button>
-                </th>
-                <th scope="col">Фокус</th>
-                <th scope="col" data-sort-column="subscribers">
-                  <button type="button" data-sort-key="subscribers">Подписчики <span class="sort-indicator" aria-hidden="true">↕</span></button>
-                </th>
-                <th scope="col" data-sort-column="recent">
-                  <button type="button" data-sort-key="recent">Последний пост <span class="sort-indicator" aria-hidden="true">↕</span></button>
-                </th>
-                <th scope="col" data-sort-column="activity">
-                  <button type="button" data-sort-key="activity">Активность <span class="sort-indicator" aria-hidden="true">↕</span></button>
-                </th>
-                <th scope="col" data-sort-column="price">
-                  <button type="button" data-sort-key="price">От, ₽ <span class="sort-indicator" aria-hidden="true">↕</span></button>
-                </th>
-                <th scope="col">Тарифы</th>
-                <th scope="col" data-sort-column="growth">
-                  <button type="button" data-sort-key="growth">Рост <span class="sort-indicator" aria-hidden="true">↕</span></button>
-                </th>
-              </tr>
-            </thead>
-            <tbody id="channel-table-body">
-              __CHANNEL_ROWS__
-            </tbody>
-          </table>
-        </div>
+          <div class="table-shell" id="channel-table-view">
+            <table class="catalog-table">
+              <caption class="sr-only">Сравнение русскоязычных IT-каналов на Boosty</caption>
+              <colgroup>
+                <col class="col-channel">
+                <col class="col-topic">
+                <col class="col-audience">
+                <col class="col-activity">
+                <col class="col-subscription">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th scope="col" data-sort-column="name">
+                    <button type="button" data-sort-key="name">Канал <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                  </th>
+                  <th scope="col" data-sort-column="category">
+                    <button type="button" data-sort-key="category">Тематика <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                  </th>
+                  <th class="is-numeric" scope="col" data-sort-column="subscribers">
+                    <button type="button" data-sort-key="subscribers">Аудитория <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                  </th>
+                  <th scope="col" data-sort-column="recent">
+                    <button type="button" data-sort-key="recent">Активность <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                  </th>
+                  <th class="is-numeric" scope="col" data-sort-column="price">
+                    <button type="button" data-sort-key="price">Подписка <span class="sort-indicator" aria-hidden="true">↕</span></button>
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="channel-table-body">
+                __CHANNEL_ROWS__
+              </tbody>
+            </table>
+          </div>
+          <p class="sr-only" id="table-sort-announcement" aria-live="polite"></p>
 
-        <div class="empty-state" id="empty-state" hidden>
-          <span aria-hidden="true">⌁</span>
-          <h3>Ничего не нашлось</h3>
-          <p>Попробуйте убрать часть фильтров или сформулировать запрос шире.</p>
-          <button class="button button-secondary" type="button" data-reset-filters>Сбросить фильтры</button>
-        </div>
+          <div class="empty-state" id="empty-state" hidden>
+            <span aria-hidden="true">⌁</span>
+            <h3>Ничего не нашлось</h3>
+            <p>Попробуйте убрать часть фильтров или сформулировать запрос шире.</p>
+            <button class="button button-secondary" type="button" data-reset-filters>Сбросить фильтры</button>
+          </div>
 
-        <div class="load-more-wrap">
-          <button class="button button-secondary" id="load-more" type="button">Показать ещё</button>
+          <div class="load-more-wrap">
+            <button class="button button-secondary" id="load-more" type="button">Показать ещё</button>
+          </div>
         </div>
       </section>
 

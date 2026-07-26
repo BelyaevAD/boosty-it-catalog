@@ -40,7 +40,7 @@ test("normalizes Russian text and ё", () => {
 test("clamps price input to a safe range", () => {
   assert.equal(clampPrice("250"), 250);
   assert.equal(clampPrice("-5"), 0);
-  assert.equal(clampPrice("999999"), 100000);
+  assert.equal(clampPrice("999999"), 500000);
   assert.equal(clampPrice("not-a-number"), null);
 });
 

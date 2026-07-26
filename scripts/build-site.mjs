@@ -47,12 +47,13 @@ function formatNumber(value) {
 function formatDate(value, options = {}) {
   if (!value) return "нет данных";
   const date = new Date(value.length === 10 ? `${value}T12:00:00+03:00` : value);
-  return new Intl.DateTimeFormat(locale, {
+  const formatted = new Intl.DateTimeFormat(locale, {
     day: "numeric",
     month: options.short ? "short" : "long",
     year: "numeric",
     timeZone: "Europe/Moscow",
   }).format(date);
+  return options.compact ? formatted.replace(/\s*г\.$/, "") : formatted;
 }
 
 function effectivePrice(channel) {
@@ -161,6 +162,15 @@ function tierLabel(count) {
   return `${count} тарифов`;
 }
 
+function tierLevelLabel(count) {
+  const lastTwo = count % 100;
+  const last = count % 10;
+  if (lastTwo >= 11 && lastTwo <= 14) return `${count} уровней`;
+  if (last === 1) return `${count} уровень`;
+  if (last >= 2 && last <= 4) return `${count} уровня`;
+  return `${count} уровней`;
+}
+
 function focusTags(focus) {
   return String(focus || "")
     .split(";")
@@ -173,9 +183,12 @@ function focusTags(focus) {
 function channelDetailTemplate(channel, checkedAt) {
   const activity = activityStatus(channel.lastPostAt, checkedAt);
   const slug = safeSlug(channel.slug);
-  const growth = Number(channel.growthSinceSnapshot);
-  const growthText = !Number.isFinite(growth)
-    ? "нет снимка"
+  const hasGrowthSnapshot = channel.growthSinceSnapshot !== null &&
+    channel.growthSinceSnapshot !== undefined &&
+    Number.isFinite(Number(channel.growthSinceSnapshot));
+  const growth = hasGrowthSnapshot ? Number(channel.growthSinceSnapshot) : null;
+  const growthText = !hasGrowthSnapshot
+    ? "нет истории"
     : growth === 0
       ? "без изменений"
       : `${growth > 0 ? "+" : ""}${formatNumber(growth)}`;
@@ -237,18 +250,32 @@ function channelDetailTemplate(channel, checkedAt) {
 function channelRow(channel, checkedAt) {
   const activity = activityStatus(channel.lastPostAt, checkedAt);
   const slug = safeSlug(channel.slug);
-  const growth = Number(channel.growthSinceSnapshot);
-  const growthText = Number.isFinite(growth)
-    ? `${growth > 0 ? "+" : ""}${formatNumber(growth)}`
-    : "—";
+  const hasGrowthSnapshot = channel.growthSinceSnapshot !== null &&
+    channel.growthSinceSnapshot !== undefined &&
+    Number.isFinite(Number(channel.growthSinceSnapshot));
+  const growth = hasGrowthSnapshot ? Number(channel.growthSinceSnapshot) : null;
+  const growthDate = channel.lastObservedGrowthDate || (growth ? channel.checkedAt : null);
+  const growthText = !hasGrowthSnapshot
+    ? "—"
+    : growth === 0
+      ? "без изменений"
+      : `${growth > 0 ? "+" : ""}${formatNumber(growth)}${growthDate
+        ? ` · ${formatDate(growthDate, { short: true, compact: true })}`
+        : ""}`;
   const growthClass = growth > 0 ? "is-positive" : growth < 0 ? "is-negative" : "";
   const price = formatPrice(channel);
-  const tierRange = channel.maxPriceRub > channel.minPriceRub
-    ? `${tierLabel(channel.tierCount)} · до ${formatNumber(channel.maxPriceRub)} ₽`
-    : tierLabel(channel.tierCount);
+  const tierRange = channel.maxPriceRub > effectivePrice(channel)
+    ? `${tierLevelLabel(channel.tierCount)} · до ${formatNumber(channel.maxPriceRub)} ₽`
+    : tierLevelLabel(channel.tierCount);
+  const activityDate = channel.lastPostAt
+    ? `<time
+        datetime="${escapeHtml(channel.lastPostAt)}"
+        title="${escapeHtml(formatDate(channel.lastPostAt))}"
+      >${escapeHtml(formatDate(channel.lastPostAt, { short: true, compact: true }))}</time>`
+    : "<span>дата неизвестна</span>";
   return `
               <tr class="channel-row" data-slug="${escapeHtml(slug)}">
-                <td class="table-name">
+                <th class="table-name" scope="row" data-label="Канал">
                   <span class="table-name-line">
                     <a href="./channels/${encodeURIComponent(slug)}/" data-open-channel="${escapeHtml(slug)}">${escapeHtml(channel.name)}</a>
                     <a
@@ -260,19 +287,26 @@ function channelRow(channel, checkedAt) {
                       title="Открыть на Boosty"
                     >Boosty ↗</a>
                   </span>
+                </th>
+                <td class="table-topic" data-label="Тематика">
+                  <span class="table-category">${escapeHtml(channel.category)}</span>
+                  <span class="table-focus">${escapeHtml(channel.focus || channel.title || channel.category)}</span>
                 </td>
-                <td><span class="table-category">${escapeHtml(channel.category)}</span></td>
-                <td class="table-focus">${escapeHtml(channel.focus || channel.title || channel.category)}</td>
-                <td class="table-number">${formatNumber(channel.subscribers)}</td>
-                <td>
-                  ${channel.lastPostAt
-                    ? `<time datetime="${escapeHtml(channel.lastPostAt)}">${escapeHtml(formatDate(channel.lastPostAt, { short: true }))}</time>`
-                    : "—"}
+                <td class="table-audience table-number" data-label="Аудитория">
+                  <strong>${formatNumber(channel.subscribers)}</strong>
+                  <span
+                    class="table-growth ${growthClass}"
+                    ${hasGrowthSnapshot ? "" : 'title="Недостаточно исторических данных"'}
+                  >${escapeHtml(growthText)}</span>
                 </td>
-                <td><span class="status status-${activity.id}">${escapeHtml(activity.label)}</span></td>
-                <td class="table-number">${escapeHtml(price)}</td>
-                <td class="table-tiers">${escapeHtml(tierRange)}</td>
-                <td class="table-number table-growth ${growthClass}">${escapeHtml(growthText)}</td>
+                <td class="table-activity" data-label="Активность">
+                  ${activityDate}
+                  <span class="status status-${activity.id}">${escapeHtml(activity.label)}</span>
+                </td>
+                <td class="table-subscription table-number" data-label="Подписка">
+                  <strong>от ${escapeHtml(price)}</strong>
+                  <span>${escapeHtml(tierRange)}</span>
+                </td>
               </tr>`;
 }
 
@@ -436,9 +470,15 @@ if (!Array.isArray(channels) || channels.length < 200) {
 }
 
 const checkedAt = meta.checkedAt;
-const sortedChannels = [...channels].sort((a, b) =>
-  b.subscribers - a.subscribers || a.name.localeCompare(b.name, locale)
-);
+const activityWeight = { fresh: 4, active: 3, rare: 2, archive: 1, unknown: 0 };
+const sortedChannels = [...channels].sort((a, b) => {
+  const aActivity = activityStatus(a.lastPostAt, checkedAt).id;
+  const bActivity = activityStatus(b.lastPostAt, checkedAt).id;
+  return (activityWeight[bActivity] || 0) - (activityWeight[aActivity] || 0) ||
+    b.subscribers - a.subscribers ||
+    effectivePrice(a) - effectivePrice(b) ||
+    a.name.localeCompare(b.name, locale);
+});
 const categories = categoryEntries(channels);
 const activeCount = channels.filter((channel) => {
   const activity = activityStatus(channel.lastPostAt, checkedAt);
@@ -453,9 +493,16 @@ const categoryOptions = [...categories]
   .sort((a, b) => a[0].localeCompare(b[0], locale))
   .map(([category, count]) => `<option value="${escapeHtml(category)}">${escapeHtml(category)} · ${count}</option>`)
   .join("\n              ");
+const mobileCategoryLabels = new Map([
+  ["ИИ / ML / Data Science", "ИИ / ML"],
+  ["Администрирование / DevOps / сети", "DevOps / сети"],
+  ["Frontend / Web / UI·UX", "Frontend / UX"],
+  ["Кибербезопасность", "Безопасность"],
+  ["QA / тестирование", "QA"],
+]);
 const categoryChips = categories
   .slice(0, 8)
-  .map(([category, count]) => `<button class="topic-chip" type="button" data-category-chip="${escapeHtml(category)}">${escapeHtml(category)} <span aria-label="${count} каналов">· ${count}</span></button>`)
+  .map(([category, count]) => `<button class="topic-chip" type="button" data-category-chip="${escapeHtml(category)}" data-mobile-label="${escapeHtml(mobileCategoryLabels.get(category) || category)}" aria-pressed="false"><span class="topic-label">${escapeHtml(category)}</span> <span aria-label="${count} каналов">· ${count}</span></button>`)
   .join("\n          ");
 
 const template = await fs.readFile(path.join(siteSource, "index.template.html"), "utf8");

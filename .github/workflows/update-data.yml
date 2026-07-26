@@ -2,12 +2,12 @@ name: Weekly data refresh
 
 on:
   schedule:
-    # Friday evening. GitHub cron uses UTC.
-    - cron: "0 14 * * 5"
+    - cron: "0 17 * * 5"
+      timezone: "Europe/Moscow"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: weekly-data-refresh
@@ -20,6 +20,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          persist-credentials: false
 
       - name: Use Node.js
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
@@ -46,14 +49,69 @@ jobs:
           REPOSITORY_URL: https://github.com/${{ github.repository }}
         run: npm run check
 
-      - name: Commit verified changes
+      - name: Upload verified data
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: refreshed-data
+          path: data
+          if-no-files-found: error
+          retention-days: 1
+
+  commit:
+    needs: refresh
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - name: Checkout main without persisted credentials
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          persist-credentials: false
+
+      - name: Prepare exact data tree
         run: |
+          rm -rf -- data
+          mkdir -- data
+
+      - name: Download verified data
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: refreshed-data
+          path: data
+
+      - name: Commit verified changes
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if find data -type l -print -quit | grep -q .; then
+            echo "Symlinks are not allowed in the data artifact." >&2
+            exit 1
+          fi
           if git diff --quiet -- data; then
             echo "No data changes."
             exit 0
           fi
+          git diff --check -- data
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- data
+          if git diff --cached --name-only | grep -Ev '^data/'; then
+            echo "Refusing to commit files outside data/." >&2
+            exit 1
+          fi
           git commit -m "Обновить каталог Boosty"
-          git push
+          askpass="$RUNNER_TEMP/git-askpass.sh"
+          trap 'rm -f "$askpass"' EXIT
+          cat > "$askpass" <<'EOF'
+          #!/bin/sh
+          case "$1" in
+            *Username*) printf '%s\n' 'x-access-token' ;;
+            *) printf '%s\n' "$GITHUB_TOKEN" ;;
+          esac
+          EOF
+          chmod 700 "$askpass"
+          GIT_ASKPASS="$askpass" GIT_TERMINAL_PROMPT=0 git push origin HEAD:main

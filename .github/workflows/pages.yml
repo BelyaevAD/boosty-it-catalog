@@ -10,12 +10,13 @@ on:
       - "package.json"
       - "package-lock.json"
       - ".github/workflows/pages.yml"
+  workflow_run:
+    workflows: ["Weekly data refresh"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -23,12 +24,14 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
+          ref: main
           persist-credentials: false
 
       - name: Configure Pages
@@ -56,6 +59,9 @@ jobs:
           path: dist
 
   deploy:
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

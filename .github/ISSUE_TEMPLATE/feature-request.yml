@@ -1,0 +1,30 @@
+name: Предложить улучшение
+description: Идея для сайта, данных или автоматизации
+title: "[Идея]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Область
+      options:
+        - Интерфейс сайта
+        - Данные каталога
+        - Поиск и фильтры
+        - Автоматическое обновление
+        - Документация
+        - Другое
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую задачу это решит
+      description: Опишите проблему или неудобство, которое вы заметили.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Предлагаемое решение
+      description: Если у вас есть идея реализации, расскажите о ней.

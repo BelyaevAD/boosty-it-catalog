@@ -1,10 +1,16 @@
 # Boosty IT Каталог
 
+[![Звёзды GitHub](https://img.shields.io/github/stars/BelyaevAD/boosty-it-catalog?style=social)](https://github.com/BelyaevAD/boosty-it-catalog)
 [![Проверка](https://github.com/BelyaevAD/boosty-it-catalog/actions/workflows/ci.yml/badge.svg)](https://github.com/BelyaevAD/boosty-it-catalog/actions/workflows/ci.yml)
 [![Публикация](https://github.com/BelyaevAD/boosty-it-catalog/actions/workflows/pages.yml/badge.svg)](https://github.com/BelyaevAD/boosty-it-catalog/actions/workflows/pages.yml)
 [![Лицензия: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 **Сайт:** [belyaevad.github.io/boosty-it-catalog](https://belyaevad.github.io/boosty-it-catalog/)
+
+> ⭐ Каталог оказался полезен? [Откройте репозиторий и поставьте звезду](https://github.com/BelyaevAD/boosty-it-catalog).
+> Так вы сохраните проект в своих звёздах и покажете, что такой каталог нужен.
+> Также можно [предложить канал](https://github.com/BelyaevAD/boosty-it-catalog/issues/new?template=new-channel.yml)
+> или [сообщить об ошибке](https://github.com/BelyaevAD/boosty-it-catalog/issues/new?template=correction.yml).
 
 Открытый каталог русскоязычных IT-каналов с платной подпиской на Boosty. В нём собраны авторы об ИИ, программировании, архитектуре, системном администрировании, DevOps, self-hosting, информационной безопасности, данных, QA, мобильной разработке, gamedev, 1С и IT-карьере.
 
@@ -41,7 +47,9 @@
 - даёт быстрый переход на Boosty прямо из карточки или рядом с названием в таблице;
 - создаёт отдельную индексируемую страницу для каждого канала;
 - публикует sitemap, RSS и структурированные данные Schema.org;
-- работает как обычный статический сайт без трекеров, cookies и стороннего JavaScript.
+- работает как обычный статический сайт: основная страница не устанавливает cookies и не использует собственные трекеры;
+- изолирует стандартный GitHub Star widget в sandboxed iframe, не подключая его JavaScript к основной странице;
+- при загрузке живого счётчика браузер обращается к `ghbtns.com` и `api.github.com`; эти сервисы получают стандартные сетевые данные, включая IP-адрес и User-Agent.
 
 ## Данные
 
@@ -89,6 +97,13 @@ npx serve dist
 
 Подробности для разработчиков находятся в [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Поддержать каталог
+
+- ⭐ [Поставить звезду на GitHub](https://github.com/BelyaevAD/boosty-it-catalog);
+- ➕ [предложить новый канал](https://github.com/BelyaevAD/boosty-it-catalog/issues/new?template=new-channel.yml);
+- 🐛 [исправить данные](https://github.com/BelyaevAD/boosty-it-catalog/issues/new?template=correction.yml);
+- 🛠 [предложить улучшение](https://github.com/BelyaevAD/boosty-it-catalog/issues/new?template=feature-request.yml).
+
 ## Ограничения
 
 - каталог широкий, но не гарантирует математически полный охват Boosty;
@@ -98,3 +113,4 @@ npx serve dist
 - проект не связан с Boosty и не получает комиссию от подписок.
 
 Код распространяется по [MIT License](LICENSE). Условия повторного использования набора данных описаны в [DATA_LICENSE.md](DATA_LICENSE.md).
+Уведомление о сторонних компонентах находится в [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

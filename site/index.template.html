@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#092538">
     <meta name="color-scheme" content="light">
     <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; connect-src 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'none'; img-src 'self' data:; object-src 'none'; script-src 'self' '__CSP_HASH__'; style-src 'self'; __CSP_UPGRADE__">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; connect-src 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'none'; frame-src https://ghbtns.com/github-btn.html; img-src 'self' data:; object-src 'none'; script-src 'self' '__CSP_HASH__'; style-src 'self'; __CSP_UPGRADE__">
     <title>Boosty IT Каталог — русскоязычные подписки об ИИ, разработке и инфраструктуре</title>
     <meta name="description" content="__DESCRIPTION__">
     <meta name="keywords" content="Boosty, IT, программирование, ИИ, DevOps, self-hosting, системное администрирование, архитектура, русскоязычные каналы">
@@ -44,9 +44,26 @@
         <span>Boosty IT Каталог</span>
       </a>
       <nav class="header-nav" aria-label="Основная навигация">
-        <a href="#catalog">Каталог</a>
-        <a href="#about">О проекте</a>
-        <a href="__REPOSITORY_URL__" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#catalog">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-search"></use></svg>
+          <span>Каталог</span>
+        </a>
+        <a href="#about">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-info"></use></svg>
+          <span>О проекте</span>
+        </a>
+        <span class="github-widget-header">
+          <iframe
+            src="https://ghbtns.com/github-btn.html?user=BelyaevAD&amp;repo=boosty-it-catalog&amp;type=star&amp;count=true&amp;size=large"
+            title="Поставить звезду проекту Boosty IT Каталог на GitHub"
+            width="170"
+            height="30"
+            loading="eager"
+            referrerpolicy="no-referrer"
+            sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"
+            credentialless
+          ></iframe>
+        </span>
       </nav>
     </header>
 
@@ -61,9 +78,20 @@
             проверяемом каталоге.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#catalog">Подобрать канал</a>
-            <a class="button button-ghost" href="__ISSUE_URL__" target="_blank" rel="noopener noreferrer">Предложить канал</a>
+            <a class="button button-primary" href="#catalog">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-search"></use></svg>
+              Подобрать канал
+            </a>
+            <a class="button button-ghost" href="__ISSUE_URL__" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-plus-circle"></use></svg>
+              Предложить канал
+            </a>
           </div>
+          <a class="hero-support-link" href="__REPOSITORY_URL__" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-github"></use></svg>
+            Проект открыт на GitHub — звезда помогает каталогу развиваться
+            <svg class="icon icon-small" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-arrow-up-right"></use></svg>
+          </a>
           <p class="hero-note">
             Данные проверены <time datetime="__CHECKED_AT__">__CHECKED_AT_HUMAN__</time>
             Каталог не связан с Boosty и не получает комиссию.
@@ -114,10 +142,12 @@
             </p>
             <div class="view-toggle" role="group" aria-label="Представление каталога">
               <button class="view-button" type="button" data-view="cards" aria-pressed="false">
-                <span aria-hidden="true">▦</span> Карточки
+                <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-grid"></use></svg>
+                Карточки
               </button>
               <button class="view-button is-active" type="button" data-view="table" aria-pressed="true">
-                <span aria-hidden="true">☷</span> Таблица
+                <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-table"></use></svg>
+                Таблица
               </button>
             </div>
           </div>
@@ -249,6 +279,37 @@
         </div>
       </dialog>
 
+      <aside class="github-support" id="support" aria-labelledby="github-support-title">
+        <div class="github-support-mark" aria-hidden="true">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-github"></use></svg>
+        </div>
+        <div class="github-support-copy">
+          <p class="eyebrow eyebrow-dark">Открытый проект</p>
+          <h2 id="github-support-title">Каталог оказался полезным?</h2>
+          <p>
+            Поставьте звезду на GitHub — так вы сохраните проект и покажете,
+            что каталог стоит регулярно обновлять и развивать.
+          </p>
+        </div>
+        <div class="github-support-actions">
+          <a
+            class="button button-github"
+            href="__REPOSITORY_URL__"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Открыть Boosty IT Каталог на GitHub и поставить звезду (откроется в новой вкладке)"
+          >
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-github"></use></svg>
+            Открыть GitHub
+            <svg class="icon icon-small" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-arrow-up-right"></use></svg>
+          </a>
+          <a class="github-support-secondary" href="__ISSUE_URL__" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-plus-circle"></use></svg>
+            Предложить канал
+          </a>
+        </div>
+      </aside>
+
       <section class="about-section" id="about" aria-labelledby="about-title">
         <div>
           <p class="eyebrow eyebrow-dark">О проекте</p>
@@ -290,10 +351,26 @@
         <p>Открытый неофициальный справочник русскоязычных IT-подписок.</p>
       </div>
       <div class="footer-links">
-        <a href="__REPOSITORY_URL__" target="_blank" rel="noopener noreferrer">Исходный код и данные</a>
-        <a href="__ISSUE_URL__" target="_blank" rel="noopener noreferrer">Добавить или исправить канал</a>
-        <a href="./feed.xml">RSS обновлений</a>
+        <a href="__REPOSITORY_URL__" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-github"></use></svg>
+          Поставить звезду на GitHub
+        </a>
+        <a href="__ISSUE_URL__" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-plus-circle"></use></svg>
+          Предложить канал
+        </a>
+        <a href="__REPOSITORY_URL__/issues/new?template=correction.yml" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-flag"></use></svg>
+          Исправить данные
+        </a>
+        <a href="./feed.xml">
+          <svg class="icon" aria-hidden="true" focusable="false"><use href="./assets/icons.svg?v=__ASSET_VERSION__#icon-rss"></use></svg>
+          RSS обновлений
+        </a>
       </div>
+      <p class="widget-disclosure">
+        Виджет Star обращается к ghbtns.com и API GitHub; эти сервисы получают стандартные сетевые данные.
+      </p>
     </footer>
   </body>
 </html>

@@ -519,12 +519,13 @@ const medianPrice = median(channels.map(effectivePrice));
 const description = `${channels.length} проверенных русскоязычных IT-каналов на Boosty: ИИ, программирование, DevOps, self-hosting, архитектура, безопасность и другие темы.`;
 const jsonLd = safeJson(itemListJsonLd(sortedChannels, checkedAt));
 const cspHash = sha256(jsonLd);
-const [appSource, coreSource, stylesSource] = await Promise.all([
+const [appSource, coreSource, stylesSource, iconsSource] = await Promise.all([
   fs.readFile(path.join(siteSource, "assets", "app.js"), "utf8"),
   fs.readFile(path.join(siteSource, "assets", "catalog-core.js"), "utf8"),
   fs.readFile(path.join(siteSource, "assets", "styles.css"), "utf8"),
+  fs.readFile(path.join(siteSource, "assets", "icons.svg"), "utf8"),
 ]);
-const assetVersion = contentVersion(appSource, coreSource, stylesSource);
+const assetVersion = contentVersion(appSource, coreSource, stylesSource, iconsSource);
 const versionedAppSource = appSource.replace(
   'from "./catalog-core.js";',
   `from "./catalog-core.js?v=${assetVersion}";`,

@@ -8,6 +8,7 @@ const catalog = JSON.parse(await fs.readFile(path.join(root, "data", "channels.j
 const index = await fs.readFile(path.join(output, "index.html"), "utf8");
 const sitemap = await fs.readFile(path.join(output, "sitemap.xml"), "utf8");
 const robots = await fs.readFile(path.join(output, "robots.txt"), "utf8");
+const icons = await fs.readFile(path.join(output, "assets", "icons.svg"), "utf8");
 
 assert.ok(index.includes("<title>Boosty IT Каталог"), "Missing page title.");
 assert.ok(index.includes('application/ld+json'), "Missing structured data.");
@@ -20,6 +21,7 @@ assert.ok(!index.includes("__CHANNEL_DETAILS__"), "Unresolved channel details pl
 assert.ok(!index.includes("__CHANNEL_ROWS__"), "Unresolved table rows placeholder.");
 assert.ok(!index.includes("__ASSET_VERSION__"), "Unresolved asset version placeholder.");
 assert.match(index, /assets\/app\.js\?v=[a-f0-9]{12}/u, "Main script must be cache-versioned.");
+assert.match(index, /assets\/icons\.svg\?v=[a-f0-9]{12}#icon-github/u, "Icon sprite must be cache-versioned.");
 const builtApp = await fs.readFile(path.join(output, "assets", "app.js"), "utf8");
 assert.match(
   builtApp,
@@ -41,8 +43,30 @@ assert.equal((index.match(/<col class="col-/g) || []).length, 5, "The comparison
 assert.ok(index.includes('class="card-grid" id="channel-grid" hidden'), "Cards must be hidden on initial render.");
 assert.ok(index.includes('class="table-shell" id="channel-table-view"'), "Table must be visible on initial render.");
 assert.ok(index.includes('id="channel-dialog"'), "Channel details dialog is missing.");
+assert.ok(index.includes('class="github-support" id="support"'), "GitHub support callout is missing.");
+assert.ok(index.includes("Поставить звезду"), "GitHub star call to action is missing.");
+assert.ok(index.includes('class="github-widget-header"'), "Header star widget is missing.");
+assert.ok(
+  index.includes("https://ghbtns.com/github-btn.html?user=BelyaevAD&amp;repo=boosty-it-catalog&amp;type=star&amp;count=true&amp;size=large"),
+  "The standard GitHub star widget is missing or misconfigured.",
+);
+assert.ok(
+  index.includes("frame-src https://ghbtns.com/github-btn.html"),
+  "CSP must allow only the selected GitHub widget document.",
+);
+assert.match(
+  index,
+  /<iframe\b(?=[^>]*\bsrc="https:\/\/ghbtns\.com\/github-btn\.html\?)(?=[^>]*\bsandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox")(?=[^>]*\breferrerpolicy="no-referrer")(?=[^>]*\bcredentialless)[^>]*>/iu,
+  "The GitHub widget must be isolated and referrer-free.",
+);
+assert.equal((index.match(/<iframe\b/giu) || []).length, 1, "Only one audited third-party iframe is allowed.");
+assert.ok(icons.includes('id="icon-star"'), "Star icon is missing from the local sprite.");
+assert.ok(icons.includes('id="icon-github"'), "GitHub mark is missing from the local sprite.");
+assert.ok(icons.includes('id="icon-grid"'), "Grid icon is missing from the local sprite.");
+assert.ok(icons.includes('id="icon-table"'), "Table icon is missing from the local sprite.");
 assert.ok(!index.includes('<th scope="col">Boosty</th>'), "Standalone Boosty table column must not be rendered.");
 assert.ok(!index.includes("'unsafe-inline'"), "CSP must not allow inline scripts.");
+assert.ok(!/<script\b[^>]+src=["']https?:\/\//iu.test(index), "Remote scripts must not be embedded in the parent page.");
 assert.ok(!index.includes("externalLinks"), "External link data leaked into the public page.");
 assert.ok(!index.includes("Методика"), "Methodology content leaked into the public page.");
 assert.equal((sitemap.match(/<url>/g) || []).length, catalog.channels.length + 1, "Sitemap URL count mismatch.");
@@ -52,6 +76,16 @@ for (const channel of catalog.channels) {
   const page = path.join(output, "channels", channel.slug, "index.html");
   const stat = await fs.stat(page);
   assert.ok(stat.isFile(), `Missing channel page for ${channel.slug}`);
+}
+
+for (const link of index.matchAll(/<a\b[^>]*\btarget="_blank"[^>]*>/giu)) {
+  assert.match(link[0], /\brel="[^"]*\bnoopener\b[^"]*"/iu, "External links must use noopener.");
+  assert.match(link[0], /\brel="[^"]*\bnoreferrer\b[^"]*"/iu, "External links must use noreferrer.");
+}
+
+for (const icon of index.matchAll(/<svg\b[^>]*class="[^"]*\bicon\b[^"]*"[^>]*>/giu)) {
+  assert.match(icon[0], /\baria-hidden="true"/iu, "Decorative interface icons must be hidden from assistive technology.");
+  assert.match(icon[0], /\bfocusable="false"/iu, "Decorative interface icons must not receive focus.");
 }
 
 console.log(`Validated static site with ${catalog.channels.length} detail pages.`);

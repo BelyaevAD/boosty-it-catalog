@@ -91,15 +91,36 @@ function safeSlug(value) {
   return slug;
 }
 
+function publicChannelTopics(channel) {
+  const topics = Array.isArray(channel.topics) ? channel.topics : [];
+  return [...new Set([channel.category, ...topics].filter(Boolean))];
+}
+
+function categoryBadge(channel, className = "card-category") {
+  const topics = publicChannelTopics(channel);
+  const secondaryTopics = topics.slice(1);
+  const secondaryCount = Math.max(0, topics.length - 1);
+  const topicLabel = `Темы каталога: ${topics.join(", ")}`;
+  return `<span
+    class="${escapeHtml(className)}"
+    title="${escapeHtml(topicLabel)}"
+  ><span>${escapeHtml(channel.category)}</span>${secondaryCount
+    ? `<span class="topic-extra" aria-hidden="true">+${secondaryCount}</span>`
+    : ""}${secondaryTopics.length
+    ? `<span class="sr-only">. Также: ${escapeHtml(secondaryTopics.join(", "))}</span>`
+    : ""}</span>`;
+}
+
 function channelCard(channel, checkedAt) {
   const activity = activityStatus(channel.lastPostAt, checkedAt);
   const price = effectivePrice(channel);
   const lastPostTimestamp = channel.lastPostAt ? Date.parse(channel.lastPostAt) : 0;
+  const topics = publicChannelTopics(channel);
   const searchText = [
     channel.name,
     channel.title,
     channel.summary,
-    channel.category,
+    ...topics,
     channel.focus,
     channel.lastPostTitle,
   ].filter(Boolean).join(" ");
@@ -115,6 +136,7 @@ function channelCard(channel, checkedAt) {
             data-slug="${escapeHtml(slug)}"
             data-name="${escapeHtml(channel.name)}"
             data-category="${escapeHtml(channel.category)}"
+            data-topics="${escapeHtml(JSON.stringify(topics))}"
             data-activity="${activity.id}"
             data-price="${Number.isFinite(price) ? price : 100000}"
             data-subscribers="${channel.subscribers}"
@@ -123,7 +145,7 @@ function channelCard(channel, checkedAt) {
             data-search="${escapeHtml(searchText)}"
           >
             <div class="card-topline">
-              <span class="card-category">${escapeHtml(channel.category)}</span>
+              ${categoryBadge(channel)}
               <span class="status status-${activity.id}" title="${escapeHtml(statusHint)}">${escapeHtml(activity.label)}</span>
             </div>
             <h3>
@@ -210,7 +232,7 @@ function channelDetailTemplate(channel, checkedAt) {
           <template data-channel-slug="${escapeHtml(slug)}">
             <article class="dialog-channel">
               <div class="dialog-channel-topline">
-                <span class="card-category">${escapeHtml(channel.category)}</span>
+                ${categoryBadge(channel)}
                 <span class="status status-${activity.id}">${escapeHtml(activity.label)}</span>
               </div>
               <h2 id="dialog-title-${escapeHtml(slug)}">${escapeHtml(channel.name)}</h2>
@@ -289,7 +311,7 @@ function channelRow(channel, checkedAt) {
                   </span>
                 </th>
                 <td class="table-topic" data-label="Тематика">
-                  <span class="table-category">${escapeHtml(channel.category)}</span>
+                  ${categoryBadge(channel, "table-category")}
                   <span class="table-focus">${escapeHtml(channel.focus || channel.title || channel.category)}</span>
                 </td>
                 <td class="table-audience table-number" data-label="Аудитория">
@@ -313,7 +335,9 @@ function channelRow(channel, checkedAt) {
 function categoryEntries(channels) {
   const counts = new Map();
   for (const channel of channels) {
-    counts.set(channel.category, (counts.get(channel.category) || 0) + 1);
+    for (const topic of publicChannelTopics(channel)) {
+      counts.set(topic, (counts.get(topic) || 0) + 1);
+    }
   }
   return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], locale));
 }
@@ -436,7 +460,7 @@ function channelPage(channel, checkedAt) {
         <a href="../../">Каталог</a> / ${escapeHtml(channel.name)}
       </nav>
       <article class="channel-detail">
-        <span class="card-category">${escapeHtml(channel.category)}</span>
+        ${categoryBadge(channel)}
         <h1>${escapeHtml(channel.name)}</h1>
         <section class="channel-summary-block" aria-labelledby="channel-about">
           <h2 id="channel-about">О канале</h2>
@@ -491,7 +515,7 @@ const jsonLd = safeJson(itemListJsonLd(sortedChannels, checkedAt));
 const cspHash = sha256(jsonLd);
 const categoryOptions = [...categories]
   .sort((a, b) => a[0].localeCompare(b[0], locale))
-  .map(([category, count]) => `<option value="${escapeHtml(category)}">${escapeHtml(category)} · ${count}</option>`)
+  .map(([category, count]) => `<option value="${escapeHtml(category)}" data-topic-label="${escapeHtml(category)}">${escapeHtml(category)} · ${count}</option>`)
   .join("\n              ");
 const mobileCategoryLabels = new Map([
   ["ИИ / ML / Data Science", "ИИ / ML"],
@@ -502,7 +526,7 @@ const mobileCategoryLabels = new Map([
 ]);
 const categoryChips = categories
   .slice(0, 8)
-  .map(([category, count]) => `<button class="topic-chip" type="button" data-category-chip="${escapeHtml(category)}" data-mobile-label="${escapeHtml(mobileCategoryLabels.get(category) || category)}" aria-pressed="false"><span class="topic-label">${escapeHtml(category)}</span> <span aria-label="${count} каналов">· ${count}</span></button>`)
+  .map(([category, count]) => `<button class="topic-chip" type="button" data-category-chip="${escapeHtml(category)}" data-topic-label="${escapeHtml(category)}" data-mobile-label="${escapeHtml(mobileCategoryLabels.get(category) || category)}" aria-label="${escapeHtml(`${category}: ${count} каналов`)}" aria-pressed="false"><span class="topic-label">${escapeHtml(category)}</span> <span data-topic-count aria-hidden="true">· ${count}</span></button>`)
   .join("\n          ");
 
 const template = await fs.readFile(path.join(siteSource, "index.template.html"), "utf8");

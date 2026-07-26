@@ -5,6 +5,7 @@ import {
   defaultSortDirection,
   matchesFilters,
   resultLabel,
+  topicFacetCounts,
 } from "./catalog-core.js";
 
 const ALLOWED_VIEWS = new Set(["cards", "table"]);
@@ -16,12 +17,30 @@ const tableBody = document.querySelector("#channel-table-body");
 const tableRows = new Map(
   [...document.querySelectorAll(".channel-row")].map((row) => [row.dataset.slug, row]),
 );
+
+function parseTopics(element) {
+  try {
+    const parsed = JSON.parse(element.dataset.topics || "[]");
+    if (Array.isArray(parsed)) {
+      const topics = parsed
+        .filter((topic) => typeof topic === "string")
+        .map((topic) => topic.trim())
+        .filter(Boolean);
+      if (topics.length) return [...new Set(topics)].slice(0, 4);
+    }
+  } catch {
+    // Generated markup should contain JSON; the primary category is a safe legacy fallback.
+  }
+  return element.dataset.category ? [element.dataset.category] : [];
+}
+
 const channels = [...document.querySelectorAll(".channel-card")].map((element) => ({
   cardElement: element,
   rowElement: tableRows.get(element.dataset.slug),
   slug: element.dataset.slug,
   name: element.dataset.name,
   category: element.dataset.category,
+  topics: parseTopics(element),
   activity: element.dataset.activity,
   price: Number(element.dataset.price || 0),
   subscribers: Number(element.dataset.subscribers || 0),
@@ -44,6 +63,8 @@ const mobileFiltersToggle = document.querySelector(".mobile-filters-toggle");
 const viewButtons = [...document.querySelectorAll("[data-view]")];
 const sortButtons = [...document.querySelectorAll("[data-sort-key]")];
 const categoryChips = [...document.querySelectorAll("[data-category-chip]")];
+const categoryOptions = [...categoryInput.options];
+const topicValues = categoryOptions.map((option) => option.value).filter(Boolean);
 const topicChips = document.querySelector("#popular-topics");
 const topicMoreButton = document.querySelector(".topic-more");
 const sortAnnouncement = document.querySelector("#table-sort-announcement");
@@ -133,11 +154,37 @@ function renderActiveFilters(filters) {
   activeFilters.hidden = activeFilters.childElementCount === 0;
 }
 
-function updateCategoryChips(category) {
+function updateTopicFacet(filters) {
+  const { total, counts } = topicFacetCounts(channels, filters, topicValues);
+  const allTopicsOption = categoryOptions.find((option) => option.value === "");
+  if (allTopicsOption) {
+    const label = allTopicsOption.dataset.topicLabel || "Все темы";
+    allTopicsOption.textContent = `${label} · ${total.toLocaleString("ru-RU")}`;
+  }
+
+  for (const option of categoryOptions) {
+    if (!option.value) continue;
+    const count = counts.get(option.value) || 0;
+    const label = option.dataset.topicLabel || option.value;
+    const isActive = option.value === filters.category;
+    option.textContent = `${label} · ${count.toLocaleString("ru-RU")}`;
+    option.disabled = count === 0 && !isActive;
+  }
+
   for (const chip of categoryChips) {
-    const isActive = chip.dataset.categoryChip === category;
+    const topic = chip.dataset.categoryChip;
+    const count = counts.get(topic) || 0;
+    const label = chip.dataset.topicLabel || topic;
+    const isActive = topic === filters.category;
+    const countElement = chip.querySelector("[data-topic-count]");
+    if (countElement) countElement.textContent = `· ${count.toLocaleString("ru-RU")}`;
     chip.classList.toggle("is-active", isActive);
     chip.setAttribute("aria-pressed", String(isActive));
+    chip.setAttribute(
+      "aria-label",
+      `${label}: ${resultLabel(count)}${isActive ? ", выбрано" : ""}`,
+    );
+    chip.disabled = count === 0 && !isActive;
   }
 }
 
@@ -221,7 +268,7 @@ function applyFilters({ resetLimit = true } = {}) {
   loadMore.hidden = remaining === 0;
   loadMoreWrap.hidden = remaining === 0;
   renderActiveFilters(filters);
-  updateCategoryChips(filters.category);
+  updateTopicFacet(filters);
   updateMobileFiltersToggle(filters);
   updateSortHeaders(filters);
   updateViewControls();

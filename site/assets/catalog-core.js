@@ -27,15 +27,46 @@ export function clampPrice(value) {
   return Math.min(MAX_PRICE, Math.max(0, Math.round(price)));
 }
 
-export function matchesFilters(channel, filters) {
+export function channelTopics(channel) {
+  const topics = Array.isArray(channel?.topics) ? channel.topics : [];
+  return [...new Set(
+    [channel?.category, ...topics]
+      .filter((topic) => typeof topic === "string")
+      .map((topic) => topic.trim())
+      .filter(Boolean),
+  )];
+}
+
+export function matchesFilters(channel, filters = {}, { ignoreCategory = false } = {}) {
   const query = normalizeText(filters.query);
   if (query && !normalizeText(channel.searchText).includes(query)) return false;
-  if (filters.category && channel.category !== filters.category) return false;
+  if (!ignoreCategory && filters.category && !channelTopics(channel).includes(filters.category)) {
+    return false;
+  }
   if (filters.activity && channel.activity !== filters.activity) return false;
   const maxPrice = clampPrice(filters.maxPrice);
   if (maxPrice !== null && channel.price > maxPrice) return false;
   if (filters.growth && channel.growth <= 0) return false;
   return true;
+}
+
+export function topicFacetCounts(channels, filters = {}, availableTopics = []) {
+  const counts = new Map(
+    availableTopics
+      .filter((topic) => typeof topic === "string" && topic.trim())
+      .map((topic) => [topic, 0]),
+  );
+  let total = 0;
+
+  for (const channel of channels) {
+    if (!matchesFilters(channel, filters, { ignoreCategory: true })) continue;
+    total += 1;
+    for (const topic of channelTopics(channel)) {
+      counts.set(topic, (counts.get(topic) || 0) + 1);
+    }
+  }
+
+  return { total, counts };
 }
 
 export function defaultSortDirection(sort) {

@@ -67,32 +67,38 @@ export const CATEGORY_RULES = [
   },
 ];
 
+export const CATEGORIES = Object.freeze(CATEGORY_RULES.map((rule) => rule.category));
+const CATEGORY_SET = new Set(CATEGORIES);
+
 export const FOCUS_TERMS = [
-  ["ИИ/LLM", ["llm", "chatgpt", "claude", "gpt", "нейросет", "искусственн интеллект", "ai-агент", "mcp", "rag"]],
-  ["Stable Diffusion / генеративная графика", ["stable diffusion", "comfyui", "midjourney", "flux", "генеративн"]],
-  ["Python", ["python", "django", "fastapi", "pandas"]],
-  ["Java / Kotlin / Spring", ["java", "kotlin", "spring"]],
-  ["C# / .NET", ["c#", ".net", "asp.net"]],
-  ["JavaScript / TypeScript", ["javascript", "typescript", "react", "vue", "angular", "node.js", "nestjs", "next.js"]],
-  ["Go / Rust / C++", ["golang", " go ", "rust", "c++"]],
-  ["DevOps / Kubernetes / Docker", ["devops", "kubernetes", "k8s", "docker", "sre", "terraform", "ansible"]],
-  ["Linux / сети / администрирование", ["linux", "sysadmin", "сисадмин", "сетев", "network", "cisco", "mikrotik"]],
-  ["Self-hosting / Home Assistant", ["self-host", "homelab", "домашн сервер", "home assistant", "proxmox", "nas"]],
-  ["IoT / Arduino / embedded", ["arduino", "esp32", "zigbee", "mqtt", "iot", "embedded", "робототех"]],
-  ["Кибербезопасность / OSINT", ["кибербезопас", "информационн безопас", "cybersecurity", "pentest", "ctf", "osint", "mitre"]],
-  ["Data Engineering / BI", ["data engineer", "airflow", "spark", "kafka", "etl", "power bi", "dax", "data governance"]],
-  ["SQL / базы данных", ["sql", "postgres", "баз данных", "database", "clickhouse"]],
-  ["System Design / архитектура", ["system design", "архитектур", "микросервис", "highload", "распределенн систем"]],
-  ["Системный анализ / API", ["системн аналит", "api", "rest", "uml", "bpmn", "интеграц"]],
-  ["QA / автоматизация тестирования", ["qa ", "qa engineer", "тестиров", "автотест", "selenium", "playwright", "postman"]],
-  ["Mobile", ["android", "ios", "swift", "flutter", "react native", "мобильн разработ"]],
-  ["Gamedev", ["gamedev", "геймдев", "unity", "unreal engine", "godot", "геймдизайн"]],
-  ["3D / Blender / CAD", ["blender", "3d model", "3д модел", "zbrush", "houdini", "cad", "autocad", "solidworks", "3d print", "3д печат", "чпу", "cnc"]],
-  ["Электроника / hardware", ["hardware", "электроник", "пайк", "fpga", "pcb", "kicad", "ретрокомпьют"]],
-  ["1С / ERP", ["программист 1с", "разработчик 1с", "аналитик 1с", "1с:", "erp", "sap"]],
-  ["No-code / автоматизация", ["no-code", "nocode", "low-code", "lowcode", "автоматизац процессов"]],
-  ["IT-карьера / собеседования", ["карьер в it", "собеседован", "оффер", "вкат в it", "войти в it"]],
+  ["ИИ/LLM", ["llm", "chatgpt", "claude", "gpt", "нейросет", "искусственн интеллект", "ai-агент", "mcp", "rag"], "ИИ / ML / Data Science"],
+  ["Stable Diffusion / генеративная графика", ["stable diffusion", "comfyui", "midjourney", "flux", "генеративн"], "ИИ / ML / Data Science"],
+  ["Python", ["python", "django", "fastapi", "pandas"], "Программирование"],
+  ["Java / Kotlin / Spring", ["java", "kotlin", "spring"], "Программирование"],
+  ["C# / .NET", ["c#", ".net", "asp.net"], "Программирование"],
+  ["JavaScript / TypeScript", ["javascript", "typescript", "react", "vue", "angular", "node.js", "nestjs", "next.js"], "Программирование"],
+  ["Go / Rust / C++", ["golang", " go ", "rust", "c++"], "Программирование"],
+  ["DevOps / Kubernetes / Docker", ["devops", "kubernetes", "k8s", "docker", "sre", "terraform", "ansible"], "Администрирование / DevOps / сети"],
+  ["Linux / сети / администрирование", ["linux", "sysadmin", "сисадмин", "сетев", "network", "cisco", "mikrotik"], "Администрирование / DevOps / сети"],
+  ["Self-hosting / Home Assistant", ["self-host", "homelab", "домашн сервер", "home assistant", "proxmox", "nas"], "Self-hosting / IoT / embedded"],
+  ["IoT / Arduino / embedded", ["arduino", "esp32", "zigbee", "mqtt", "iot", "embedded", "робототех"], "Self-hosting / IoT / embedded"],
+  ["Кибербезопасность / OSINT", ["кибербезопас", "информационн безопас", "cybersecurity", "pentest", "ctf", "osint", "mitre"], "Кибербезопасность"],
+  ["Data Engineering / BI", ["data engineer", "airflow", "spark", "kafka", "etl", "power bi", "dax", "data governance"], "Data / BI / базы данных"],
+  ["SQL / базы данных", ["sql", "postgres", "баз данных", "database", "clickhouse"], "Data / BI / базы данных"],
+  ["System Design / архитектура", ["system design", "архитектур", "микросервис", "highload", "распределенн систем"], "Архитектура / системный анализ"],
+  ["Системный анализ / API", ["системн аналит", "api", "rest", "uml", "bpmn", "интеграц"], "Архитектура / системный анализ"],
+  ["QA / автоматизация тестирования", ["qa ", "qa engineer", "тестиров", "автотест", "selenium", "playwright", "postman"], "QA / тестирование"],
+  ["Mobile", ["android", "ios", "swift", "flutter", "react native", "мобильн разработ"], "Mobile"],
+  ["Gamedev", ["gamedev", "геймдев", "unity", "unreal engine", "godot", "геймдизайн"], "Gamedev"],
+  ["3D / Blender / CAD", ["blender", "3d model", "3д модел", "zbrush", "houdini", "cad", "autocad", "solidworks", "3d print", "3д печат", "чпу", "cnc"], "3D / CAD / цифровое производство"],
+  ["Электроника / hardware", ["hardware", "электроник", "пайк", "fpga", "pcb", "kicad", "ретрокомпьют"], "Электроника / hardware / DIY"],
+  ["1С / ERP", ["программист 1с", "разработчик 1с", "аналитик 1с", "1с:", "erp", "sap"], "1С / ERP / автоматизация"],
+  ["No-code / автоматизация", ["no-code", "nocode", "low-code", "lowcode", "автоматизац процессов"], "1С / ERP / автоматизация"],
+  ["IT-карьера / собеседования", ["карьер в it", "собеседован", "оффер", "вкат в it", "войти в it"], "IT-менеджмент / карьера"],
 ];
+const FOCUS_TOPIC_BY_LABEL = new Map(
+  FOCUS_TERMS.map(([label, , topic]) => [label, topic]),
+);
 
 export const DISCOVERY_QUERIES = [
   "site:boosty.to программирование разработка",
@@ -251,9 +257,66 @@ export function inferClassification(text) {
     .map(([label]) => label);
   return {
     category,
+    topics: topicsFromCategoryScores(category, ranked, focus),
     focus: focus.length ? focus.join("; ") : category,
     categoryScores: ranked.filter((item) => item.score > 0),
   };
+}
+
+export function topicsFromCategoryScores(
+  primaryCategory,
+  categoryScores = [],
+  focus = [],
+) {
+  const primary = CATEGORY_SET.has(primaryCategory) ? primaryCategory : "Программирование";
+  const focusLabels = Array.isArray(focus)
+    ? focus
+    : String(focus || "").split(";").map((label) => label.trim()).filter(Boolean);
+  const focusTopics = focusLabels
+    .map((label) => FOCUS_TOPIC_BY_LABEL.get(label) || (CATEGORY_SET.has(label) ? label : null))
+    .filter(Boolean);
+  const ranked = categoryScores
+    .filter((item) =>
+      CATEGORY_SET.has(item?.category) &&
+      Number.isFinite(Number(item.score)) &&
+      Number(item.score) > 0
+    )
+    .map((item) => ({ category: item.category, score: Number(item.score) }))
+    .sort((a, b) => b.score - a.score || a.category.localeCompare(b.category, "ru"));
+  const topScore = ranked[0]?.score || 0;
+  const secondaryTopics = ranked
+    .filter((item) =>
+      item.category !== primary &&
+      item.score >= 2 &&
+      item.score >= Math.ceil(topScore * 0.4)
+    )
+    .map((item) => item.category);
+  return unique([
+    primary,
+    ...focusTopics,
+    ...secondaryTopics,
+  ]).slice(0, 4);
+}
+
+export function normalizeChannelTopics(row = {}) {
+  const primary = CATEGORY_SET.has(row.category) ? row.category : "Программирование";
+  const explicitTopics = Array.isArray(row.topics)
+    ? row.topics.filter((topic) => CATEGORY_SET.has(topic))
+    : [];
+  if (explicitTopics.length) return unique([primary, ...explicitTopics]).slice(0, 4);
+
+  const classification = inferClassification([
+    row.name,
+    row.title,
+    row.summary,
+    row.lastPostTitle,
+  ].filter(Boolean).join(" ").toLocaleLowerCase("ru"));
+  if (classification.categoryScores.length === 0) return [primary];
+  return topicsFromCategoryScores(
+    primary,
+    classification.categoryScores,
+    classification.focus,
+  );
 }
 
 export function parseRichText(blocks = []) {
@@ -669,6 +732,8 @@ export async function fetchBoostyChannel(seed, previous, checkedAt) {
     title: blog.title || "",
     boostyUrl: `https://boosty.to/${blog.blogUrl || slug}`,
     category: classification.category,
+    topics: classification.topics,
+    categoryScores: classification.categoryScores,
     focus: classification.focus,
     reason: `Профильный русскоязычный канал: ${classification.focus}.`,
     summary: buildChannelSummary({
@@ -734,19 +799,22 @@ export function toPublicChannel(row) {
     priceRub: Number(tier.priceRub),
     promoPriceRub: Number.isFinite(tier.promoPriceRub) ? Number(tier.promoPriceRub) : null,
   }));
+  const category = CATEGORY_SET.has(row.category) ? row.category : "Программирование";
+  const topics = normalizeChannelTopics({ ...row, category });
   return {
     slug: String(row.slug).toLowerCase(),
     name: String(row.name || row.slug).slice(0, 180),
     title: sanitizePublicSummary(row.title).slice(0, 220),
     boostyUrl: `https://boosty.to/${String(row.slug).toLowerCase()}`,
-    category: String(row.category || "Программирование"),
-    focus: String(row.focus || row.category || "Программирование").slice(0, 320),
+    category,
+    topics,
+    focus: String(row.focus || category).slice(0, 320),
     reason: String(row.reason || "").slice(0, 360),
     summary: buildChannelSummary({
       description: row.summary || row.description,
       title: row.title,
       focus: row.focus,
-      category: row.category,
+      category,
     }),
     subscribers: Math.max(0, Number(row.subscribers) || 0),
     postsCount: Math.max(0, Number(row.postsCount) || 0),

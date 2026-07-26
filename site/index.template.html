@@ -133,9 +133,15 @@
 
           <div class="advanced-filters" id="advanced-filters">
             <div class="filter">
-              <label for="category">Тема</label>
-              <select id="category" name="category">
-                <option value="">Все темы</option>
+              <label for="category">
+                Тема
+                <span class="filter-label-note" aria-hidden="true">несколько у канала</span>
+              </label>
+              <span class="sr-only" id="category-help">
+                Один канал может относиться к нескольким темам. Счётчики учитывают остальные выбранные фильтры.
+              </span>
+              <select id="category" name="category" aria-describedby="category-help">
+                <option value="" data-topic-label="Все темы">Все темы</option>
                 __CATEGORY_OPTIONS__
               </select>
             </div>

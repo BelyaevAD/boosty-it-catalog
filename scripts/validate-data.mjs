@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
 import path from "node:path";
-import { findPublicContactKinds } from "./lib/catalog.mjs";
+import { CATEGORIES, findPublicContactKinds } from "./lib/catalog.mjs";
 
 const root = path.resolve(import.meta.dirname, "..");
 const publicCatalog = JSON.parse(await fs.readFile(path.join(root, "data", "channels.json"), "utf8"));
@@ -17,6 +17,7 @@ assert.equal(meta.channelCount, channels.length, "meta.channelCount must match c
 
 const slugs = new Set();
 const urls = new Set();
+const knownCategories = new Set(CATEGORIES);
 for (const channel of channels) {
   assert.match(channel.slug, /^[a-z0-9_.-]{1,120}$/, `Unsafe slug: ${channel.slug}`);
   assert.ok(!slugs.has(channel.slug), `Duplicate slug: ${channel.slug}`);
@@ -25,7 +26,16 @@ for (const channel of channels) {
   assert.ok(!urls.has(channel.boostyUrl), `Duplicate URL: ${channel.boostyUrl}`);
   urls.add(channel.boostyUrl);
   assert.ok(channel.name && channel.name.length <= 180, `Invalid name for ${channel.slug}`);
-  assert.ok(channel.category, `Missing category for ${channel.slug}`);
+  assert.ok(knownCategories.has(channel.category), `Unknown category for ${channel.slug}`);
+  assert.ok(
+    Array.isArray(channel.topics) && channel.topics.length >= 1 && channel.topics.length <= 4,
+    `Invalid topics for ${channel.slug}`,
+  );
+  assert.equal(channel.topics[0], channel.category, `Primary category must be first for ${channel.slug}`);
+  assert.equal(new Set(channel.topics).size, channel.topics.length, `Duplicate topics for ${channel.slug}`);
+  for (const topic of channel.topics) {
+    assert.ok(knownCategories.has(topic), `Unknown topic "${topic}" for ${channel.slug}`);
+  }
   assert.ok(channel.focus, `Missing focus for ${channel.slug}`);
   assert.ok(channel.summary && channel.summary.length <= 420, `Invalid summary for ${channel.slug}`);
   assert.ok(!/https?:\/\//i.test(channel.summary), `External URL leaked into summary for ${channel.slug}`);

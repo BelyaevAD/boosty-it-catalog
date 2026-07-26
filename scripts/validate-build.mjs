@@ -13,6 +13,7 @@ assert.ok(index.includes("<title>Boosty IT Каталог"), "Missing page title
 assert.ok(index.includes('application/ld+json'), "Missing structured data.");
 assert.ok(index.includes(`data-slug=`), "Channel cards were not rendered.");
 assert.equal((index.match(/class="channel-card"/g) || []).length, catalog.channels.length, "Rendered card count mismatch.");
+assert.equal((index.match(/data-topics="/g) || []).length, catalog.channels.length, "Multi-topic card data mismatch.");
 assert.ok(!index.includes("__SITE_URL__"), "Unresolved site URL placeholder.");
 assert.ok(!index.includes("__CHANNEL_CARDS__"), "Unresolved cards placeholder.");
 assert.ok(!index.includes("__CHANNEL_DETAILS__"), "Unresolved channel details placeholder.");
@@ -20,6 +21,13 @@ assert.ok(!index.includes("__CHANNEL_ROWS__"), "Unresolved table rows placeholde
 assert.equal((index.match(/class="channel-row"/g) || []).length, catalog.channels.length, "Rendered table row count mismatch.");
 assert.equal((index.match(/<template data-channel-slug=/g) || []).length, catalog.channels.length, "Rendered modal template count mismatch.");
 assert.equal((index.match(/class="table-boosty-mini"/g) || []).length, catalog.channels.length, "Inline Boosty link count mismatch.");
+const multiTopicCount = catalog.channels.filter((channel) => channel.topics.length > 1).length;
+assert.equal((index.match(/class="topic-extra"/g) || []).length, multiTopicCount * 3, "Secondary topic badges mismatch.");
+assert.equal(
+  (index.match(/<span class="sr-only">\. Также:/g) || []).length,
+  multiTopicCount * 3,
+  "Secondary topic badges must include accessible text.",
+);
 assert.equal((index.match(/scope="row" data-label="Канал"/g) || []).length, catalog.channels.length, "Table row headers are missing.");
 assert.equal((index.match(/<col class="col-/g) || []).length, 5, "The comparison table must use five compact columns.");
 assert.ok(index.includes('class="card-grid" id="channel-grid" hidden'), "Cards must be hidden on initial render.");

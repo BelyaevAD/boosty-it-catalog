@@ -1,18 +1,21 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
+  channelTopics,
   clampPrice,
   compareChannels,
   defaultSortDirection,
   matchesFilters,
   normalizeText,
   resultLabel,
+  topicFacetCounts,
 } from "../site/assets/catalog-core.js";
 import {
   assessBoostyBlog,
   buildChannelSummary,
   findPublicContactKinds,
   inferClassification,
+  normalizeChannelTopics,
   sanitizePublicSummary,
   toPublicChannel,
 } from "../scripts/lib/catalog.mjs";
@@ -21,6 +24,7 @@ const channels = [
   {
     name: "Python Lab",
     category: "Программирование",
+    topics: ["Программирование", "ИИ / ML / Data Science"],
     activity: "fresh",
     price: 300,
     subscribers: 1200,
@@ -31,6 +35,7 @@ const channels = [
   {
     name: "DevOps Дом",
     category: "Администрирование / DevOps / сети",
+    topics: ["Администрирование / DevOps / сети", "Архитектура / системный анализ"],
     activity: "active",
     price: 150,
     subscribers: 300,
@@ -66,6 +71,56 @@ test("filters by search, topic, price and growth", () => {
     maxPrice: 200,
     growth: true,
   }), false);
+});
+
+test("matches a channel by a secondary topic and keeps a legacy category fallback", () => {
+  assert.equal(matchesFilters(channels[0], {
+    category: "ИИ / ML / Data Science",
+  }), true);
+  assert.deepEqual(channelTopics({
+    category: "Программирование",
+  }), ["Программирование"]);
+});
+
+test("calculates dynamic topic facets from every filter except the topic itself", () => {
+  const filters = {
+    query: "python",
+    category: "Администрирование / DevOps / сети",
+    activity: "fresh",
+    maxPrice: 500,
+    growth: true,
+    sort: "subscribers",
+    direction: "asc",
+  };
+  const facet = topicFacetCounts(
+    channels,
+    filters,
+    [
+      "Программирование",
+      "ИИ / ML / Data Science",
+      "Администрирование / DevOps / сети",
+      "Кибербезопасность",
+    ],
+  );
+
+  assert.equal(facet.total, 1);
+  assert.equal(facet.counts.get("Программирование"), 1);
+  assert.equal(facet.counts.get("ИИ / ML / Data Science"), 1);
+  assert.equal(facet.counts.get("Администрирование / DevOps / сети"), 0);
+  assert.equal(facet.counts.get("Кибербезопасность"), 0);
+});
+
+test("counts every channel once per topic even when input topics repeat", () => {
+  const facet = topicFacetCounts([
+    {
+      ...channels[0],
+      topics: ["Программирование", "ИИ / ML / Data Science", "ИИ / ML / Data Science"],
+    },
+  ], {}, ["Программирование", "ИИ / ML / Data Science"]);
+
+  assert.equal(facet.total, 1);
+  assert.equal(facet.counts.get("Программирование"), 1);
+  assert.equal(facet.counts.get("ИИ / ML / Data Science"), 1);
 });
 
 test("sorts by subscriber count", () => {
@@ -179,8 +234,64 @@ test("sanitizes public title and latest-post title while preserving creator name
     checkedAt: "2026-07-26",
   });
   assert.equal(channel.name, "Алексей Иванов");
+  assert.deepEqual(channel.topics, ["Программирование"]);
   assert.equal(findPublicContactKinds(`${channel.title} ${channel.lastPostTitle}`).length, 0);
   assert.ok(!channel.title.includes("alexey_dev"));
+});
+
+test("normalizes several deterministic topics while keeping the primary first", () => {
+  assert.deepEqual(normalizeChannelTopics({
+    category: "Администрирование / DevOps / сети",
+    title: "DevOps, Kubernetes, system design и архитектура микросервисов",
+  }), [
+    "Администрирование / DevOps / сети",
+    "Архитектура / системный анализ",
+  ]);
+});
+
+test("does not trust a legacy derived focus without direct public evidence", () => {
+  assert.deepEqual(normalizeChannelTopics({
+    category: "Программирование",
+    title: "PHP-разработчик",
+    focus: "1С / ERP",
+  }), ["Программирование"]);
+});
+
+test("does not turn the programming fallback into an unsupported secondary topic", () => {
+  assert.deepEqual(normalizeChannelTopics({
+    category: "Администрирование / DevOps / сети",
+    title: "Канал Ивана",
+  }), ["Администрирование / DevOps / сети"]);
+});
+
+test("keeps classification and legacy public-text migration consistent", () => {
+  const classification = inferClassification("frontend playwright");
+  assert.deepEqual(
+    normalizeChannelTopics({
+      category: classification.category,
+      title: "frontend playwright",
+    }),
+    classification.topics,
+  );
+});
+
+test("normalizes explicit topics by allow-list, uniqueness, order and limit", () => {
+  assert.deepEqual(normalizeChannelTopics({
+    category: "Программирование",
+    topics: [
+      "ИИ / ML / Data Science",
+      "ИИ / ML / Data Science",
+      "Неизвестная тема",
+      "Администрирование / DevOps / сети",
+      "Архитектура / системный анализ",
+      "QA / тестирование",
+    ],
+  }), [
+    "Программирование",
+    "ИИ / ML / Data Science",
+    "Администрирование / DevOps / сети",
+    "Архитектура / системный анализ",
+  ]);
 });
 
 test("classifies adjacent 3D and digital-production channels explicitly", () => {
@@ -208,6 +319,14 @@ test("classifies standalone C#, C++, .NET and ASP.NET technology terms", () => {
   assert.equal(cpp.category, "Программирование");
   assert.match(cpp.focus, /Go \/ Rust \/ C\+\+/u);
   assert.ok(cpp.categoryScores.some((item) => item.category === "Программирование"));
+});
+
+test("classification can assign several strong topics", () => {
+  const classification = inferClassification(
+    "LLM, machine learning, Python и FastAPI для production-разработки".toLowerCase(),
+  );
+  assert.ok(classification.topics.includes("ИИ / ML / Data Science"));
+  assert.ok(classification.topics.includes("Программирование"));
 });
 
 test("removes bare URLs, domain paths and cryptocurrency payment addresses", () => {

@@ -18,6 +18,14 @@ assert.ok(!index.includes("__SITE_URL__"), "Unresolved site URL placeholder.");
 assert.ok(!index.includes("__CHANNEL_CARDS__"), "Unresolved cards placeholder.");
 assert.ok(!index.includes("__CHANNEL_DETAILS__"), "Unresolved channel details placeholder.");
 assert.ok(!index.includes("__CHANNEL_ROWS__"), "Unresolved table rows placeholder.");
+assert.ok(!index.includes("__ASSET_VERSION__"), "Unresolved asset version placeholder.");
+assert.match(index, /assets\/app\.js\?v=[a-f0-9]{12}/u, "Main script must be cache-versioned.");
+const builtApp = await fs.readFile(path.join(output, "assets", "app.js"), "utf8");
+assert.match(
+  builtApp,
+  /catalog-core\.js\?v=[a-f0-9]{12}/u,
+  "Core module import must be cache-versioned.",
+);
 assert.equal((index.match(/class="channel-row"/g) || []).length, catalog.channels.length, "Rendered table row count mismatch.");
 assert.equal((index.match(/<template data-channel-slug=/g) || []).length, catalog.channels.length, "Rendered modal template count mismatch.");
 assert.equal((index.match(/class="table-boosty-mini"/g) || []).length, catalog.channels.length, "Inline Boosty link count mismatch.");

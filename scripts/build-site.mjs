@@ -40,6 +40,12 @@ function sha256(value) {
   return crypto.createHash("sha256").update(value).digest("base64");
 }
 
+function contentVersion(...values) {
+  const hash = crypto.createHash("sha256");
+  for (const value of values) hash.update(value);
+  return hash.digest("hex").slice(0, 12);
+}
+
 function formatNumber(value) {
   return Number(value || 0).toLocaleString(locale);
 }
@@ -436,7 +442,7 @@ function channelPage(channel, checkedAt) {
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${escapeHtml(canonical)}">
     <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="../../assets/styles.css?v=${assetVersion}">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="ru_RU">
     <meta property="og:title" content="${escapeHtml(channel.name)} — Boosty IT Каталог">
@@ -513,6 +519,19 @@ const medianPrice = median(channels.map(effectivePrice));
 const description = `${channels.length} проверенных русскоязычных IT-каналов на Boosty: ИИ, программирование, DevOps, self-hosting, архитектура, безопасность и другие темы.`;
 const jsonLd = safeJson(itemListJsonLd(sortedChannels, checkedAt));
 const cspHash = sha256(jsonLd);
+const [appSource, coreSource, stylesSource] = await Promise.all([
+  fs.readFile(path.join(siteSource, "assets", "app.js"), "utf8"),
+  fs.readFile(path.join(siteSource, "assets", "catalog-core.js"), "utf8"),
+  fs.readFile(path.join(siteSource, "assets", "styles.css"), "utf8"),
+]);
+const assetVersion = contentVersion(appSource, coreSource, stylesSource);
+const versionedAppSource = appSource.replace(
+  'from "./catalog-core.js";',
+  `from "./catalog-core.js?v=${assetVersion}";`,
+);
+if (versionedAppSource === appSource) {
+  throw new Error("Could not version the catalog-core module import.");
+}
 const categoryOptions = [...categories]
   .sort((a, b) => a[0].localeCompare(b[0], locale))
   .map(([category, count]) => `<option value="${escapeHtml(category)}" data-topic-label="${escapeHtml(category)}">${escapeHtml(category)} · ${count}</option>`)
@@ -541,6 +560,7 @@ const indexHtml = template
   .replaceAll("__ACTIVE_COUNT__", formatNumber(activeCount))
   .replaceAll("__MEDIAN_PRICE__", formatNumber(medianPrice))
   .replaceAll("__TOTAL_SUBSCRIBERS__", formatNumber(totalSubscribers))
+  .replaceAll("__ASSET_VERSION__", assetVersion)
   .replaceAll("__CATEGORY_OPTIONS__", categoryOptions)
   .replaceAll("__CATEGORY_CHIPS__", categoryChips)
   .replaceAll("__CHANNEL_CARDS__", sortedChannels.map((channel) => channelCard(channel, checkedAt)).join("\n"))
@@ -556,6 +576,7 @@ await fs.cp(path.join(siteSource, "assets"), path.join(output, "assets"), { recu
 await Promise.all([
   fs.copyFile(path.join(siteSource, "site.webmanifest"), path.join(output, "site.webmanifest")),
   fs.copyFile(dataPath, path.join(output, "data.json")),
+  fs.writeFile(path.join(output, "assets", "app.js"), versionedAppSource),
   fs.writeFile(path.join(output, "index.html"), indexHtml),
 ]);
 
@@ -614,7 +635,7 @@ ${feedItems}
 const notFound = `<!doctype html>
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="refresh" content="3; url=${escapeHtml(siteUrl)}"><title>Страница не найдена · Boosty IT Каталог</title>
-<link rel="stylesheet" href="${escapeHtml(`${siteUrl}assets/styles.css`)}"></head>
+<link rel="stylesheet" href="${escapeHtml(`${siteUrl}assets/styles.css?v=${assetVersion}`)}"></head>
 <body class="channel-page-body"><main class="channel-page"><article class="channel-detail">
 <p class="eyebrow eyebrow-dark">404</p><h1>Страница не найдена</h1><p class="card-focus">Через несколько секунд вы вернётесь в каталог.</p>
 <a class="button button-primary" href="${escapeHtml(siteUrl)}">Открыть каталог</a>

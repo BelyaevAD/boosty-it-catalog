@@ -1,25 +1,24 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-14",
-  "metricsCheckedAt": "2026-08-14",
-  "previousChannelCount": 398,
-  "channelCount": 399,
-  "candidateCount": 5172,
-  "discoveredCount": 1030,
+  "checkedAt": "2026-08-21",
+  "metricsCheckedAt": "2026-08-21",
+  "previousChannelCount": 399,
+  "channelCount": 401,
+  "candidateCount": 5180,
+  "discoveredCount": 8,
   "checkedCandidateCount": 250,
-  "prefilteredCount": 192,
-  "pendingCount": 815,
+  "prefilteredCount": 221,
+  "pendingCount": 574,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
   "terminalNotFoundCount": 1,
   "added": [
-    "koshacya_batsyla",
-    "takentui",
-    "akiyamy"
+    "ios-interview",
+    "jtprogru",
+    "kortirso"
   ],
   "removed": [
-    "pva_dev",
-    "kiberdruzhinnik"
+    "redroverschool"
   ],
   "errors": []
 }

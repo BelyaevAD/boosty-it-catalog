@@ -710,10 +710,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: Blender 3D моделирование"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 3,
+      "relevanceScore": 4,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "3dmodelsfor3dprint",
@@ -2231,10 +2235,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: Selenium Playwright"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 4,
+      "relevanceScore": 4,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "ai-future",
@@ -4808,10 +4816,13 @@
       "discoveryQueries": [
         "Официальный каталог Boosty: style_and_culture"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "anahoret",
@@ -13557,10 +13568,13 @@
       "discoveryQueries": [
         "Официальный каталог Boosty: gaming_world"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "chifar",
@@ -15347,10 +15361,13 @@
       "discoveryQueries": [
         "Официальный каталог Boosty: society"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "cresil",
@@ -16320,10 +16337,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: self-hosted сервер"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 6,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "darangel_taro",
@@ -26978,10 +26999,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: Godot разработка игр"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "fraglydev",
@@ -33767,10 +33792,13 @@
       "discoveryQueries": [
         "Официальный каталог Boosty: gaming_world"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "ilya_grizzly",
@@ -46673,10 +46701,13 @@
       "discoveryQueries": [
         "Официальный каталог Boosty: society"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "mashafotoblog",
@@ -53844,10 +53875,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: Raspberry Pi проект"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 3,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "nof3x",
@@ -62653,10 +62688,13 @@
       "discoveryQueries": [
         "Официальный каталог Boosty: society"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "redroverschool",
@@ -65047,10 +65085,13 @@
       "discoveryQueries": [
         "Официальный каталог Boosty: style_and_culture"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "rywokru",
@@ -68557,16 +68598,19 @@
     },
     {
       "slug": "sibvrv",
-      "name": "sibvrv",
+      "name": "Roman Vereshchagin",
       "boostyUrl": "https://boosty.to/sibvrv",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "no-posts",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "sick-and-wild",
@@ -68593,10 +68637,12 @@
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "sietandre",
@@ -68684,16 +68730,19 @@
     },
     {
       "slug": "silentvip",
-      "name": "silentvip",
+      "name": "SileNTViP",
       "boostyUrl": "https://boosty.to/silentvip",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "silero",
@@ -68771,16 +68820,19 @@
     },
     {
       "slug": "simfanru",
-      "name": "simfanru",
+      "name": "SimFan",
       "boostyUrl": "https://boosty.to/simfanru",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "simmon8800",
@@ -68803,16 +68855,19 @@
     },
     {
       "slug": "simonosla",
-      "name": "simonosla",
+      "name": "Ольга Симонова",
       "boostyUrl": "https://boosty.to/simonosla",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "simple-emacs",
@@ -68833,16 +68888,19 @@
     },
     {
       "slug": "simpledg",
-      "name": "simpledg",
+      "name": "Родион / Simple Dice Game",
       "boostyUrl": "https://boosty.to/simpledg",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "simpledj",
@@ -68863,16 +68921,19 @@
     },
     {
       "slug": "simplepsychology",
-      "name": "simplepsychology",
+      "name": "SimplePsychology",
       "boostyUrl": "https://boosty.to/simplepsychology",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "simply_kel",
@@ -68950,16 +69011,19 @@
     },
     {
       "slug": "simssborki",
-      "name": "simssborki",
+      "name": "Alexey Borisov",
       "boostyUrl": "https://boosty.to/simssborki",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "simsworld",
@@ -69109,16 +69173,19 @@
     },
     {
       "slug": "sk1hh",
-      "name": "sk1hh",
+      "name": "SkillSun",
       "boostyUrl": "https://boosty.to/sk1hh",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "sk1ll_tv",
@@ -69194,16 +69261,19 @@
     },
     {
       "slug": "skeletonfx",
-      "name": "skeletonfx",
+      "name": "SkeletonFX",
       "boostyUrl": "https://boosty.to/skeletonfx",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "sketchman",
@@ -69300,16 +69370,19 @@
     },
     {
       "slug": "skm",
-      "name": "skm",
+      "name": "Сладкий канал Мозга + Будка Императора",
       "boostyUrl": "https://boosty.to/skm",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "skola_crew",
@@ -69407,16 +69480,20 @@
     },
     {
       "slug": "skullez",
-      "name": "skullez",
+      "name": "Николай Стешенко",
       "boostyUrl": "https://boosty.to/skullez",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "skullkon",
@@ -69475,29 +69552,35 @@
     },
     {
       "slug": "skyrimtruebeliever",
-      "name": "skyrimtruebeliever",
+      "name": "Skyrim True Believer",
       "boostyUrl": "https://boosty.to/skyrimtruebeliever",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "skyrimus",
-      "name": "skyrimus",
+      "name": "Skyrimus",
       "boostyUrl": "https://boosty.to/skyrimus",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "language",
+      "profileRelevanceScore": 4,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "skyships",
@@ -69525,10 +69608,12 @@
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "slava_semeshko",
@@ -69549,16 +69634,19 @@
     },
     {
       "slug": "slavacarotte",
-      "name": "slavacarotte",
+      "name": "Slava Carotte",
       "boostyUrl": "https://boosty.to/slavacarotte",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "language",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "slavaleks",
@@ -69903,16 +69991,19 @@
     },
     {
       "slug": "smirusnews",
-      "name": "smirusnews",
+      "name": "RusNews",
       "boostyUrl": "https://boosty.to/smirusnews",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "smokehanter",
@@ -70046,23 +70137,31 @@
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 2,
+      "relevanceScore": 2,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "snake.nest",
-      "name": "snake.nest",
+      "name": "Дербуш Олег",
       "boostyUrl": "https://boosty.to/snake.nest",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "snakeroot",
@@ -70138,16 +70237,19 @@
     },
     {
       "slug": "snowlabs",
-      "name": "snowlabs",
+      "name": "SnowLabs",
       "boostyUrl": "https://boosty.to/snowlabs",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "no-posts",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "soaqa",
@@ -70414,16 +70516,19 @@
     },
     {
       "slug": "solar.w",
-      "name": "solar.w",
+      "name": "Solar.w",
       "boostyUrl": "https://boosty.to/solar.w",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "language",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "solasmusic",
@@ -70479,16 +70584,19 @@
     },
     {
       "slug": "solo_due",
-      "name": "solo_due",
+      "name": "Не галопом по Европам",
       "boostyUrl": "https://boosty.to/solo_due",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "solo_teach",
@@ -70576,16 +70684,20 @@
     },
     {
       "slug": "somababy",
-      "name": "somababy",
+      "name": "Baby Soma",
       "boostyUrl": "https://boosty.to/somababy",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "somatics.by",
@@ -70657,42 +70769,51 @@
     },
     {
       "slug": "somper",
-      "name": "somper",
+      "name": "Somper",
       "boostyUrl": "https://boosty.to/somper",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "songhaolga",
-      "name": "songhaolga",
+      "name": "Ольга Будянская",
       "boostyUrl": "https://boosty.to/songhaolga",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "sonozaki_nori",
-      "name": "sonozaki_nori",
+      "name": "Норичка",
       "boostyUrl": "https://boosty.to/sonozaki_nori",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "sonozakisisters",
@@ -70819,10 +70940,12 @@
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "soresk",
@@ -71088,16 +71211,19 @@
     },
     {
       "slug": "sparkcraft",
-      "name": "sparkcraft",
+      "name": "SparkCraft",
       "boostyUrl": "https://boosty.to/sparkcraft",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "no-posts",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "spaun47rus",
@@ -71135,16 +71261,20 @@
     },
     {
       "slug": "spectate.ru",
-      "name": "spectate.ru",
+      "name": "SPECTATE",
       "boostyUrl": "https://boosty.to/spectate.ru",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "spesialmodels",
@@ -71179,16 +71309,19 @@
     },
     {
       "slug": "spichkkka",
-      "name": "spichkkka",
+      "name": "Настя Спичковна",
       "boostyUrl": "https://boosty.to/spichkkka",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "spidermedia",
@@ -71238,16 +71371,19 @@
     },
     {
       "slug": "spkarishka",
-      "name": "spkarishka",
+      "name": "Аришка",
       "boostyUrl": "https://boosty.to/spkarishka",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "splandor",
@@ -71391,16 +71527,19 @@
     },
     {
       "slug": "srandom10",
-      "name": "srandom10",
+      "name": "SRandom",
       "boostyUrl": "https://boosty.to/srandom10",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "sreda.vision",
@@ -71439,16 +71578,19 @@
     },
     {
       "slug": "ssadoshenko",
-      "name": "ssadoshenko",
+      "name": "Сергей Садошенко",
       "boostyUrl": "https://boosty.to/ssadoshenko",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "ssdms",
@@ -71492,12 +71634,13 @@
         "Common Crawl: CC-MAIN-2026-25",
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "removed",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
-      "lastCheckedAt": "2026-07-31",
-      "reviewReason": null,
-      "lastSeenAt": "2026-08-14"
+      "lastCheckedAt": "2026-09-04",
+      "reviewReason": "adult-content",
+      "lastSeenAt": "2026-08-14",
+      "profileRelevanceScore": 2
     },
     {
       "slug": "stacyco",
@@ -71601,16 +71744,20 @@
     },
     {
       "slug": "staply",
-      "name": "staply",
+      "name": "Staply приложение",
       "boostyUrl": "https://boosty.to/staply",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "starbiy_ybludok",
@@ -71629,16 +71776,19 @@
     },
     {
       "slug": "starik0-0",
-      "name": "starik0-0",
+      "name": "Starik Molodoi",
       "boostyUrl": "https://boosty.to/starik0-0",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "starli",
@@ -71692,16 +71842,19 @@
     },
     {
       "slug": "startupfellows",
-      "name": "startupfellows",
+      "name": "StartupFellows",
       "boostyUrl": "https://boosty.to/startupfellows",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "startupstory",
@@ -71800,16 +71953,19 @@
     },
     {
       "slug": "stasy_boo",
-      "name": "stasy_boo",
+      "name": "Анастасия Буянова",
       "boostyUrl": "https://boosty.to/stasy_boo",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "stavros-dekor",
@@ -71829,16 +71985,19 @@
     },
     {
       "slug": "stavrowitch",
-      "name": "stavrowitch",
+      "name": "Nuki",
       "boostyUrl": "https://boosty.to/stavrowitch",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "staxxik",
@@ -71940,16 +72099,19 @@
     },
     {
       "slug": "steinet",
-      "name": "steinet",
+      "name": "SteiNet",
       "boostyUrl": "https://boosty.to/steinet",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "stepanzorin",
@@ -72001,16 +72163,19 @@
     },
     {
       "slug": "stereopolina",
-      "name": "stereopolina",
+      "name": "Стереополина",
       "boostyUrl": "https://boosty.to/stereopolina",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "sterkin",
@@ -72077,29 +72242,36 @@
     },
     {
       "slug": "stilletka",
-      "name": "stilletka",
+      "name": "Екатерина Артемова",
       "boostyUrl": "https://boosty.to/stilletka",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "stillman",
-      "name": "stillman",
+      "name": "Сергей Пономарев",
       "boostyUrl": "https://boosty.to/stillman",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "stirofom",
@@ -72217,16 +72389,19 @@
     },
     {
       "slug": "storydoma",
-      "name": "storydoma",
+      "name": "Minerva",
       "boostyUrl": "https://boosty.to/storydoma",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "storytellingschool",
@@ -72279,16 +72454,19 @@
     },
     {
       "slug": "strategy_fortress",
-      "name": "strategy_fortress",
+      "name": "Mr_Grin_",
       "boostyUrl": "https://boosty.to/strategy_fortress",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "stravnik",
@@ -72504,16 +72682,19 @@
     },
     {
       "slug": "stuffydogs",
-      "name": "stuffydogs",
+      "name": "Подкаст Душные Псы",
       "boostyUrl": "https://boosty.to/stuffydogs",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "sturmang",
@@ -72748,29 +72929,35 @@
     },
     {
       "slug": "sunandwind",
-      "name": "sunandwind",
+      "name": "Всё здесь ДА!",
       "boostyUrl": "https://boosty.to/sunandwind",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "suncho.photo",
-      "name": "suncho.photo",
+      "name": "suncho",
       "boostyUrl": "https://boosty.to/suncho.photo",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "sunderland93",
@@ -72826,16 +73013,19 @@
     },
     {
       "slug": "sunrise.project",
-      "name": "sunrise.project",
+      "name": "Sunrise ~ Project",
       "boostyUrl": "https://boosty.to/sunrise.project",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "language",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "suomestaru",
@@ -72871,42 +73061,51 @@
     },
     {
       "slug": "superpower",
-      "name": "superpower",
+      "name": "Новости СВЕРХДЕРЖАВЫ",
       "boostyUrl": "https://boosty.to/superpower",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "supervareshhhka",
-      "name": "supervareshhhka",
+      "name": "Vareshhhka",
       "boostyUrl": "https://boosty.to/supervareshhhka",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "supperclubspace",
-      "name": "supperclubspace",
+      "name": "Стелла+Егор",
       "boostyUrl": "https://boosty.to/supperclubspace",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "surenvideo",
@@ -73094,16 +73293,19 @@
     },
     {
       "slug": "svoisvoim1986",
-      "name": "svoisvoim1986",
+      "name": "Владимир Иванов",
       "boostyUrl": "https://boosty.to/svoisvoim1986",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "svoyastaya",
@@ -73207,16 +73409,19 @@
     },
     {
       "slug": "sweetroll",
-      "name": "sweetroll",
+      "name": "Сладкий рулет",
       "boostyUrl": "https://boosty.to/sweetroll",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "sweetyhake",
@@ -73349,16 +73554,19 @@
     },
     {
       "slug": "symptomato",
-      "name": "symptomato",
+      "name": "Symptomato",
       "boostyUrl": "https://boosty.to/symptomato",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "no-posts",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "synthvoiceru",
@@ -73396,16 +73604,19 @@
     },
     {
       "slug": "syslickone",
-      "name": "syslickone",
+      "name": "Кагуровск",
       "boostyUrl": "https://boosty.to/syslickone",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "systeminterviews",
@@ -73525,16 +73736,19 @@
     },
     {
       "slug": "taezhnyeistorii",
-      "name": "taezhnyeistorii",
+      "name": "ТАЁЖНЫЕ ИСТОРИИ",
       "boostyUrl": "https://boosty.to/taezhnyeistorii",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "taga",
@@ -73572,16 +73786,19 @@
     },
     {
       "slug": "tagesbw",
-      "name": "tagesbw",
+      "name": "Tagesbw",
       "boostyUrl": "https://boosty.to/tagesbw",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "tahkucm",
@@ -73600,16 +73817,19 @@
     },
     {
       "slug": "tai-chi-chuan-federation",
-      "name": "tai-chi-chuan-federation",
+      "name": "Федерация Тай-Цзи-Цюань",
       "boostyUrl": "https://boosty.to/tai-chi-chuan-federation",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "taidanosik",
@@ -73783,16 +74003,19 @@
     },
     {
       "slug": "talkhiki",
-      "name": "talkhiki",
+      "name": "Разговоры с Hiki",
       "boostyUrl": "https://boosty.to/talkhiki",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "talkinbook",
@@ -73844,16 +74067,19 @@
     },
     {
       "slug": "talkovateli",
-      "name": "talkovateli",
+      "name": "Толкователи кино",
       "boostyUrl": "https://boosty.to/talkovateli",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "talrasha322",
@@ -73891,16 +74117,19 @@
     },
     {
       "slug": "tamasinushka",
-      "name": "tamasinushka",
+      "name": "Tamasinushka",
       "boostyUrl": "https://boosty.to/tamasinushka",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "tamerlanmurch",
@@ -74236,42 +74465,51 @@
     },
     {
       "slug": "tatsumoto",
-      "name": "tatsumoto",
+      "name": "Tatsumoto",
       "boostyUrl": "https://boosty.to/tatsumoto",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "language",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "tatti7103",
-      "name": "tatti7103",
+      "name": "Lone Dream",
       "boostyUrl": "https://boosty.to/tatti7103",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "tauceti",
-      "name": "tauceti",
+      "name": "Tau Ceti Station",
       "boostyUrl": "https://boosty.to/tauceti",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "taureice",
@@ -74340,29 +74578,35 @@
     },
     {
       "slug": "tdotca",
-      "name": "tdotca",
+      "name": "TDoT",
       "boostyUrl": "https://boosty.to/tdotca",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "teabao",
-      "name": "teabao",
+      "name": "Teabao",
       "boostyUrl": "https://boosty.to/teabao",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "teamcrish",
@@ -74653,16 +74897,20 @@
     },
     {
       "slug": "televizo",
-      "name": "televizo",
+      "name": "Televizo",
       "boostyUrl": "https://boosty.to/televizo",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "telosbeauty",
@@ -74682,16 +74930,19 @@
     },
     {
       "slug": "tematema",
-      "name": "tematema",
+      "name": "FABLE",
       "boostyUrl": "https://boosty.to/tematema",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "temnoyara",
@@ -74727,16 +74978,19 @@
     },
     {
       "slug": "tengyart",
-      "name": "tengyart",
+      "name": "Олег Мороз",
       "boostyUrl": "https://boosty.to/tengyart",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "teni_goroda",
@@ -74772,16 +75026,19 @@
     },
     {
       "slug": "tent",
-      "name": "tent",
+      "name": "Тентсион",
       "boostyUrl": "https://boosty.to/tent",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "no-posts",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "teorikon",
@@ -75034,16 +75291,19 @@
     },
     {
       "slug": "tetragramaton",
-      "name": "tetragramaton",
+      "name": "Tetragramaton",
       "boostyUrl": "https://boosty.to/tetragramaton",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 1,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "texic",
@@ -75062,16 +75322,19 @@
     },
     {
       "slug": "tezee_art",
-      "name": "tezee_art",
+      "name": "TeZee",
       "boostyUrl": "https://boosty.to/tezee_art",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "tfcp68",
@@ -75141,10 +75404,14 @@
       "discoveryQueries": [
         "Официальный каталог Boosty: society"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "thatmaidguy",
@@ -75179,16 +75446,19 @@
     },
     {
       "slug": "the_parasites",
-      "name": "the_parasites",
+      "name": "Rab-Bit",
       "boostyUrl": "https://boosty.to/the_parasites",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "the_story_hunters_podcast",
@@ -75208,16 +75478,19 @@
     },
     {
       "slug": "the.night.away",
-      "name": "the.night.away",
+      "name": "\"На Ночь Глядя\" ",
       "boostyUrl": "https://boosty.to/the.night.away",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "the100worlds",
@@ -75237,16 +75510,19 @@
     },
     {
       "slug": "the46y",
-      "name": "the46y",
+      "name": "ЧБУ",
       "boostyUrl": "https://boosty.to/the46y",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "theatreofdreams",
@@ -75298,16 +75574,19 @@
     },
     {
       "slug": "thedoctorteam",
-      "name": "thedoctorteam",
+      "name": "TheDoctor Team",
       "boostyUrl": "https://boosty.to/thedoctorteam",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "thefaser",
@@ -75359,29 +75638,35 @@
     },
     {
       "slug": "thegravity",
-      "name": "thegravity",
+      "name": "Бруно Арендт",
       "boostyUrl": "https://boosty.to/thegravity",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "thehive",
-      "name": "thehive",
+      "name": "The Hive",
       "boostyUrl": "https://boosty.to/thehive",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "thelastssmoldering",
@@ -75494,55 +75779,67 @@
     },
     {
       "slug": "theprotrade",
-      "name": "theprotrade",
+      "name": "КУЛЬТ ПРОФИТА",
       "boostyUrl": "https://boosty.to/theprotrade",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "no-posts",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "thera",
-      "name": "thera",
+      "name": "Приложение Thera",
       "boostyUrl": "https://boosty.to/thera",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "therestaurant",
-      "name": "therestaurant",
+      "name": "Xell",
       "boostyUrl": "https://boosty.to/therestaurant",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "therift",
-      "name": "therift",
+      "name": "Ilia Mill",
       "boostyUrl": "https://boosty.to/therift",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "therigansband",
@@ -75561,16 +75858,19 @@
     },
     {
       "slug": "theroco",
-      "name": "theroco",
+      "name": "THE ROCO",
       "boostyUrl": "https://boosty.to/theroco",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "theromanov",
@@ -75732,16 +76032,19 @@
     },
     {
       "slug": "tiasha.sims",
-      "name": "tiasha.sims",
+      "name": "Тьяша ✧ Sims 4",
       "boostyUrl": "https://boosty.to/tiasha.sims",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "tifina_patterns",
@@ -75855,16 +76158,19 @@
     },
     {
       "slug": "timetospeakrussian",
-      "name": "timetospeakrussian",
+      "name": "Время говорить по-русски!",
       "boostyUrl": "https://boosty.to/timetospeakrussian",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "timglissimo",
@@ -75930,16 +76236,20 @@
     },
     {
       "slug": "timofei302",
-      "name": "timofei302",
+      "name": "Timofei302",
       "boostyUrl": "https://boosty.to/timofei302",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "timur",
@@ -75959,16 +76269,19 @@
     },
     {
       "slug": "tipageek",
-      "name": "tipageek",
+      "name": "Типа Geek",
       "boostyUrl": "https://boosty.to/tipageek",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "tired_glebmikheev",
@@ -75988,16 +76301,19 @@
     },
     {
       "slug": "tiredkingdom",
-      "name": "tiredkingdom",
+      "name": "Усталое Королевство",
       "boostyUrl": "https://boosty.to/tiredkingdom",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "tiredrestfstudio",
@@ -76187,16 +76503,19 @@
     },
     {
       "slug": "tomatoboros",
-      "name": "tomatoboros",
+      "name": "Томатоборос",
       "boostyUrl": "https://boosty.to/tomatoboros",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
         "Common Crawl: CC-MAIN-2026-30"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-14"
+      "lastSeenAt": "2026-08-14",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "tomattop",
@@ -77249,10 +77568,13 @@
       "discoveryQueries": [
         "Официальный каталог Boosty: society"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "ulbitv",
@@ -77862,10 +78184,13 @@
       "discoveryQueries": [
         "Официальный каталог Boosty: style_and_culture"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "uwebdesign",
@@ -78962,16 +79287,19 @@
     },
     {
       "slug": "vinerx",
-      "name": "vinerx",
+      "name": "NeuroMita",
       "boostyUrl": "https://boosty.to/vinerx",
       "discoverySource": "GitHub",
       "discoveryQueries": [
         "GitHub code search: Boosty IT links"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-29",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "violet_spider",
@@ -79180,10 +79508,13 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: Python Django"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-14",
-      "lastSeenAt": "2026-08-29"
+      "lastSeenAt": "2026-08-29",
+      "reviewReason": "language",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "vivo-music",
@@ -81697,10 +82028,13 @@
       "discoveryQueries": [
         "Официальный каталог Boosty: society"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-09-04",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "topic",
+      "profileRelevanceScore": 0,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "xianying",
@@ -81805,11 +82139,12 @@
       "discoveryQueries": [
         "предыдущий каталог"
       ],
-      "reviewStatus": "removed",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
-      "lastCheckedAt": "2026-07-31",
-      "reviewReason": null
+      "lastCheckedAt": "2026-09-04",
+      "reviewReason": "adult-content",
+      "profileRelevanceScore": 2
     },
     {
       "slug": "xr_mpe",
@@ -82619,10 +82954,13 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: self-hosted сервер"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-08-21",
-      "lastSeenAt": "2026-09-04"
+      "lastSeenAt": "2026-09-04",
+      "reviewReason": "language",
+      "profileRelevanceScore": 3,
+      "lastCheckedAt": "2026-09-04"
     },
     {
       "slug": "yupireaction",

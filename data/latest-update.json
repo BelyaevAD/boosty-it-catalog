@@ -1,25 +1,23 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-29",
-  "metricsCheckedAt": "2026-08-29",
-  "previousChannelCount": 401,
-  "channelCount": 404,
-  "candidateCount": 5188,
-  "discoveredCount": 8,
+  "checkedAt": "2026-09-04",
+  "metricsCheckedAt": "2026-09-04",
+  "previousChannelCount": 404,
+  "channelCount": 408,
+  "candidateCount": 5211,
+  "discoveredCount": 23,
   "checkedCandidateCount": 250,
-  "prefilteredCount": 211,
-  "pendingCount": 334,
+  "prefilteredCount": 210,
+  "pendingCount": 108,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 2,
+  "terminalNotFoundCount": 6,
   "added": [
-    "arelion",
-    "nanoslavic",
-    "neuromishenin",
-    "norbitman"
+    "blackxdog",
+    "oxfortpack",
+    "progcont_ava",
+    "projectskills"
   ],
-  "removed": [
-    "zakharday"
-  ],
+  "removed": [],
   "errors": []
 }

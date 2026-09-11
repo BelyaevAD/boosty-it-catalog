@@ -1,18 +1,20 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-04",
-  "metricsCheckedAt": "2026-09-04",
+  "checkedAt": "2026-09-11",
+  "metricsCheckedAt": "2026-09-11",
   "previousChannelCount": 408,
-  "channelCount": 408,
-  "candidateCount": 5211,
-  "discoveredCount": 0,
-  "checkedCandidateCount": 110,
-  "prefilteredCount": 92,
+  "channelCount": 409,
+  "candidateCount": 5217,
+  "discoveredCount": 6,
+  "checkedCandidateCount": 11,
+  "prefilteredCount": 2,
   "pendingCount": 0,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 3,
-  "added": [],
+  "terminalNotFoundCount": 1,
+  "added": [
+    "java_for_beginner_dev"
+  ],
   "removed": [],
   "errors": []
 }

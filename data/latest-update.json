@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-11",
-  "metricsCheckedAt": "2026-09-11",
-  "previousChannelCount": 408,
-  "channelCount": 409,
-  "candidateCount": 5217,
-  "discoveredCount": 6,
-  "checkedCandidateCount": 11,
-  "prefilteredCount": 2,
+  "checkedAt": "2026-09-18",
+  "metricsCheckedAt": "2026-09-18",
+  "previousChannelCount": 409,
+  "channelCount": 411,
+  "candidateCount": 5359,
+  "discoveredCount": 142,
+  "checkedCandidateCount": 144,
+  "prefilteredCount": 124,
   "pendingCount": 0,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 1,
+  "terminalNotFoundCount": 3,
   "added": [
-    "java_for_beginner_dev"
+    "aardwolf",
+    "vrgorehab"
   ],
   "removed": [],
   "errors": []

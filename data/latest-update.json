@@ -1,21 +1,26 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-18",
-  "metricsCheckedAt": "2026-09-18",
-  "previousChannelCount": 409,
-  "channelCount": 411,
-  "candidateCount": 5359,
-  "discoveredCount": 142,
-  "checkedCandidateCount": 144,
-  "prefilteredCount": 124,
-  "pendingCount": 0,
+  "checkedAt": "2026-09-25",
+  "metricsCheckedAt": "2026-09-25",
+  "previousChannelCount": 411,
+  "channelCount": 413,
+  "candidateCount": 5938,
+  "discoveredCount": 579,
+  "checkedCandidateCount": 250,
+  "prefilteredCount": 218,
+  "pendingCount": 329,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 3,
+  "terminalNotFoundCount": 1,
   "added": [
-    "aardwolf",
-    "vrgorehab"
+    "gru_app",
+    "mikhailtkach94",
+    "aibuddy",
+    "alt_gnome"
   ],
-  "removed": [],
+  "removed": [
+    "mrven",
+    "duit_foundation"
+  ],
   "errors": []
 }

@@ -231,7 +231,7 @@
       "subscribers": 42,
       "minPriceRub": 99,
       "minPromoPriceRub": null,
-      "lastPostAt": "2026-09-24T19:50:02.000Z"
+      "lastPostAt": "2026-09-25T15:46:08.000Z"
     },
     {
       "slug": "bugctf",
@@ -382,7 +382,7 @@
     },
     {
       "slug": "nevskiyart",
-      "subscribers": 1082,
+      "subscribers": 1081,
       "minPriceRub": 50,
       "minPromoPriceRub": 263,
       "lastPostAt": "2026-09-06T15:13:28.000Z"
@@ -459,17 +459,17 @@
     },
     {
       "slug": "icher",
-      "subscribers": 585,
+      "subscribers": 586,
       "minPriceRub": 500,
       "minPromoPriceRub": null,
       "lastPostAt": "2026-08-30T12:10:14.000Z"
     },
     {
       "slug": "blender_razumov",
-      "subscribers": 610,
+      "subscribers": 611,
       "minPriceRub": 300,
       "minPromoPriceRub": null,
-      "lastPostAt": "2026-09-23T17:58:22.000Z"
+      "lastPostAt": "2026-09-25T15:28:29.000Z"
     },
     {
       "slug": "j_calavera",
@@ -693,7 +693,7 @@
       "subscribers": 147,
       "minPriceRub": 5000,
       "minPromoPriceRub": null,
-      "lastPostAt": "2026-09-19T15:50:14.000Z"
+      "lastPostAt": "2026-09-25T15:46:38.000Z"
     },
     {
       "slug": "mikhailtkach94",
@@ -809,7 +809,7 @@
     },
     {
       "slug": "m0rtymerr",
-      "subscribers": 34310,
+      "subscribers": 34314,
       "minPriceRub": 250,
       "minPromoPriceRub": 175,
       "lastPostAt": "2026-09-25T13:16:04.000Z"
@@ -935,7 +935,7 @@
     },
     {
       "slug": "escaped_ai",
-      "subscribers": 1016,
+      "subscribers": 1018,
       "minPriceRub": 500,
       "minPromoPriceRub": null,
       "lastPostAt": "2026-09-24T22:15:17.000Z"
@@ -1537,7 +1537,7 @@
     },
     {
       "slug": "deeplearningschool",
-      "subscribers": 169,
+      "subscribers": 170,
       "minPriceRub": 150,
       "minPromoPriceRub": null,
       "lastPostAt": "2026-09-22T15:21:27.000Z"
@@ -1565,7 +1565,7 @@
     },
     {
       "slug": "denismasterherobrine",
-      "subscribers": 2685,
+      "subscribers": 2684,
       "minPriceRub": 50,
       "minPromoPriceRub": null,
       "lastPostAt": "2026-03-11T11:29:01.000Z"
@@ -1712,7 +1712,7 @@
     },
     {
       "slug": "fptn",
-      "subscribers": 2731,
+      "subscribers": 2732,
       "minPriceRub": 100,
       "minPromoPriceRub": null,
       "lastPostAt": "2026-09-13T00:45:15.000Z"
@@ -1849,6 +1849,13 @@
       "minPriceRub": 100,
       "minPromoPriceRub": null,
       "lastPostAt": "2024-06-03T20:34:30.000Z"
+    },
+    {
+      "slug": "ichigowalker",
+      "subscribers": 40,
+      "minPriceRub": 80,
+      "minPromoPriceRub": 300,
+      "lastPostAt": "2026-08-18T04:56:04.000Z"
     },
     {
       "slug": "idkhokhlov",
@@ -2146,7 +2153,7 @@
     },
     {
       "slug": "mindsolo",
-      "subscribers": 15542,
+      "subscribers": 15547,
       "minPriceRub": 150,
       "minPromoPriceRub": null,
       "lastPostAt": "2023-06-11T13:35:05.000Z"
@@ -2377,7 +2384,7 @@
     },
     {
       "slug": "omolchanov",
-      "subscribers": 782,
+      "subscribers": 781,
       "minPriceRub": 100,
       "minPromoPriceRub": null,
       "lastPostAt": "2024-04-01T16:36:57.000Z"
@@ -2405,7 +2412,7 @@
     },
     {
       "slug": "oxfortpack",
-      "subscribers": 2520,
+      "subscribers": 2521,
       "minPriceRub": 149,
       "minPromoPriceRub": 75,
       "lastPostAt": "2026-06-07T21:42:33.000Z"
@@ -2748,7 +2755,7 @@
     },
     {
       "slug": "ulbitv",
-      "subscribers": 2744,
+      "subscribers": 2745,
       "minPriceRub": 490,
       "minPromoPriceRub": 1043,
       "lastPostAt": "2026-09-18T07:51:32.000Z"

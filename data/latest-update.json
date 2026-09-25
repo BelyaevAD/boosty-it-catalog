@@ -2,25 +2,19 @@
   "schemaVersion": 1,
   "checkedAt": "2026-09-25",
   "metricsCheckedAt": "2026-09-25",
-  "previousChannelCount": 411,
-  "channelCount": 413,
-  "candidateCount": 5938,
-  "discoveredCount": 579,
+  "previousChannelCount": 413,
+  "channelCount": 414,
+  "candidateCount": 6132,
+  "discoveredCount": 194,
   "checkedCandidateCount": 250,
-  "prefilteredCount": 218,
-  "pendingCount": 329,
+  "prefilteredCount": 226,
+  "pendingCount": 273,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
   "terminalNotFoundCount": 1,
   "added": [
-    "gru_app",
-    "mikhailtkach94",
-    "aibuddy",
-    "alt_gnome"
+    "ichigowalker"
   ],
-  "removed": [
-    "mrven",
-    "duit_foundation"
-  ],
+  "removed": [],
   "errors": []
 }

@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-25",
-  "metricsCheckedAt": "2026-09-25",
-  "previousChannelCount": 413,
-  "channelCount": 414,
-  "candidateCount": 6132,
-  "discoveredCount": 194,
+  "checkedAt": "2026-10-02",
+  "metricsCheckedAt": "2026-10-02",
+  "previousChannelCount": 414,
+  "channelCount": 416,
+  "candidateCount": 6139,
+  "discoveredCount": 7,
   "checkedCandidateCount": 250,
-  "prefilteredCount": 226,
-  "pendingCount": 273,
+  "prefilteredCount": 230,
+  "pendingCount": 32,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
   "terminalNotFoundCount": 1,
   "added": [
-    "ichigowalker"
+    "vector_osint_ru",
+    "tavdainfo"
   ],
   "removed": [],
   "errors": []

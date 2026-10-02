@@ -2,20 +2,19 @@
   "schemaVersion": 1,
   "checkedAt": "2026-10-02",
   "metricsCheckedAt": "2026-10-02",
-  "previousChannelCount": 414,
-  "channelCount": 416,
-  "candidateCount": 6139,
-  "discoveredCount": 7,
-  "checkedCandidateCount": 250,
-  "prefilteredCount": 230,
-  "pendingCount": 32,
+  "previousChannelCount": 416,
+  "channelCount": 415,
+  "candidateCount": 6141,
+  "discoveredCount": 2,
+  "checkedCandidateCount": 35,
+  "prefilteredCount": 32,
+  "pendingCount": 0,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 1,
-  "added": [
-    "vector_osint_ru",
-    "tavdainfo"
+  "terminalNotFoundCount": 0,
+  "added": [],
+  "removed": [
+    "gitcommit"
   ],
-  "removed": [],
   "errors": []
 }

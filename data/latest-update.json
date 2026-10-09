@@ -1,20 +1,22 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-02",
-  "metricsCheckedAt": "2026-10-02",
-  "previousChannelCount": 416,
+  "checkedAt": "2026-10-09",
+  "metricsCheckedAt": "2026-10-09",
+  "previousChannelCount": 415,
   "channelCount": 415,
-  "candidateCount": 6141,
-  "discoveredCount": 2,
-  "checkedCandidateCount": 35,
-  "prefilteredCount": 32,
+  "candidateCount": 6155,
+  "discoveredCount": 14,
+  "checkedCandidateCount": 14,
+  "prefilteredCount": 1,
   "pendingCount": 0,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
   "terminalNotFoundCount": 0,
-  "added": [],
+  "added": [
+    "1crentgen"
+  ],
   "removed": [
-    "gitcommit"
+    "m0rtymerr"
   ],
   "errors": []
 }

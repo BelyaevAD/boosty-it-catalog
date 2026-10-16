@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-09",
-  "metricsCheckedAt": "2026-10-09",
+  "checkedAt": "2026-10-16",
+  "metricsCheckedAt": "2026-10-16",
   "previousChannelCount": 415,
-  "channelCount": 415,
-  "candidateCount": 6155,
-  "discoveredCount": 14,
-  "checkedCandidateCount": 14,
-  "prefilteredCount": 1,
+  "channelCount": 418,
+  "candidateCount": 6164,
+  "discoveredCount": 9,
+  "checkedCandidateCount": 10,
+  "prefilteredCount": 3,
   "pendingCount": 0,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
   "terminalNotFoundCount": 0,
   "added": [
-    "1crentgen"
+    "endykaufman",
+    "rinatxf",
+    "eastwesser"
   ],
-  "removed": [
-    "m0rtymerr"
-  ],
+  "removed": [],
   "errors": []
 }

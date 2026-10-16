@@ -2,21 +2,17 @@
   "schemaVersion": 1,
   "checkedAt": "2026-10-16",
   "metricsCheckedAt": "2026-10-16",
-  "previousChannelCount": 415,
+  "previousChannelCount": 418,
   "channelCount": 418,
   "candidateCount": 6164,
-  "discoveredCount": 9,
-  "checkedCandidateCount": 10,
-  "prefilteredCount": 3,
+  "discoveredCount": 0,
+  "checkedCandidateCount": 0,
+  "prefilteredCount": 0,
   "pendingCount": 0,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
   "terminalNotFoundCount": 0,
-  "added": [
-    "endykaufman",
-    "rinatxf",
-    "eastwesser"
-  ],
+  "added": [],
   "removed": [],
   "errors": []
 }

@@ -1,26 +1,24 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-23",
-  "metricsCheckedAt": "2026-10-23",
-  "previousChannelCount": 418,
-  "channelCount": 420,
-  "candidateCount": 6180,
-  "discoveredCount": 16,
-  "checkedCandidateCount": 21,
-  "prefilteredCount": 2,
-  "pendingCount": 0,
+  "checkedAt": "2026-10-30",
+  "metricsCheckedAt": "2026-10-30",
+  "previousChannelCount": 420,
+  "channelCount": 425,
+  "candidateCount": 6350,
+  "discoveredCount": 170,
+  "checkedCandidateCount": 250,
+  "prefilteredCount": 33,
+  "pendingCount": 165,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 1,
+  "terminalNotFoundCount": 2,
   "added": [
-    "backend_to_games",
-    "breezecad",
-    "sipaha",
-    "technofreak.dev"
+    "abdey",
+    "solo_teach",
+    "klenindmitriy",
+    "mpozharskiy",
+    "tachyon"
   ],
-  "removed": [
-    "management_hub",
-    "1cnik"
-  ],
+  "removed": [],
   "errors": []
 }

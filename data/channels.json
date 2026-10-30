@@ -292,8 +292,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": null,
-      "growthSinceSnapshot": null,
+      "historicalSubscribers": 3,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
     },
     {
@@ -514,8 +514,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 23,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 24,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -590,8 +590,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 146,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 145,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-18"
     },
     {
@@ -669,8 +669,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 2733,
-      "growthSinceSnapshot": 3,
+      "historicalSubscribers": 2736,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -862,8 +862,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 16,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 17,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -878,7 +878,7 @@
       "focus": "ИИ/LLM",
       "reason": "Профильный русскоязычный канал: ИИ/LLM.",
       "summary": "Привет! Я создаю короткометражные фильмы с помощью нейросетей и исследую, каким может быть кино будущего. На этой странице я делюсь процессом создания своих AI-фильмов. Здесь вы найдете: • разборы сцен из моих фильмов • промпты для генерации видео • рабочие процессы создания AI-кадров • эксперименты с визуальными стилями • работа со звуком в AI кино • работа со сценариями в AI кино • закулисье моих проектов Если вам…",
-      "subscribers": 117,
+      "subscribers": 118,
       "postsCount": 40,
       "lastPostAt": "2026-07-05T11:15:00.000Z",
       "lastPostTitle": "Мифы про нейронки.",
@@ -899,8 +899,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 112,
-      "growthSinceSnapshot": 5,
+      "historicalSubscribers": 117,
+      "growthSinceSnapshot": 1,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -1045,8 +1045,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 584,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 583,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -1307,8 +1307,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 481,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 480,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-09"
     },
     {
@@ -1349,8 +1349,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 656,
-      "growthSinceSnapshot": -3,
+      "historicalSubscribers": 653,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -1496,7 +1496,7 @@
       "focus": "Python",
       "reason": "Профильный русскоязычный канал: Python.",
       "summary": "Привет! Меня зовут Богдан Соловьёв и я профессиональный программист на Python! На своём Бусти я выкладываю эксклюзивные гайды только для подписчиков! Список всех гайдов на одной странице Условия использования",
-      "subscribers": 7670,
+      "subscribers": 7671,
       "postsCount": 181,
       "lastPostAt": "2026-10-24T16:22:56.000Z",
       "lastPostTitle": "Tachyon ВПН клиент для Openwrt с ИИ",
@@ -1522,8 +1522,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 7629,
-      "growthSinceSnapshot": 41,
+      "historicalSubscribers": 7670,
+      "growthSinceSnapshot": 1,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -1762,8 +1762,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": null,
-      "growthSinceSnapshot": null,
+      "historicalSubscribers": 3,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
     },
     {
@@ -1799,8 +1799,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 581,
-      "growthSinceSnapshot": 9,
+      "historicalSubscribers": 590,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -1984,8 +1984,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 1552,
-      "growthSinceSnapshot": 3,
+      "historicalSubscribers": 1555,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -2379,8 +2379,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 1081,
-      "growthSinceSnapshot": -2,
+      "historicalSubscribers": 1079,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -2782,8 +2782,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 57,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 58,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -2870,8 +2870,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 639,
-      "growthSinceSnapshot": 4,
+      "historicalSubscribers": 643,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -2887,7 +2887,7 @@
       "focus": "System Design / архитектура; QA / автоматизация тестирования",
       "reason": "Профильный русскоязычный канал: System Design / архитектура; QA / автоматизация тестирования.",
       "summary": "Кто ты такой? Я изучаю видеоигры (иногда помогаю их делать), провожу авторские исследования на стыке культурологии и гейм-дизайна, стараюсь находить необычные, но полезные книги и научные статьи, чтобы потом все это замешать и рассказать вам.",
-      "subscribers": 281,
+      "subscribers": 280,
       "postsCount": 292,
       "lastPostAt": "2026-10-26T09:41:54.000Z",
       "lastPostTitle": "Большое видео о Mouthwashing (публичный релиз)",
@@ -2933,8 +2933,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 279,
-      "growthSinceSnapshot": 2,
+      "historicalSubscribers": 281,
+      "growthSinceSnapshot": -1,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -2971,8 +2971,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 211,
-      "growthSinceSnapshot": 2,
+      "historicalSubscribers": 213,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -3121,8 +3121,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 332,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 333,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -3333,8 +3333,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 15,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 16,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -3370,8 +3370,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": null,
-      "growthSinceSnapshot": null,
+      "historicalSubscribers": 6,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
     },
     {
@@ -3386,7 +3386,7 @@
       "focus": "Python; Java / Kotlin / Spring; JavaScript / TypeScript",
       "reason": "Профильный русскоязычный канал: Python; Java / Kotlin / Spring; JavaScript / TypeScript.",
       "summary": "Карта клуба: + АйТишники с разными стэками: фронт (UI, Web, iOs, Android), бэк (Go, Java,.Python, PHP, Net, C/C++, Rust, Typescript), DevOps (DevSecOps, SRE) + Зарабатываем до $15000 в месяц и выше на одной удаленке.",
-      "subscribers": 3459,
+      "subscribers": 3460,
       "postsCount": 345,
       "lastPostAt": "2026-10-27T20:50:24.000Z",
       "lastPostTitle": "137 готовых буллет-пойнтов от АйТи Красавчика для твоего резюме на основе 800 репозиториев и 69000 пулл реквестов в AI-first компании",
@@ -3417,8 +3417,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 3428,
-      "growthSinceSnapshot": 31,
+      "historicalSubscribers": 3459,
+      "growthSinceSnapshot": 1,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -3435,7 +3435,7 @@
       "focus": "JavaScript / TypeScript; DevOps / Kubernetes / Docker",
       "reason": "Профильный русскоязычный канал: JavaScript / TypeScript; DevOps / Kubernetes / Docker.",
       "summary": "Каждую пятницу в 18:00 (МСК) читаем и обсуждаем книги по фронтенду и свежие новости — коротко и по делу. Сейчас в клубе — «React. К вершинам мастерства» и «Docker. Вводный курс, 3‑е изд.».​ Присоединяйся и поддержи клуб — растём вместе 💛",
-      "subscribers": 18,
+      "subscribers": 19,
       "postsCount": 135,
       "lastPostAt": "2026-10-17T05:20:49.000Z",
       "lastPostTitle": "Роль алrоритмов в вычислениях | Алгоритмы. Построение и анализ №1",
@@ -3457,8 +3457,8 @@
       ],
       "checkedAt": "2026-10-30",
       "historicalSubscribers": 18,
-      "growthSinceSnapshot": 0,
-      "lastObservedGrowthDate": null
+      "growthSinceSnapshot": 1,
+      "lastObservedGrowthDate": "2026-10-30"
     },
     {
       "slug": "codik",
@@ -3728,7 +3728,7 @@
       "focus": "ИИ/LLM; IT-карьера / собеседования",
       "reason": "Профильный русскоязычный канал: ИИ/LLM; IT-карьера / собеседования.",
       "summary": "ЭТА ПАБЛИК ТОЛЬКО ДЛЯ КРУТЫХ (и красивых). я Ванёк - тимлид / шалун / репер и мамин бизнесмен. КМС по хх.ру, проревьюил на стримах 1.5к ваших резюме, написал пару сотен. Велкам, если вы мистер «Ааа-аа-а меня заменит нейросеть» или просто хочется 3-7к$ зарплатку и пукать в кресло. ПРЯМ ТУТ — 81 эксклюзивный видева и записи крутых стримов.",
-      "subscribers": 7698,
+      "subscribers": 7723,
       "postsCount": 121,
       "lastPostAt": "2026-10-30T15:04:02.000Z",
       "lastPostTitle": "Практическое применение философии",
@@ -3760,7 +3760,7 @@
         {
           "name": "Легенды",
           "priceRub": 3000,
-          "promoPriceRub": null
+          "promoPriceRub": 1500
         },
         {
           "name": "Рабочий стримец.",
@@ -3769,8 +3769,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 7687,
-      "growthSinceSnapshot": 11,
+      "historicalSubscribers": 7698,
+      "growthSinceSnapshot": 25,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -3854,8 +3854,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 30,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 29,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-18"
     },
     {
@@ -4208,7 +4208,7 @@
       "focus": "Java / Kotlin / Spring",
       "reason": "Профильный русскоязычный канал: Java / Kotlin / Spring.",
       "summary": "Приветствую! Меня зовут Матвей, я java разработчик уже 7 лет. Чтобы не учиться делать 100500 разных вещей, как это показывают в куче своих видео другие разработчики, моя задача - научить Вас понимать джаву. Научившись понимать, Вы никогда больше не зададите вопрос \"Как сделать N.\". Уроки по хронометражу достаточно продолжительные, это как раз потому что я объясняю устройство, а не показываю, какие буковки писать.",
-      "subscribers": 442,
+      "subscribers": 441,
       "postsCount": 59,
       "lastPostAt": "2024-11-12T21:30:34.000Z",
       "lastPostTitle": "",
@@ -4225,7 +4225,7 @@
       ],
       "checkedAt": "2026-10-30",
       "historicalSubscribers": 442,
-      "growthSinceSnapshot": 0,
+      "growthSinceSnapshot": -1,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -4267,8 +4267,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 39,
-      "growthSinceSnapshot": -2,
+      "historicalSubscribers": 37,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-09"
     },
     {
@@ -4396,8 +4396,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 178,
-      "growthSinceSnapshot": 4,
+      "historicalSubscribers": 182,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -4495,8 +4495,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 1365,
-      "growthSinceSnapshot": 5,
+      "historicalSubscribers": 1370,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -4538,8 +4538,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 247,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 248,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -4620,8 +4620,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 119,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 118,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -4662,8 +4662,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 220,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 221,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -4749,8 +4749,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 1655,
-      "growthSinceSnapshot": -3,
+      "historicalSubscribers": 1652,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -5093,8 +5093,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 285,
-      "growthSinceSnapshot": -2,
+      "historicalSubscribers": 283,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
     },
     {
@@ -5148,7 +5148,7 @@
       "reason": "Профильный русскоязычный канал: Программирование.",
       "summary": "Здесь вы найдёте контент от: - Программист с более 30 лет стажа.",
       "subscribers": 1084,
-      "postsCount": 504,
+      "postsCount": 503,
       "lastPostAt": "2026-10-28T16:09:00.000Z",
       "lastPostTitle": "Поиск подстроки",
       "minPriceRub": 100,
@@ -5178,8 +5178,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 1085,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 1084,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
     },
     {
@@ -5263,8 +5263,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 2727,
-      "growthSinceSnapshot": 3,
+      "historicalSubscribers": 2730,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -5699,8 +5699,8 @@
       "summary": "Авторский курс про работу с современными ИИ: Claude Code, ChatGPT, Codex, GPT Images 2.5, промпт-инжиниринг и развертывание ИИ-агентов на сервере. Веду я, автор телеграм-канала \" сбежавшая нейросеть \" (23 000 подписчиков) — бывший главный редактор, сейчас внедряю ИИ в крупные СМИ. Новичкам лучше начать со «Вката» — там пошаговый маршрут.",
       "subscribers": 1146,
       "postsCount": 39,
-      "lastPostAt": "2026-10-23T22:53:31.000Z",
-      "lastPostTitle": "“Черный октябрь”: 12 практик, которые защитят вас и от хакеров, и от собственного ИИ-агента",
+      "lastPostAt": "2026-10-30T18:00:00.000Z",
+      "lastPostTitle": "Agentic Discipline: как с ИИ-агентами работают ведущие специалисты (и я)",
       "minPriceRub": 500,
       "maxPriceRub": 2000,
       "minPromoPriceRub": null,
@@ -5718,8 +5718,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 1129,
-      "growthSinceSnapshot": 17,
+      "historicalSubscribers": 1146,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -6132,8 +6132,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 166,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 165,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
     },
     {
@@ -6171,8 +6171,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 285,
-      "growthSinceSnapshot": 9,
+      "historicalSubscribers": 294,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -6209,8 +6209,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 678,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 677,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -6302,8 +6302,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 221,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 222,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -6413,8 +6413,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 77,
-      "growthSinceSnapshot": 6,
+      "historicalSubscribers": 83,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -6535,8 +6535,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 1115,
-      "growthSinceSnapshot": 4,
+      "historicalSubscribers": 1119,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -6577,8 +6577,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 1323,
-      "growthSinceSnapshot": -2,
+      "historicalSubscribers": 1321,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -6841,8 +6841,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 16,
-      "growthSinceSnapshot": 2,
+      "historicalSubscribers": 18,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -6921,8 +6921,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 417,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 418,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -7011,8 +7011,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 49,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 50,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -7111,8 +7111,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 232,
-      "growthSinceSnapshot": 6,
+      "historicalSubscribers": 238,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -7497,8 +7497,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 12,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 13,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -7545,7 +7545,7 @@
       "focus": "ИИ/LLM",
       "reason": "Профильный русскоязычный канал: ИИ/LLM.",
       "summary": "Всем доброго времени суток. Рад приветствовать Вас на своём канале. Здесь вы сможете найти дополнительные материалы, которые нельзя прикрепить на Youtube, а также эксклюзивные материалы для спонсоров.",
-      "subscribers": 671,
+      "subscribers": 670,
       "postsCount": 113,
       "lastPostAt": "2025-06-29T09:37:49.000Z",
       "lastPostTitle": "LipSync все примеры",
@@ -7571,8 +7571,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 670,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 671,
+      "growthSinceSnapshot": -1,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -7724,8 +7724,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 825,
-      "growthSinceSnapshot": 2,
+      "historicalSubscribers": 827,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -7950,8 +7950,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 58,
-      "growthSinceSnapshot": -2,
+      "historicalSubscribers": 56,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -7968,7 +7968,7 @@
       "focus": "ИИ/LLM; QA / автоматизация тестирования; Mobile",
       "reason": "Профильный русскоязычный канал: ИИ/LLM; QA / автоматизация тестирования; Mobile.",
       "summary": "Android Broadcast - это русскоязычный проект, направленный на помощь в развитии Android разработчикам. Проект включает в себя: 👉 Telegram каналы,, 👉 Видео по разработки на видеоплатформах YouTube и VK Video Меня зовут Кирилл Розов. Я создатель и автор этого Android Broadcast. Занимаюсь Android разработкой с 2012 года. Работаю руководителем Мобильной Разработки в Альфа-Банк Беларусь. Живу в Гродно, Беларусь.",
-      "subscribers": 1802,
+      "subscribers": 1801,
       "postsCount": 105,
       "lastPostAt": "2026-10-17T12:52:37.000Z",
       "lastPostTitle": "Нужен ли Kent для работы AI?",
@@ -8004,8 +8004,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 1798,
-      "growthSinceSnapshot": 4,
+      "historicalSubscribers": 1802,
+      "growthSinceSnapshot": -1,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -8246,8 +8246,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 135,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 134,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-02"
     },
     {
@@ -8635,8 +8635,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 393,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 392,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -8790,8 +8790,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 90,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 91,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -8961,8 +8961,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 105,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 104,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
     },
     {
@@ -9080,8 +9080,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 924,
-      "growthSinceSnapshot": 3,
+      "historicalSubscribers": 927,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -9171,8 +9171,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 13,
-      "growthSinceSnapshot": 2,
+      "historicalSubscribers": 15,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -9552,8 +9552,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 173,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 172,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
     },
     {
@@ -9728,8 +9728,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 2685,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 2686,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -9866,8 +9866,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 45,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 46,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -10215,7 +10215,7 @@
       "focus": "Go / Rust / C++",
       "reason": "Профильный русскоязычный канал: Go / Rust / C++.",
       "summary": "🦆 Пишу Tachyon и стараюсь не превращать роутеры в кирпичи. Tachyon ⚡ - open-source проект для удобного управления сетью на OpenWrt: маршрутизация, DNS, устройства, автоматизация, диагностика и единый Web UI. Boosty нужен исключительно для поддержки разработки - тестового железа, серверов, инфраструктуры и кофе. Никаких Premium-функций и VIP-доступа. Tachyon остаётся бесплатным и open-source.",
-      "subscribers": 42,
+      "subscribers": 43,
       "postsCount": 6,
       "lastPostAt": "2026-10-28T04:30:02.000Z",
       "lastPostTitle": "⚡tachyon-core 0.1.7",
@@ -10251,9 +10251,9 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": null,
-      "growthSinceSnapshot": null,
-      "lastObservedGrowthDate": null
+      "historicalSubscribers": 42,
+      "growthSinceSnapshot": 1,
+      "lastObservedGrowthDate": "2026-10-30"
     },
     {
       "slug": "nils7vk",
@@ -10269,8 +10269,8 @@
       "summary": "- практические курсы по Linux и DevOps. Два курса для самостоятельного изучения: • Linux для начинающих - от установки системы до уверенной работы с сервером: терминал, права, процессы, SSH, сети, bash, мониторинг. • DevOps Junior → Middle - Docker, GitLab CI/CD, Kubernetes, Terraform, мониторинг. Задания в GitLab с автопроверкой.",
       "subscribers": 0,
       "postsCount": 12,
-      "lastPostAt": "2026-10-28T20:22:43.000Z",
-      "lastPostTitle": "20 команд Linux, которые закрывают 80% работы",
+      "lastPostAt": "2026-10-30T16:00:00.000Z",
+      "lastPostTitle": "Урок 4. Пользователи, группы, sudo и переменные",
       "minPriceRub": 100,
       "maxPriceRub": 7900,
       "minPromoPriceRub": null,
@@ -10458,8 +10458,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 86,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 85,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
     },
     {
@@ -10728,7 +10728,7 @@
       "focus": "Mobile",
       "reason": "Профильный русскоязычный канал: Mobile.",
       "summary": "FPTN — это полностью разработанная с нуля технология VPN, включая собственный протокол, сервер и кроссплатформенные клиенты. Это некоммерческий проект с открытым исходным кодом, развиваемый волонтерами и предназначенный для обхода цензуры. Вы можете воспользоваться нашим сервисом для получения доступа к недоступным ресурсам из вашего регион.",
-      "subscribers": 2896,
+      "subscribers": 2897,
       "postsCount": 74,
       "lastPostAt": "2026-09-13T00:45:15.000Z",
       "lastPostTitle": "Вышел новый релиз 0.4.5",
@@ -10759,8 +10759,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 2856,
-      "growthSinceSnapshot": 40,
+      "historicalSubscribers": 2896,
+      "growthSinceSnapshot": 1,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -10899,8 +10899,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 122,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 123,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -11373,8 +11373,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 437,
-      "growthSinceSnapshot": 15,
+      "historicalSubscribers": 452,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -11501,8 +11501,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 273,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 272,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
     },
     {
@@ -11646,8 +11646,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 40,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 41,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -11797,8 +11797,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 3490,
-      "growthSinceSnapshot": 4,
+      "historicalSubscribers": 3494,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -11840,8 +11840,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 84,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 83,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-18"
     },
     {
@@ -11885,8 +11885,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 415,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 414,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
     },
     {
@@ -12145,8 +12145,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 733,
-      "growthSinceSnapshot": -2,
+      "historicalSubscribers": 731,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-29"
     },
     {
@@ -12373,8 +12373,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 666,
-      "growthSinceSnapshot": 2,
+      "historicalSubscribers": 668,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -12476,8 +12476,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 38,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 37,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-29"
     },
     {
@@ -12703,8 +12703,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 162,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 163,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -12830,8 +12830,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 206,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 205,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-04"
     },
     {
@@ -13090,8 +13090,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 67,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 66,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
     },
     {
@@ -13142,8 +13142,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 157,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 156,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -13210,8 +13210,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 373,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 372,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
     },
     {
@@ -13267,8 +13267,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 177,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 176,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-08-29"
     },
     {
@@ -13321,8 +13321,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 284,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 285,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -13337,7 +13337,7 @@
       "focus": "Gamedev",
       "reason": "Профильный русскоязычный канал: Gamedev.",
       "summary": "Игродел, привет! Добро пожаловать на Boosty проекта MakeYourGame! Здесь ты можешь поддержать развитие канала, получить доступ к эксклюзивным урокам по Unreal Engine и присоединиться к большому сообществу разработчиков игр! Что ты получишь? Закрытый Telegram-чат (1 500+ участников). Общайся с другими разработчиками, задавай вопросы, делись своими проектами и помогай другим.",
-      "subscribers": 1897,
+      "subscribers": 1896,
       "postsCount": 103,
       "lastPostAt": "2026-10-21T12:10:17.000Z",
       "lastPostTitle": "Лучшие фишки работы с камерой в Unreal Engine",
@@ -13358,8 +13358,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 1889,
-      "growthSinceSnapshot": 8,
+      "historicalSubscribers": 1897,
+      "growthSinceSnapshot": -1,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -13397,8 +13397,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": null,
-      "growthSinceSnapshot": null,
+      "historicalSubscribers": 19,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": null
     },
     {
@@ -13617,8 +13617,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 278,
-      "growthSinceSnapshot": 3,
+      "historicalSubscribers": 281,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -13718,8 +13718,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 575,
-      "growthSinceSnapshot": -3,
+      "historicalSubscribers": 572,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
     },
     {
@@ -13760,8 +13760,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 15907,
-      "growthSinceSnapshot": 96,
+      "historicalSubscribers": 16003,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -14135,8 +14135,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 133,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 132,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-09-11"
     },
     {
@@ -14381,8 +14381,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 136,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 137,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -14398,9 +14398,9 @@
       "reason": "Профильный русскоязычный канал: ИИ/LLM.",
       "summary": "🌟 Добро пожаловать в NeuroCraft.Art! НАВИГАТОР - может ли ваш КОМП потянуть НЕЙРОСЕТИ ⚙️ ПОСМОТРЕТЬ ПОСТ ПРОВЕРИТЬ ЧЕРЕЗ ОБНОВЛЯТОР ЧТО такое НЕЙРОКРАФТ-СТУДИЯ 😻😻😻 НАШ ГЕНЕРАТОР Инструкции к Генератору 📍 На канале три уровня подписки: 🍀 Уровень \"НЕЙРО-СТАРТ\" Самый лёгкий вход в нейросети для творческих.",
       "subscribers": 392,
-      "postsCount": 449,
-      "lastPostAt": "2026-10-28T17:52:08.000Z",
-      "lastPostTitle": "Промпт-бук \"Оранжевое настроение\"",
+      "postsCount": 450,
+      "lastPostAt": "2026-10-30T16:22:01.000Z",
+      "lastPostTitle": "🔤 Хохломская азбука: 36 промптов для стиля Хохлома",
       "minPriceRub": 299,
       "maxPriceRub": 2000,
       "minPromoPriceRub": null,
@@ -14428,8 +14428,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 391,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 392,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -14445,7 +14445,7 @@
       "focus": "ИИ/LLM",
       "reason": "Профильный русскоязычный канал: ИИ/LLM.",
       "summary": "RU: Создатель портативных версий наиболее интересных и популярных нейронок. Автор телеграм канала Neurogen EN: Creator of portable versions of the most interesting and popular neurons. Author of the Neurogen Telegram channel Disclaimer: This software is provided \"as is\" without any warranties. Use it at your own risk and in compliance with all applicable laws.",
-      "subscribers": 2474,
+      "subscribers": 2475,
       "postsCount": 107,
       "lastPostAt": "2026-08-13T08:02:19.000Z",
       "lastPostTitle": "Rope Studio 3.2.0 by Neurogen",
@@ -14481,9 +14481,9 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 2475,
-      "growthSinceSnapshot": -1,
-      "lastObservedGrowthDate": "2026-10-23"
+      "historicalSubscribers": 2474,
+      "growthSinceSnapshot": 1,
+      "lastObservedGrowthDate": "2026-10-30"
     },
     {
       "slug": "denis-zlobin",
@@ -15187,8 +15187,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 779,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 778,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
     },
     {
@@ -15371,8 +15371,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 2521,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 2520,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-23"
     },
     {
@@ -15547,8 +15547,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 676,
-      "growthSinceSnapshot": 5,
+      "historicalSubscribers": 681,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -16054,8 +16054,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 243,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 244,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -16703,8 +16703,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 742,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 741,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
     },
     {
@@ -16824,8 +16824,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 352,
-      "growthSinceSnapshot": 8,
+      "historicalSubscribers": 360,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -16985,8 +16985,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 246,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 247,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -17481,8 +17481,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 2762,
-      "growthSinceSnapshot": 16,
+      "historicalSubscribers": 2778,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -17703,8 +17703,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 499,
-      "growthSinceSnapshot": 1,
+      "historicalSubscribers": 500,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-30"
     },
     {
@@ -17802,8 +17802,8 @@
         }
       ],
       "checkedAt": "2026-10-30",
-      "historicalSubscribers": 114,
-      "growthSinceSnapshot": -1,
+      "historicalSubscribers": 113,
+      "growthSinceSnapshot": 0,
       "lastObservedGrowthDate": "2026-10-16"
     },
     {

@@ -3810,7 +3810,7 @@
       "lastSeenAt": "2026-07-26",
       "profileRelevanceScore": 2,
       "relevanceScore": 2,
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "alduinred",
@@ -3825,7 +3825,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "language",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "alekers",
@@ -3855,7 +3856,7 @@
       "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
-      "lastCheckedAt": "2026-07-26",
+      "lastCheckedAt": "2026-11-06",
       "reviewReason": "no-posts",
       "lastSeenAt": "2026-07-26",
       "profileRelevanceScore": 1
@@ -3903,7 +3904,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
       "reviewReason": "no-posts",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "aleksandrmishurin",
@@ -3921,8 +3923,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aleksandrshvedov",
@@ -3939,7 +3943,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "aleksdominicana",
@@ -3971,8 +3976,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aleksei_khitev",
@@ -4025,7 +4032,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1
     },
     {
       "slug": "alekseyromanov",
@@ -4075,8 +4083,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alenadorr",
@@ -4140,8 +4150,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aleoow",
@@ -4156,8 +4168,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aleph_problems",
@@ -4222,7 +4236,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "alex_lame",
@@ -4255,7 +4270,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "alex_vel",
@@ -4270,8 +4286,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexamo",
@@ -4285,8 +4303,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexanderagri",
@@ -4302,8 +4322,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexanderpolyak",
@@ -4352,8 +4374,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexandr-7",
@@ -4367,8 +4391,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexandra_lorentz",
@@ -4384,8 +4410,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 1
     },
     {
       "slug": "alexandradance",
@@ -4400,7 +4428,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "language",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "alexashx",
@@ -4430,8 +4459,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexcan",
@@ -4500,8 +4531,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexey_adrianov",
@@ -4569,8 +4602,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexeykrol",
@@ -4586,8 +4621,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexeyshlykov",
@@ -4603,8 +4640,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexflech",
@@ -4619,7 +4658,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
       "reviewReason": "no-posts",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "alexgyvershow",
@@ -4635,8 +4675,9 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "language",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "alexk134",
@@ -4669,8 +4710,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexlegion",
@@ -4717,8 +4760,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexmorozov",
@@ -4733,7 +4778,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "alexmtecno",
@@ -4747,8 +4793,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexopenbook",
@@ -4762,8 +4810,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexplayjoy",
@@ -4793,8 +4843,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexreeg",
@@ -4810,12 +4862,14 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexrybin",
-      "name": "Алекс Рубин",
+      "name": "Banned",
       "boostyUrl": "https://boosty.to/alexrybin",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
@@ -4828,7 +4882,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "alexryshow",
@@ -4842,8 +4897,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexsarikov",
@@ -4859,8 +4916,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "alexseylormusic",
@@ -4874,8 +4933,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alextretyakov",
@@ -4889,8 +4950,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alexue4",
@@ -4939,7 +5002,7 @@
       "lastSeenAt": "2026-09-18",
       "profileRelevanceScore": 1,
       "relevanceScore": 1,
-      "lastCheckedAt": "2026-08-07"
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "algoziwalsutikno",
@@ -4956,7 +5019,7 @@
       "firstSeenAt": "2026-07-31",
       "lastSeenAt": "2026-10-30",
       "profileRelevanceScore": 0,
-      "lastCheckedAt": "2026-07-31"
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "alien_2005",
@@ -4974,8 +5037,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alienatedboo",
@@ -5022,8 +5087,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alinarin",
@@ -5039,8 +5106,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alizacosplay",
@@ -5073,7 +5142,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "alkoleft",
@@ -5108,7 +5179,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "allhighpoints",
@@ -5154,8 +5226,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "allmed",
@@ -5188,8 +5262,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "allsouvenirs",
@@ -5206,7 +5282,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "allstandup",
@@ -5220,8 +5297,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "almahom",
@@ -5237,8 +5316,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "almaka",
@@ -5286,8 +5367,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alogvinov",
@@ -5335,8 +5418,8 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "alron",
@@ -5416,7 +5499,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "no-posts",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "alteniagames",
@@ -5430,8 +5514,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "altin",
@@ -5445,8 +5531,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "altleft",
@@ -5461,8 +5549,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "altn.news",
@@ -5477,8 +5567,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "altzedan",
@@ -5494,8 +5586,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "alx_yago",
@@ -5528,8 +5622,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "am7",
@@ -5546,7 +5642,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "amalfi",
@@ -5562,7 +5659,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "amani",
@@ -5576,8 +5675,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "amarillis",
@@ -5594,7 +5695,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 2
     },
     {
       "slug": "amdkorn-ivanivanych",
@@ -5626,8 +5728,8 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "ameshkov",
@@ -5677,7 +5779,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "amm0ni",
@@ -5708,8 +5811,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "amoraloff",
@@ -5723,8 +5828,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "amorev",
@@ -5756,7 +5863,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "ampjul",
@@ -5772,8 +5880,9 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "language",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "amputeekarolina",
@@ -5824,7 +5933,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "ana_sta_sea_",
@@ -5857,7 +5968,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "anacoluthon",
@@ -5873,8 +5986,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anacondaz",
@@ -5906,8 +6021,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "analitikamma",
@@ -5921,8 +6038,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "analitikishkola",
@@ -5972,7 +6091,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anastasia_ielts",
@@ -5990,7 +6111,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anastasia_krasa",
@@ -6004,8 +6127,8 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "anastasiape",
@@ -6037,7 +6160,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 1
     },
     {
       "slug": "anastasyazelenova",
@@ -6052,7 +6177,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "anatoly.seregin",
@@ -6085,7 +6211,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "ancapchan",
@@ -6100,8 +6228,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "ancienttalesofficial",
@@ -6117,7 +6247,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "ancord",
@@ -6154,8 +6286,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anders_chill",
@@ -6170,8 +6304,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "andre_linoge",
@@ -6185,8 +6321,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "andre777",
@@ -6220,7 +6358,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "andrew_feed",
@@ -6300,7 +6439,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "language",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "andreybarsh",
@@ -6333,8 +6473,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "andreyp0et",
@@ -6348,8 +6490,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "andreysamarin",
@@ -6397,8 +6541,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "andreyzhukov",
@@ -6428,8 +6574,9 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-18",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "adult-content",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "android_live",
@@ -6492,8 +6639,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "andygoldred",
@@ -6509,8 +6658,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "andyl",
@@ -6602,8 +6753,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "angellp",
@@ -6635,8 +6788,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "angelostroud",
@@ -6652,7 +6807,7 @@
       "firstSeenAt": "2026-08-07",
       "lastSeenAt": "2026-11-06",
       "profileRelevanceScore": 0,
-      "lastCheckedAt": "2026-08-07"
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "angidesigns",
@@ -6667,8 +6822,9 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "language",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "angrycookie",
@@ -6699,8 +6855,8 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "ani_kokos",
@@ -6734,7 +6890,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aniliberty",
@@ -6749,8 +6907,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anilibriastudio",
@@ -6781,7 +6941,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "animagross",
@@ -6798,7 +6960,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "animalsinthestudio",
@@ -6814,8 +6978,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "animeded",
@@ -6862,8 +7028,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "animeyachejka",
@@ -6880,7 +7048,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "aniop",
@@ -6895,8 +7064,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aniramzi",
@@ -6910,8 +7081,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anisimov.a.o",
@@ -6925,8 +7098,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anisong",
@@ -6941,8 +7116,9 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "language",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "anisplan",
@@ -6973,7 +7149,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "anivisual",
@@ -6989,8 +7166,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aniwa",
@@ -7004,8 +7183,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aniwylle",
@@ -7021,11 +7202,11 @@
       "firstSeenAt": "2026-07-31",
       "lastSeenAt": "2026-10-23",
       "profileRelevanceScore": 0,
-      "lastCheckedAt": "2026-07-31"
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "anligeproject",
-      "name": "Anlige Project",
+      "name": "Banned",
       "boostyUrl": "https://boosty.to/anligeproject",
       "discoverySource": "Официальный каталог Boosty",
       "discoveryQueries": [
@@ -7035,8 +7216,9 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-10-30",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "blocked",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "anna__li",
@@ -7050,8 +7232,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-07",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anna_art_piano",
@@ -7066,8 +7250,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anna_guitar",
@@ -7100,7 +7286,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "annacooks",
@@ -7179,8 +7366,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "annashuv",
@@ -7229,8 +7418,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "annfigma",
@@ -7246,7 +7437,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "annkpx",
@@ -7262,7 +7454,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 2,
+      "relevanceScore": 2
     },
     {
       "slug": "anntre",
@@ -7276,8 +7470,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anoma",
@@ -7294,7 +7490,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "anonim",
@@ -7325,7 +7522,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anritool",
@@ -7339,8 +7538,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "ansimssimi",
@@ -7355,7 +7556,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 1
     },
     {
       "slug": "ant_on-off",
@@ -7421,7 +7624,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anthonyaxenov",
@@ -7503,8 +7708,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "antikran",
@@ -7539,8 +7746,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anton.bravin",
@@ -7557,7 +7766,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "anton86",
@@ -7572,7 +7783,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
       "reviewReason": "no-posts",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "antonbbazhin",
@@ -7588,12 +7800,14 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "antonovna_books",
-      "name": "Антоновна #прокниги",
+      "name": "Дария Антоновна | книги и жизнь",
       "boostyUrl": "https://boosty.to/antonovna_books",
       "discoverySource": "Официальный каталог Boosty",
       "discoveryQueries": [
@@ -7603,8 +7817,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "antonovtakoiantonov",
@@ -7622,7 +7838,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "antonywork",
@@ -7657,8 +7875,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aocollins",
@@ -7709,7 +7929,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "apanasik",
@@ -7745,7 +7966,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "apextweaksultra",
@@ -7762,7 +7985,7 @@
       "lastSeenAt": "2026-10-23",
       "profileRelevanceScore": 0,
       "relevanceScore": 0,
-      "lastCheckedAt": "2026-07-31"
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "apofes",
@@ -7777,7 +8000,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "language",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1
     },
     {
       "slug": "apollinaria_art",
@@ -7794,7 +8018,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "apostils",
@@ -7808,8 +8034,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "apphp",
@@ -7843,7 +8071,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
       "reviewReason": "blocked",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "applethecandy",
@@ -7860,7 +8089,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "no-posts",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "applook",
@@ -7877,7 +8107,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 2,
+      "relevanceScore": 2
     },
     {
       "slug": "apxumekmop",
@@ -7927,8 +8159,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aqularift",
@@ -7961,8 +8195,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arabic",
@@ -7978,8 +8214,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arakis_games",
@@ -7993,8 +8231,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arashell",
@@ -8056,7 +8296,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "archidexter",
@@ -8090,7 +8332,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "archiewh1te",
@@ -8139,8 +8382,9 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "language",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "archivistlis",
@@ -8155,8 +8399,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "archond",
@@ -8189,7 +8435,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "arduino",
@@ -8258,7 +8505,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "argonees",
@@ -8272,8 +8520,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arhaika",
@@ -8320,8 +8570,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "ariadna_lobe",
@@ -8337,8 +8589,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arianderenal",
@@ -8352,8 +8606,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "ariex",
@@ -8369,7 +8625,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
       "reviewReason": "no-posts",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "arinachanchan",
@@ -8384,8 +8641,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arisha.happy",
@@ -8401,8 +8660,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arishkaa",
@@ -8417,7 +8678,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "language",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "arives",
@@ -8448,7 +8710,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "arizona2rus",
@@ -8464,25 +8728,27 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arleking",
-      "name": "Arleking Озвучка манги и ранобе",
+      "name": "Banned",
       "boostyUrl": "https://boosty.to/arleking",
       "discoverySource": "Еженедельный веб-поиск",
       "discoveryQueries": [
         "Поиск по постам Boosty: C++ разработка"
       ],
       "reviewStatus": "unqualified",
-      "reviewReason": "full-check",
+      "reviewReason": "blocked",
       "fetchError": null,
       "firstSeenAt": "2026-07-31",
       "lastSeenAt": "2026-10-23",
-      "profileRelevanceScore": 1,
+      "profileRelevanceScore": 0,
       "relevanceScore": 1,
-      "lastCheckedAt": "2026-07-31"
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "arleksey",
@@ -8497,8 +8763,8 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "armamentario",
@@ -8532,8 +8798,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "armor.photos",
@@ -8549,8 +8817,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arnoldchernogorov",
@@ -8582,8 +8852,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aroundstereo",
@@ -8599,8 +8871,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arranter",
@@ -8616,8 +8890,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arrippers",
@@ -8664,8 +8940,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 1
     },
     {
       "slug": "art-school-davinci",
@@ -8695,8 +8973,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "art3m4ik3",
@@ -8726,7 +9006,7 @@
       "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
-      "lastCheckedAt": "2026-07-26",
+      "lastCheckedAt": "2026-11-06",
       "reviewReason": "no-posts",
       "lastSeenAt": "2026-07-26",
       "profileRelevanceScore": 0
@@ -8776,8 +9056,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "artecrate",
@@ -8793,7 +9075,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "artem_tech_boosty",
@@ -8875,8 +9159,9 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "language",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "artemshof",
@@ -8893,7 +9178,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "artemshumeiko",
@@ -8926,8 +9212,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "artfromvalentina",
@@ -8942,7 +9230,7 @@
       "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
-      "lastCheckedAt": "2026-07-26",
+      "lastCheckedAt": "2026-11-06",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "language",
       "profileRelevanceScore": 0
@@ -8986,7 +9274,7 @@
     },
     {
       "slug": "artifex",
-      "name": "ARTIFEX",
+      "name": "История и искусство / Artifex",
       "boostyUrl": "https://boosty.to/artifex",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
@@ -8998,8 +9286,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "artist_strimtv",
@@ -9030,7 +9320,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "artlab.deco",
@@ -9046,8 +9338,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "artlastochka",
@@ -9111,8 +9405,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "artodocx",
@@ -9127,8 +9423,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "artofck",
@@ -9159,8 +9457,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "artprograms",
@@ -9192,8 +9492,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-07",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "artromone",
@@ -9261,7 +9563,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "arturalekhin",
@@ -9277,8 +9580,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "artyomfutsa",
@@ -9292,8 +9597,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "artzozh",
@@ -9307,8 +9614,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "arx_4",
@@ -9323,8 +9632,8 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "aryska",
@@ -9340,8 +9649,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "as-bimmer",
@@ -9355,7 +9666,7 @@
       "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
-      "lastCheckedAt": "2026-07-26",
+      "lastCheckedAt": "2026-11-06",
       "reviewReason": "language",
       "lastSeenAt": "2026-07-26",
       "profileRelevanceScore": 1
@@ -9375,7 +9686,7 @@
       "lastSeenAt": "2026-07-26",
       "profileRelevanceScore": 2,
       "relevanceScore": 2,
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "asabinart",
@@ -9392,7 +9703,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "asafevstas",
@@ -9406,8 +9719,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "asan1886",
@@ -9421,8 +9736,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "asap-pdf",
@@ -9442,7 +9759,7 @@
     },
     {
       "slug": "ashen_one",
-      "name": "NEVERMORE",
+      "name": "𝐍𝐄𝐕𝐄𝐑𝐌𝐎𝐑𝐄",
       "boostyUrl": "https://boosty.to/ashen_one",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
@@ -9453,7 +9770,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1
     },
     {
       "slug": "ashen_sky",
@@ -9488,7 +9807,9 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "full-check",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "asirguard",
@@ -9568,8 +9889,8 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "asmrfrost",
@@ -9583,8 +9904,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "asmrhoneygirl",
@@ -9598,8 +9921,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-07",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "asmrmood",
@@ -9616,7 +9941,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "asozykin",
@@ -9666,8 +9992,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "asst2game",
@@ -9681,8 +10009,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "astarta1009",
@@ -9699,7 +10029,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "astartachf",
@@ -9715,8 +10046,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "astasiadream",
@@ -9762,8 +10095,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "astrolog_shi",
@@ -9779,8 +10114,8 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "astrologavrora",
@@ -9814,7 +10149,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "astroprofy",
@@ -9828,8 +10164,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "astrovsky",
@@ -9843,8 +10181,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 1
     },
     {
       "slug": "astrozapiski",
@@ -9874,8 +10214,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "asya.lrnv",
@@ -9905,8 +10247,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-10-16",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aterniad",
@@ -9936,8 +10280,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "atlofftw",
@@ -10003,8 +10349,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "atomiccherry",
@@ -10018,8 +10366,8 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "atomicsamovar",
@@ -10036,7 +10384,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "atp-box.ru",
@@ -10052,8 +10401,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "atsentavra",
@@ -10068,8 +10419,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "attd",
@@ -10085,8 +10438,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "auction",
@@ -10100,8 +10455,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "audio_detektiv",
@@ -10117,8 +10474,9 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "language",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "audio_humor",
@@ -10132,8 +10490,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "audiobooks24.ru",
@@ -10147,8 +10507,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "audiobooksfantasy",
@@ -10162,8 +10524,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-11-06",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "audioknigi-sv",
@@ -10178,8 +10542,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "audioknigifun",
@@ -10194,7 +10560,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
       "reviewReason": "no-posts",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "audionovels",
@@ -10210,8 +10577,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "augustgrezer",
@@ -10228,11 +10597,12 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
       "reviewReason": "adult-content",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "augustraido",
-      "name": "August Raido | комикс МАЛИЦЕРА",
+      "name": "Сияние Мадженты | рассказы и рисунки",
       "boostyUrl": "https://boosty.to/augustraido",
       "discoverySource": "Common Crawl",
       "discoveryQueries": [
@@ -10243,8 +10613,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "auob",
@@ -10258,8 +10630,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aurorafest",
@@ -10273,8 +10647,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-07-26",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "aurro-games",
@@ -10289,8 +10665,8 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-08-14",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "not-found",
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "aushestov",
@@ -10323,8 +10699,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "autosuvenir",
@@ -10340,8 +10718,10 @@
       "fetchError": null,
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-09-25",
-      "reviewReason": "topic",
-      "lastCheckedAt": "2026-07-26"
+      "reviewReason": "full-check",
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0
     },
     {
       "slug": "autowp",
@@ -10390,7 +10770,8 @@
       "firstSeenAt": "2026-07-26",
       "lastSeenAt": "2026-10-30",
       "reviewReason": "language",
-      "lastCheckedAt": "2026-07-26"
+      "lastCheckedAt": "2026-11-06",
+      "profileRelevanceScore": 0
     },
     {
       "slug": "avatarabo",
@@ -16243,10 +16624,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: нейросети Python"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-11-06",
-      "lastSeenAt": "2026-11-06"
+      "lastSeenAt": "2026-11-06",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "chertlohmatiy",
@@ -16668,10 +17053,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: 3D печать CAD"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-11-06",
-      "lastSeenAt": "2026-11-06"
+      "lastSeenAt": "2026-11-06",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 2,
+      "relevanceScore": 2,
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "chronicles",
@@ -20696,10 +21085,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: робототехника программирование"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-11-06",
-      "lastSeenAt": "2026-11-06"
+      "lastSeenAt": "2026-11-06",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "dedoo9",
@@ -21242,10 +21635,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: Godot разработка игр"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-11-06",
-      "lastSeenAt": "2026-11-06"
+      "lastSeenAt": "2026-11-06",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "denis_holmov",
@@ -47436,10 +47833,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: генеративный ИИ разработка"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-11-06",
-      "lastSeenAt": "2026-11-06"
+      "lastSeenAt": "2026-11-06",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "kazancev1987",
@@ -50036,10 +50437,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: Blender 3D моделирование"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-11-06",
-      "lastSeenAt": "2026-11-06"
+      "lastSeenAt": "2026-11-06",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0,
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "kosmosvnutri",
@@ -53100,10 +53505,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: нейросети Python"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-11-06",
-      "lastSeenAt": "2026-11-06"
+      "lastSeenAt": "2026-11-06",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "lera_era_art",
@@ -56827,10 +57236,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: QA автоматизация"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-11-06",
-      "lastSeenAt": "2026-11-06"
+      "lastSeenAt": "2026-11-06",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 9,
+      "relevanceScore": 9,
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "makeupofthesoul",
@@ -71738,10 +72151,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: Godot разработка игр"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-11-06",
-      "lastSeenAt": "2026-11-06"
+      "lastSeenAt": "2026-11-06",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 1,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "parkava",
@@ -97444,10 +97861,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: Blender 3D моделирование"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-11-06",
-      "lastSeenAt": "2026-11-06"
+      "lastSeenAt": "2026-11-06",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 0,
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "tmdwt23",
@@ -104575,10 +104996,14 @@
       "discoveryQueries": [
         "Поиск по постам Boosty: Unreal Engine разработка"
       ],
-      "reviewStatus": "pending",
+      "reviewStatus": "unqualified",
       "fetchError": null,
       "firstSeenAt": "2026-11-06",
-      "lastSeenAt": "2026-11-06"
+      "lastSeenAt": "2026-11-06",
+      "reviewReason": "full-check",
+      "profileRelevanceScore": 0,
+      "relevanceScore": 1,
+      "lastCheckedAt": "2026-11-06"
     },
     {
       "slug": "warm_elm",

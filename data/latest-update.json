@@ -2,23 +2,17 @@
   "schemaVersion": 1,
   "checkedAt": "2026-11-06",
   "metricsCheckedAt": "2026-11-06",
-  "previousChannelCount": 425,
+  "previousChannelCount": 427,
   "channelCount": 427,
   "candidateCount": 6575,
-  "discoveredCount": 24,
+  "discoveredCount": 0,
   "checkedCandidateCount": 250,
-  "prefilteredCount": 35,
-  "pendingCount": 375,
+  "prefilteredCount": 61,
+  "pendingCount": 364,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 5,
-  "added": [
-    "geekideas",
-    "paralotos",
-    "universal_renpy_translator"
-  ],
-  "removed": [
-    "nordeveloper"
-  ],
+  "terminalNotFoundCount": 10,
+  "added": [],
+  "removed": [],
   "errors": []
 }

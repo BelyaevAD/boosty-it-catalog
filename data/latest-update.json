@@ -1,18 +1,24 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-30",
-  "metricsCheckedAt": "2026-10-30",
+  "checkedAt": "2026-11-06",
+  "metricsCheckedAt": "2026-11-06",
   "previousChannelCount": 425,
-  "channelCount": 425,
-  "candidateCount": 6551,
-  "discoveredCount": 201,
+  "channelCount": 427,
+  "candidateCount": 6575,
+  "discoveredCount": 24,
   "checkedCandidateCount": 250,
-  "prefilteredCount": 53,
-  "pendingCount": 366,
+  "prefilteredCount": 35,
+  "pendingCount": 375,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 3,
-  "added": [],
-  "removed": [],
+  "terminalNotFoundCount": 5,
+  "added": [
+    "geekideas",
+    "paralotos",
+    "universal_renpy_translator"
+  ],
+  "removed": [
+    "nordeveloper"
+  ],
   "errors": []
 }

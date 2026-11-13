@@ -1,18 +1,22 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-06",
-  "metricsCheckedAt": "2026-11-06",
+  "checkedAt": "2026-11-13",
+  "metricsCheckedAt": "2026-11-13",
   "previousChannelCount": 427,
-  "channelCount": 427,
-  "candidateCount": 6575,
-  "discoveredCount": 0,
+  "channelCount": 430,
+  "candidateCount": 6582,
+  "discoveredCount": 7,
   "checkedCandidateCount": 250,
-  "prefilteredCount": 61,
+  "prefilteredCount": 56,
   "pendingCount": 364,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 10,
-  "added": [],
+  "terminalNotFoundCount": 8,
+  "added": [
+    "pro100labs",
+    "maxim.tsatsura",
+    "bedrosova"
+  ],
   "removed": [],
   "errors": []
 }

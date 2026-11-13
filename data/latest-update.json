@@ -2,21 +2,17 @@
   "schemaVersion": 1,
   "checkedAt": "2026-11-13",
   "metricsCheckedAt": "2026-11-13",
-  "previousChannelCount": 427,
+  "previousChannelCount": 430,
   "channelCount": 430,
-  "candidateCount": 6582,
-  "discoveredCount": 7,
+  "candidateCount": 6585,
+  "discoveredCount": 3,
   "checkedCandidateCount": 250,
-  "prefilteredCount": 56,
-  "pendingCount": 364,
+  "prefilteredCount": 67,
+  "pendingCount": 367,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 8,
-  "added": [
-    "pro100labs",
-    "maxim.tsatsura",
-    "bedrosova"
-  ],
+  "terminalNotFoundCount": 16,
+  "added": [],
   "removed": [],
   "errors": []
 }

@@ -1,18 +1,25 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-13",
-  "metricsCheckedAt": "2026-11-13",
+  "checkedAt": "2026-11-20",
+  "metricsCheckedAt": "2026-11-20",
   "previousChannelCount": 430,
-  "channelCount": 430,
-  "candidateCount": 6585,
-  "discoveredCount": 3,
+  "channelCount": 433,
+  "candidateCount": 6601,
+  "discoveredCount": 16,
   "checkedCandidateCount": 250,
-  "prefilteredCount": 67,
-  "pendingCount": 367,
+  "prefilteredCount": 78,
+  "pendingCount": 354,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 16,
-  "added": [],
-  "removed": [],
+  "terminalNotFoundCount": 9,
+  "added": [
+    "devscratch",
+    "life-exe",
+    "sidreshot",
+    "dead_wall"
+  ],
+  "removed": [
+    "andrey_borbotko"
+  ],
   "errors": []
 }

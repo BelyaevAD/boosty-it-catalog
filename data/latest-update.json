@@ -1,19 +1,23 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-21",
-  "metricsCheckedAt": "2026-11-21",
-  "previousChannelCount": 433,
-  "channelCount": 434,
-  "candidateCount": 6606,
-  "discoveredCount": 5,
+  "checkedAt": "2026-11-28",
+  "metricsCheckedAt": "2026-11-28",
+  "previousChannelCount": 434,
+  "channelCount": 439,
+  "candidateCount": 7218,
+  "discoveredCount": 612,
   "checkedCandidateCount": 250,
-  "prefilteredCount": 81,
-  "pendingCount": 332,
+  "prefilteredCount": 60,
+  "pendingCount": 917,
   "totalOutstandingFetchErrors": 0,
   "manualExclusionCount": 27,
-  "terminalNotFoundCount": 6,
+  "terminalNotFoundCount": 0,
   "added": [
-    "it_sobes"
+    "eugeneproai",
+    "allexter",
+    "mishandri",
+    "stepupdev",
+    "yupl0ve"
   ],
   "removed": [],
   "errors": []
